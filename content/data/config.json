@@ -11,7 +11,7 @@
             {
                 "label": "Trang chủ",
                 "url": "/",
-                "style": "secondary"
+                "style": "primary"
             },
             {
                 "label": "Features",
