@@ -1,5 +1,5 @@
 ---
-title: Dịch vụ nổi bật
+title: Dịch vụ
 sections:
   - section_id: features
     type: section_content
