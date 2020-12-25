@@ -24,7 +24,7 @@ sections:
     actions:
       - label: PageSpeed
         url: 'https://developers.google.com/speed/pagespeed/module'
-        style: primary
+        style: secondary
         new_window: true
         no_follow: true
       - label: Memcached
