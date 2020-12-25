@@ -22,7 +22,7 @@ sections:
       Tất cả các dịch vụ nêu trên đều hỗ trợ bạn tối ưu hệ thống và website trên
       các phiên bản mới nhất hiện nay.
     actions:
-      - label: Free Trial
+      - label: Module PageSpeed
         url: /signup
         style: primary
       - label: View Demo
