@@ -29,7 +29,7 @@ sections:
         no_follow: true
       - label: Memcache
         url: '#'
-        style: secondary
+        style: primary
   - section_id: call-to-action
     type: section_cta
     title: This Is Call to Action Block!
