@@ -8,20 +8,17 @@ sections:
     image_alt: App preview on a phone and tablet
     title: Dịch vụ nổi bật của tôi
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
+      Bạn đang quan tâm đến các dịch vụ nổi bật của tôi? Dưới đây là một số dịch
+      vụ nổi bật của tôi có thể nó sẽ hữu ích với bạn.
 
 
-      * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      * Cài đặt Module PageSpeed của Google để tăng tốc website.
 
-      * Ut eu nunc at diam fringilla fringilla eu ut massa.
-
-      * Phasellus ut enim non lorem venenatis rutrum.
+      * Cài đặt Memcached và Redis để tăng tốc hệ thống và website.
 
 
-      Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor
-      sed justo tempor condimentum.
+      Tất cả các dịch vụ nêu trên đều hỗ trợ bạn tối ưu hệ thống và website trên
+      các phiên bản mới nhất hiện nay.
     actions:
       - label: Free Trial
         url: /signup
