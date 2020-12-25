@@ -51,6 +51,7 @@ sections:
       - label: Tham gia ngay
         url: 'https://www.facebook.com/groups/tuanducsupport'
         style: secondary
+        new_window: true
 layout: landing
 meta_title: Dịch vụ nổi bật
 meta_description: Dịch vụ nổi bật
