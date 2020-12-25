@@ -33,7 +33,7 @@ sections:
         new_window: true
         no_follow: true
       - label: Redis
-        url: ''
+        url: 'https://redis.io/'
         style: primary
         has_icon: false
         icon: arrow-left
