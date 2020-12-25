@@ -5,7 +5,7 @@ sections:
     type: section_content
     background: gray
     image: images/2C2CC916-F202-44A1-B8C4-0078A930406F.png
-    image_alt: Cloud
+    image_alt: Cloud VPS
     title: Dịch vụ nổi bật của tôi
     content: >-
       Bạn đang quan tâm đến các dịch vụ nổi bật của tôi? Dưới đây là một số dịch
