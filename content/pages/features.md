@@ -29,7 +29,7 @@ sections:
         no_follow: true
       - label: Memcached
         url: 'https://memcached.org/'
-        style: primary
+        style: secondary
         new_window: true
         no_follow: true
       - label: Redis
