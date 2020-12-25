@@ -16,7 +16,7 @@
             {
                 "label": "Nổi bật",
                 "url": "/features",
-                "style": "link"
+                "style": "primary"
             },
             {
                 "label": "Pricing",
