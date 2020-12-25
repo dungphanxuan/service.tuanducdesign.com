@@ -1,5 +1,5 @@
 ---
-title: Dịch vụ
+title: Service
 sections:
   - section_id: features
     type: section_content
