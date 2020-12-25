@@ -13,7 +13,7 @@ sections:
       Cloudflare.
     actions:
       - label: Xem thêm
-        url: /features
+        url: '#services'
         style: secondary
   - section_id: features
     type: section_features
