@@ -15,7 +15,7 @@ sections:
       - label: Xem thêm
         url: '#services'
         style: secondary
-  - section_id: features
+  - section_id: services
     type: section_features
     background: gray
     title: Features
