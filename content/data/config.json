@@ -30,7 +30,7 @@
             },
             {
                 "label": "Liên hệ",
-                "url": "lorem-ipsum",
+                "url": "/contact",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
