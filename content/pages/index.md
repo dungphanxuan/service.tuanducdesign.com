@@ -20,8 +20,8 @@ sections:
     background: gray
     title: Dịch vụ nổi bật của chúng tôi
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      Bạn đang quan tâm đến các dịch vụ nổi bật của tôi? Dưới đây là một số dịch
+      vụ nổi bật của tôi có thể nó sẽ hữu ích với bạn.
     features:
       - title: The Best Feature of Your Services
         image: images/feature1.png
