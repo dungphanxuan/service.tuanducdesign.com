@@ -7,8 +7,10 @@ sections:
     image_alt: App preview
     title: Tuan Duc Design
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site. 
+      Chuyên cung cấp dịch vụ VPS và Website, Hướng dẫn bảo mật VPS và Website
+      từ cơ bản đến nâng cao cho người không chuyên, Hỗ trợ cài đặt VPS,Tối ưu
+      VPS thông qua module PageSpeed của Google,Cài đặt Memcached,Redis,SSL và
+      Cloudflare.
     actions:
       - label: Learn More
         url: /features
