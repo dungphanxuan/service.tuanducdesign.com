@@ -44,7 +44,9 @@ sections:
   - section_id: join-the-group
     type: section_cta
     title: Tham gia vào nhóm
-    subtitle: This is an optional description for the call to action block.
+    subtitle: >-
+      Tham gia vào nhóm trên Facebook của chúng tôi để trao đổi, hỏi đáp mỗi khi
+      bạn gặp sự cố.
     actions:
       - label: Get Started
         url: '#'
