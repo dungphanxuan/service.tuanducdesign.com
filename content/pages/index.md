@@ -23,7 +23,7 @@ sections:
       Bạn đang quan tâm đến các dịch vụ nổi bật của tôi? Dưới đây là một số dịch
       vụ nổi bật của chúng tôi có thể nó sẽ hữu ích với bạn.
     features:
-      - title: The Best Feature of Your Services
+      - title: Cài đặt Module PageSpeed của Google
         image: images/feature1.png
         image_alt: App preview on a phone and tablet
         content: >-
