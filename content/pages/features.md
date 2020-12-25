@@ -16,6 +16,8 @@ sections:
 
       * Cài đặt Memcached và Redis để tăng tốc hệ thống và website.
 
+      * Cài đặt công cụ nginx amplify để giúp bạn giảm sát nginx tốt hơn.
+
 
       Tất cả các dịch vụ nêu trên đều hỗ trợ bạn tối ưu hệ thống và website trên
       các phiên bản mới nhất hiện nay.
