@@ -31,6 +31,7 @@ sections:
         url: 'https://memcached.org/'
         style: primary
         new_window: true
+        no_follow: true
   - section_id: call-to-action
     type: section_cta
     title: This Is Call to Action Block!
