@@ -9,7 +9,7 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Trang chủ",
+                "label": "Trang Chủ",
                 "url": "/",
                 "style": "link"
             },
