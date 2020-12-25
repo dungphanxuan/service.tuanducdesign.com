@@ -134,11 +134,6 @@
                     }
                 ],
                 "submit_label": "Subscribe"
-            },
-            {
-                "title": "lorem-ipsum",
-                "nav_links": [],
-                "type": "footer_nav"
             }
         ],
         "has_nav": true,
