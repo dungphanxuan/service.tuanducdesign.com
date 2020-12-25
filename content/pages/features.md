@@ -32,7 +32,7 @@ sections:
         style: primary
         new_window: true
         no_follow: true
-      - label: lorem-ipsum
+      - label: Redis
         url: ''
         style: primary
         has_icon: false
