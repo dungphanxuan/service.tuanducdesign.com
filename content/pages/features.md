@@ -43,7 +43,7 @@ sections:
         type: action
   - section_id: join-the-group
     type: section_cta
-    title: Join the group
+    title: Tham gia vào nhóm
     subtitle: This is an optional description for the call to action block.
     actions:
       - label: Get Started
