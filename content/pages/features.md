@@ -23,7 +23,7 @@ sections:
       các phiên bản mới nhất hiện nay.
     actions:
       - label: Module PageSpeed
-        url: /signup
+        url: 'https://developers.google.com/speed/pagespeed/module'
         style: primary
       - label: View Demo
         url: '#'
