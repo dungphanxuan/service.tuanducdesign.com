@@ -27,9 +27,11 @@ sections:
         image: images/feature1.png
         image_alt: App preview on a phone and tablet
         content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+          Hàng triệu website đang sử dụng Module PageSpeed của Google trên máy
+          chủ của họ. Không chỉ hỗ trợ tối ưu website trên VPS nó còn giúp bạn
+          defer và async các scripts nguồn ngoài, Chuyển các thẻ script trên
+          head xuống footer để website tải nhanh hơn, async Google Analytics,
+          lazyload ảnh, rút gọn lại head và nhiều tính năng khác.
         actions:
           - label: Learn More
             url: /features
