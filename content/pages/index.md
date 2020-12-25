@@ -18,7 +18,7 @@ sections:
   - section_id: services
     type: section_features
     background: gray
-    title: Dịch vụ
+    title: Dịch vụ nổi bật của chúng tôi
     subtitle: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
       quis lorem malesuada luctus.
