@@ -33,7 +33,7 @@ sections:
         new_window: true
         no_follow: true
       - label: lorem-ipsum
-        url: lorem-ipsum
+        url: Redis
         style: link
         has_icon: false
         icon: arrow-left
