@@ -21,7 +21,7 @@ sections:
     title: Dịch vụ nổi bật của chúng tôi
     subtitle: >-
       Bạn đang quan tâm đến các dịch vụ nổi bật của tôi? Dưới đây là một số dịch
-      vụ nổi bật của tôi có thể nó sẽ hữu ích với bạn.
+      vụ nổi bật của chúng tôi có thể nó sẽ hữu ích với bạn.
     features:
       - title: The Best Feature of Your Services
         image: images/feature1.png
