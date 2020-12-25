@@ -12,7 +12,7 @@ sections:
       VPS thông qua module PageSpeed của Google,Cài đặt Memcached,Redis,SSL và
       Cloudflare.
     actions:
-      - label: Learn More
+      - label: Xem thêm
         url: /features
         style: primary
   - section_id: features
