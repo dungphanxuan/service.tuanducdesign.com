@@ -25,6 +25,7 @@ sections:
       - label: Module PageSpeed
         url: 'https://developers.google.com/speed/pagespeed/module'
         style: primary
+        new_window: true
       - label: View Demo
         url: '#'
         style: secondary
