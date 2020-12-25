@@ -27,7 +27,7 @@ sections:
         style: primary
         new_window: true
         no_follow: true
-      - label: View Demo
+      - label: Memcache
         url: '#'
         style: secondary
   - section_id: call-to-action
