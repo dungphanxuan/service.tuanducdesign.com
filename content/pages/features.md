@@ -52,6 +52,7 @@ sections:
         url: 'https://www.facebook.com/groups/tuanducsupport'
         style: secondary
         new_window: true
+        no_follow: true
 layout: landing
 meta_title: Dịch vụ nổi bật
 meta_description: Dịch vụ nổi bật
