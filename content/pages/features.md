@@ -41,7 +41,7 @@ sections:
         new_window: false
         no_follow: false
         type: action
-  - section_id: follow-group
+  - section_id: Join the group
     type: section_cta
     title: This Is Call to Action Block!
     subtitle: This is an optional description for the call to action block.
