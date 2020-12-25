@@ -14,7 +14,7 @@ sections:
     actions:
       - label: Xem thêm
         url: /features
-        style: primary
+        style: secondary
   - section_id: features
     type: section_features
     background: gray
