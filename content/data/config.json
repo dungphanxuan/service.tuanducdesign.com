@@ -50,7 +50,7 @@
                 "title": "Liên kết",
                 "nav_links": [
                     {
-                        "label": "About Us",
+                        "label": "Về chúng tôi",
                         "url": "/about",
                         "style": "link"
                     },
