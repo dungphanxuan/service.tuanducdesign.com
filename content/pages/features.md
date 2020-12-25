@@ -49,7 +49,7 @@ sections:
       bạn gặp sự cố.
     actions:
       - label: Tham gia ngay
-        url: '#'
+        url: 'https://www.facebook.com/groups/tuanducsupport'
         style: secondary
 layout: landing
 meta_title: Dịch vụ nổi bật
