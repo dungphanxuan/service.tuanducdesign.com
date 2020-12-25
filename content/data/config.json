@@ -89,7 +89,8 @@
                         "style": "link",
                         "has_icon": true,
                         "icon": "instagram",
-                        "icon_position": "left"
+                        "icon_position": "left",
+                        "new_window": true
                     },
                     {
                         "label": "GitHub",
