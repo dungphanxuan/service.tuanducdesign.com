@@ -34,7 +34,7 @@ sections:
         no_follow: true
       - label: Redis
         url: 'https://redis.io/'
-        style: primary
+        style: secondary
         has_icon: false
         icon: arrow-left
         icon_position: left
