@@ -1,35 +1,57 @@
 {
-    "title": "Azimuth",
+    "title": "Tuan Duc Design",
     "path_prefix": "/",
     "base_font": "nunito-sans",
     "palette": "blue",
     "header": {
-        "logo_img": "images/logo.svg",
-        "logo_img_alt": "Logo",
+        "logo_img": "images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png",
+        "logo_img_alt": "Tuan Duc Design",
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Home",
+                "label": "Trang chủ",
                 "url": "/",
                 "style": "link"
             },
             {
-                "label": "Features",
+                "label": "Nổi bật",
                 "url": "/features",
                 "style": "link"
             },
             {
-                "label": "Pricing",
+                "label": "Bảng giá",
                 "url": "/pricing",
                 "style": "link"
             },
             {
-                "label": "Style Guide",
+                "label": "F.A.Q",
                 "url": "/style-guide",
                 "style": "link"
             },
             {
-                "label": "Sign Up",
+                "label": "Liên hệ",
+                "url": "/contact",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            },
+            {
+                "label": "lorem-ipsum",
+                "url": "lorem-ipsum",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            },
+            {
+                "label": "Đăng ký",
                 "url": "/signup",
                 "style": "primary"
             }
@@ -39,17 +61,18 @@
         "sections": [
             {
                 "type": "footer_text",
-                "image": "images/logo-alt.svg",
+                "image": "images/B5B2444A-79B2-42B1-AE08-FF1CCE67FFE5_4_6006.png",
                 "image_url": "/",
-                "image_alt": "Footer logo",
-                "content": "Stackbit theme demo"
+                "image_alt": "Tuan Duc Design",
+                "content": "Chuyên cung cấp dịch vụ VPS và Website, Hướng dẫn bảo mật VPS và Website từ cơ bản đến nâng cao cho người không chuyên, Hỗ trợ cài đặt VPS,Tối ưu VPS thông qua module PageSpeed của Google,Cài đặt Memcached,Redis,SSL và Cloudflare.",
+                "title": ""
             },
             {
                 "type": "footer_nav",
-                "title": "Company",
+                "title": "Liên kết",
                 "nav_links": [
                     {
-                        "label": "About Us",
+                        "label": "Về chúng tôi",
                         "url": "/about",
                         "style": "link"
                     },
@@ -59,12 +82,12 @@
                         "style": "link"
                     },
                     {
-                        "label": "Sign Up",
+                        "label": "Đăng ký",
                         "url": "/signup",
                         "style": "link"
                     },
                     {
-                        "label": "Contact",
+                        "label": "Liên hệ",
                         "url": "/contact",
                         "style": "link"
                     }
@@ -72,65 +95,96 @@
             },
             {
                 "type": "footer_nav",
-                "title": "Community",
+                "title": "Cộng đồng",
                 "nav_links": [
                     {
+                        "label": "Facebook",
+                        "url": "https://www.facebook.com/tuanducdesign/",
+                        "style": "link",
+                        "has_icon": true,
+                        "icon": "facebook",
+                        "icon_position": "left",
+                        "new_window": true,
+                        "no_follow": true,
+                        "type": "action"
+                    },
+                    {
                         "label": "Twitter",
-                        "url": "https://twitter.com/",
+                        "url": "https://twitter.com/tuanducdesign/",
                         "style": "link",
                         "has_icon": true,
                         "icon": "twitter",
-                        "icon_position": "left"
+                        "icon_position": "left",
+                        "new_window": true,
+                        "no_follow": true
                     },
                     {
-                        "label": "LinkedIn",
-                        "url": "https://www.linkedin.com/",
+                        "label": "Instagram",
+                        "url": "https://www.instagram.com/mi.profile.56/",
                         "style": "link",
                         "has_icon": true,
-                        "icon": "linkedin",
-                        "icon_position": "left"
+                        "icon": "instagram",
+                        "icon_position": "left",
+                        "new_window": true,
+                        "no_follow": true
                     },
                     {
                         "label": "GitHub",
-                        "url": "https://github.com/",
+                        "url": "https://github.com/tuanducdesign/",
                         "style": "link",
                         "has_icon": true,
                         "icon": "github",
-                        "icon_position": "left"
+                        "icon_position": "left",
+                        "new_window": true,
+                        "no_follow": true
                     }
                 ]
             },
             {
-                "type": "footer_form",
-                "title": "Subscribe",
-                "content": "Stay up to date with our latest developments.",
-                "form_id": "contactForm",
-                "hide_labels": true,
-                "form_fields": [
+                "title": "Khách hàng",
+                "nav_links": [
                     {
-                        "input_type": "email",
-                        "name": "email",
-                        "label": "Email",
-                        "default_value": "Enter email address",
-                        "is_required": true
+                        "label": "Lạc Hồng Viên",
+                        "url": "https://lachongvien.com/",
+                        "style": "link",
+                        "has_icon": false,
+                        "icon": "arrow-left",
+                        "icon_position": "left",
+                        "new_window": true,
+                        "no_follow": false,
+                        "type": "action"
+                    },
+                    {
+                        "label": "Cá Bảy Màu",
+                        "url": "https://cabaymau.net/",
+                        "style": "link",
+                        "has_icon": false,
+                        "icon": "arrow-left",
+                        "icon_position": "left",
+                        "new_window": true,
+                        "no_follow": false,
+                        "type": "action"
                     }
                 ],
-                "submit_label": "Subscribe"
+                "type": "footer_nav"
             }
         ],
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Terms of Service",
+                "label": "Điều khoản và dịch vụ",
                 "url": "/terms-of-service",
                 "style": "link"
             },
             {
-                "label": "Privacy Policy",
+                "label": "Chính sách bảo mật",
                 "url": "/privacy-policy",
                 "style": "link"
             }
         ],
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created on <a href=\"https://www.stackbit.com\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Get yours <a href=\"https://app.stackbit.com/create?theme=azimuth\" target=\"_blank\" rel=\"noopener\">here</a>."
-    }
+        "content": "&copy; 2020 Tuan Duc Design. All rights reserved.",
+        "links": []
+    },
+    "domain": "https://tuanducdesign.com/",
+    "favicon": "images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png"
 }

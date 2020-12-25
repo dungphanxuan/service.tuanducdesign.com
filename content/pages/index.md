@@ -3,31 +3,35 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: images/hero.png
-    image_alt: App preview
-    title: This Is A Big Hero Headline
+    image: images/2C2CC916-F202-44A1-B8C4-0078A930406F.png
+    image_alt: Cloud
+    title: Tuan Duc Design
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site. 
+      Chuyên cung cấp dịch vụ VPS và Website, Hướng dẫn bảo mật VPS và Website
+      từ cơ bản đến nâng cao cho người không chuyên, Hỗ trợ cài đặt VPS,Tối ưu
+      VPS thông qua module PageSpeed của Google,Cài đặt Memcached,Redis,SSL và
+      Cloudflare.
     actions:
-      - label: Learn More
-        url: /features
-        style: primary
-  - section_id: features
+      - label: Xem thêm
+        url: '#services'
+        style: secondary
+  - section_id: services
     type: section_features
     background: gray
-    title: Features
+    title: Dịch vụ nổi bật của chúng tôi
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      Bạn đang quan tâm đến các dịch vụ nổi bật của tôi? Dưới đây là một số dịch
+      vụ nổi bật của chúng tôi có thể nó sẽ hữu ích với bạn.
     features:
-      - title: The Best Feature of Your Services
+      - title: Cài đặt Module PageSpeed của Google
         image: images/feature1.png
         image_alt: App preview on a phone and tablet
         content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+          Hàng triệu website đang sử dụng Module PageSpeed của Google trên máy
+          chủ của họ. Không chỉ hỗ trợ tối ưu website trên VPS nó còn giúp bạn
+          defer và async các scripts nguồn ngoài, Chuyển các thẻ script trên
+          head xuống footer để website tải nhanh hơn, async Google Analytics,
+          lazyload ảnh, rút gọn lại head và nhiều tính năng khác.
         actions:
           - label: Learn More
             url: /features
