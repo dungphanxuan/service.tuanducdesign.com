@@ -76,6 +76,17 @@
                 "title": "Cộng đồng",
                 "nav_links": [
                     {
+                        "label": "Facebook",
+                        "url": "https://www.facebook.com/tuanducdesign/",
+                        "style": "link",
+                        "has_icon": true,
+                        "icon": "facebook",
+                        "icon_position": "left",
+                        "new_window": true,
+                        "no_follow": true,
+                        "type": "action"
+                    },
+                    {
                         "label": "Twitter",
                         "url": "https://twitter.com/tuanducdesign/",
                         "style": "link",
@@ -104,17 +115,6 @@
                         "icon_position": "left",
                         "new_window": true,
                         "no_follow": true
-                    },
-                    {
-                        "label": "Facebook",
-                        "url": "https://www.facebook.com/tuanducdesign/",
-                        "style": "link",
-                        "has_icon": true,
-                        "icon": "facebook",
-                        "icon_position": "left",
-                        "new_window": true,
-                        "no_follow": true,
-                        "type": "action"
                     }
                 ]
             },
