@@ -179,7 +179,7 @@ sections:
           sẵn sàng hoạt động ngay lập tức.
         image_alt: VPSSIM Script
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ VPSSIM Script
             url: lorem-ipsum
             style: link
             has_icon: false
