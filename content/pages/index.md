@@ -296,7 +296,7 @@ sections:
       bạn gặp sự cố.
     actions:
       - label: Get Started
-        url: /signup
+        url: Fireflies Remix - Jack
         style: secondary
         has_icon: false
         icon: facebook
