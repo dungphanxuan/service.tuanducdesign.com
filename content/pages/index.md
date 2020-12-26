@@ -145,7 +145,7 @@ sections:
         image_alt: lorem-ipsum
         actions:
           - label: Trang chủ HocVPS Scripts
-            url: lorem-ipsum
+            url: 'https://hocvps.com/'
             style: link
             has_icon: false
             icon: arrow-left
