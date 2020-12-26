@@ -180,7 +180,6 @@ sections:
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
-        image: images/larvps-script.png
     type: section_features
 meta_title: Stackbit Azimuth Theme
 meta_description: The preview of the Azimuth theme
