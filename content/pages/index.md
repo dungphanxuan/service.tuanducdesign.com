@@ -39,6 +39,7 @@ sections:
             has_icon: false
             icon: arrow-right
             icon_position: right
+            new_window: true
       - title: Awesome Feature of Your Services
         image: images/feature2.png
         image_alt: App users welcoming a new member
