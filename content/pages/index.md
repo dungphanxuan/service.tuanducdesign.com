@@ -205,7 +205,7 @@ sections:
             type: action
         type: pricing_plan
       - title: BẢO MẬT WEBSITE
-        subtitle: lorem-ipsum
+        subtitle: ''
         price: 250.000 VNĐ
         details: |-
           Ẩn thư mục nóng trên website
