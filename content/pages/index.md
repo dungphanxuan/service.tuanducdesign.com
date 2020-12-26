@@ -58,7 +58,7 @@ sections:
             icon_position: right
             new_window: true
             no_follow: true
-      - title: Cool Feature of Your Services
+      - title: Cài đặt Redis
         image: images/feature3.png
         image_alt: App user profile preview
         content: >-
