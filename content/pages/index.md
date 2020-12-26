@@ -166,7 +166,7 @@ sections:
       mãi.
     background: gray
     pricing_plans:
-      - title: lorem-ipsum
+      - title: CÀI ĐẶT WEBSITE
         subtitle: lorem-ipsum
         price: lorem-ipsum
         details: >-
