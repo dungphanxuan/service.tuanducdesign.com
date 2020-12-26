@@ -155,24 +155,6 @@ sections:
             type: action
         type: feature_item
         image: images/hocvps-script.png
-      - title: VPSSIM Script
-        content: >-
-          Tương tự như HocVPS Script, VPSSIM cũng là một script tự động cài đặt
-          và tối ưu hoạt động của VPS. Chỉ với vài lệnh đơn giản, VPS của bạn sẽ
-          sẵn sàng hoạt động ngay lập tức.
-        image_alt: VPSSIM Script
-        actions:
-          - label: Trang chủ VPSSIM Script
-            url: 'https://vpssim.vn/'
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-            new_window: true
-            no_follow: true
-            type: action
-        type: feature_item
-        image: images/vpssim-script.png
       - title: HOSTVN Script
         content: >-
           HOSTVN Script là 1 bash script chạy trên SSH sẽ tự động cài đặt tất cả
