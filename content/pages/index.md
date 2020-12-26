@@ -299,7 +299,7 @@ sections:
         url: /signup
         style: secondary
         has_icon: true
-        icon: arrow-right
+        icon: facebook
 meta_title: Stackbit Azimuth Theme
 meta_description: The preview of the Azimuth theme
 layout: landing
