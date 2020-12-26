@@ -163,7 +163,7 @@ sections:
         actions: []
         type: feature_item
         image: images/hostvn.png
-      - title: lorem-ipsum
+      - title: ''
         content: >-
           ## Lorem ipsum
 
