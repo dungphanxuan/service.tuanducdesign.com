@@ -75,7 +75,7 @@ sections:
             new_window: true
             no_follow: true
         image: images/redis.png
-      - title: Cài đặt Nginx amplify
+      - title: Cài đặt Nginx Amplify
         content: >-
           ## Lorem ipsum
 
