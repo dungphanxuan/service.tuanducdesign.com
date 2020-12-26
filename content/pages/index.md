@@ -45,9 +45,10 @@ sections:
         image: images/webserver-memcached-database.png
         image_alt: Memcached
         content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+          Memcached là một hệ thống cache hoạt động bằng cách lưu tạm thông tin
+          những dữ liệu bạn hay sử dụng vào bộ nhớ RAM. Do tốc độ đọc ghi của bộ
+          nhớ bao giờ cũng cao hơn so với lưu trữ file nên việc sử dụng
+          memcached giúp cho hệ thống của bạn tăng tốc lên một cách đáng kể.
         actions:
           - label: Learn More
             url: /features
