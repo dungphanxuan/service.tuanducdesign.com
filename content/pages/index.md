@@ -52,7 +52,7 @@ sections:
         actions:
           - label: Trang chủ Memcached
             url: /features
-            style: secondary
+            style: primary
             has_icon: false
             icon: arrow-right
             icon_position: right
