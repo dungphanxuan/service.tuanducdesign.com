@@ -114,7 +114,7 @@ sections:
         actions:
           - label: Sử dụng gói này
             url: 'https://m.me/121349286117840?ref=caidatvpsfree'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
