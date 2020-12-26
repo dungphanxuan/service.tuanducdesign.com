@@ -188,7 +188,7 @@ sections:
             new_window: false
             no_follow: false
             type: action
-          - label: Trang chủ LarVPS
+          - label: Trang chủ LarVPS Script
             url: 'https://larvps.com/'
             style: link
             has_icon: false
