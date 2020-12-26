@@ -33,7 +33,7 @@ sections:
           head xuống footer để website tải nhanh hơn, async Google Analytics,
           lazyload ảnh, rút gọn lại head và nhiều tính năng khác.
         actions:
-          - label: Trang chủ Mou
+          - label: Trang chủ Module PageSpeed
             url: /features
             style: secondary
             has_icon: true
