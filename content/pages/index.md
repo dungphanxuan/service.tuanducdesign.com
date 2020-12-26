@@ -153,15 +153,6 @@ sections:
             new_window: true
             no_follow: true
             type: action
-          - label: lorem-ipsum
-            url: lorem-ipsum
-            style: link
-            has_icon: false
-            icon: arrow-left
-            icon_position: left
-            new_window: false
-            no_follow: false
-            type: action
         type: feature_item
         image: images/hocvps-script.png
       - title: lorem-ipsum
