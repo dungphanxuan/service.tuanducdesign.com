@@ -68,7 +68,7 @@ sections:
         actions:
           - label: Trang chủ Redis
             url: 'https://redis.io/'
-            style: secondary
+            style: primary
             has_icon: true
             icon: arrow-right
             icon_position: right
