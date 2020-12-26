@@ -308,7 +308,7 @@ sections:
         icon: facebook
         new_window: true
         no_follow: true
-meta_title: Stackbit Azimuth Theme
+meta_title: Tuan Duc Design - Chuyên cung cấp dịch vụ VPS và Website
 meta_description: The preview of the Azimuth theme
 layout: landing
 ---
