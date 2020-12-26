@@ -188,17 +188,10 @@ sections:
       - title: TỐI ƯU WEBSITE
         subtitle: ''
         price: 200.000 VNĐ
-        details: >-
-          ## Lorem ipsum
+        details: |-
+          Tối ưu CSS, Javascript và ảnh
 
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Hỗ trợ tối ưu giao diện và Font (Google, FontAwesome, v v)
         highlight: false
         actions: []
         type: pricing_plan
