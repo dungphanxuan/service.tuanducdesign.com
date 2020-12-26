@@ -161,7 +161,7 @@ sections:
           các thành phần cần thiết nhất cho VPS với một dòng lệnh duy nhất.
         image_alt: lorem-ipsum
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ HOSTVN Script
             url: lorem-ipsum
             style: link
             has_icon: false
