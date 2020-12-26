@@ -168,7 +168,7 @@ sections:
     pricing_plans:
       - title: CÀI ĐẶT WEBSITE
         subtitle: ''
-        price: lorem-ipsum
+        price: 0 VNĐ
         details: >-
           ## Lorem ipsum
 
