@@ -94,7 +94,7 @@ sections:
             type: action
         type: feature_item
         image: images/nginx-amplify.png
-  - section_id: lorem-ipsum
+  - section_id: ''
     title: lorem-ipsum
     subtitle: lorem-ipsum
     background: gray
