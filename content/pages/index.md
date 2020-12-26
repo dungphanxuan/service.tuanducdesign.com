@@ -119,7 +119,7 @@ sections:
             icon: envelope
             icon_position: left
             new_window: true
-            no_follow: false
+            no_follow: true
             type: action
         type: pricing_plan
     type: section_pricing
