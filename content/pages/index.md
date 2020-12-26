@@ -59,7 +59,6 @@ sections:
             new_window: true
             no_follow: true
       - title: Cài đặt Redis
-        image: images/feature3.png
         image_alt: App user profile preview
         content: >-
           Redis là hệ thống caching lưu trữ dữ liệu trong RAM tương tự như
