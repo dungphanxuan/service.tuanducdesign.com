@@ -160,7 +160,16 @@ sections:
           HOSTVN Script là 1 bash script chạy trên SSH sẽ tự động cài đặt tất cả
           các thành phần cần thiết nhất cho VPS với một dòng lệnh duy nhất.
         image_alt: lorem-ipsum
-        actions: []
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
         type: feature_item
         image: images/hostvn.png
       - title: VPSSIM Script
