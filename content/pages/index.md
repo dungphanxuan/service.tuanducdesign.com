@@ -70,7 +70,7 @@ sections:
             url: 'https://redis.io/'
             style: primary
             has_icon: true
-            icon: arrow-left
+            icon: arrow-right
             icon_position: right
         image: images/redis.png
   - section_id: reviews
