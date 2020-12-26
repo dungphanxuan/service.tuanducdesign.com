@@ -24,7 +24,7 @@ sections:
       vụ nổi bật của chúng tôi có thể nó sẽ hữu ích với bạn.
     features:
       - title: Cài đặt Module PageSpeed của Google
-        image: images/feature1.png
+        image: images/B3BFE113-12C1-4AD0-ABD7-DDAF3D2D6BD7.png
         image_alt: App preview on a phone and tablet
         content: >-
           Hàng triệu website đang sử dụng Module PageSpeed của Google trên máy
