@@ -168,7 +168,7 @@ sections:
           Tương tự như HocVPS Script, VPSSIM cũng là một script tự động cài đặt
           và tối ưu hoạt động của VPS. Chỉ với vài lệnh đơn giản, VPS của bạn sẽ
           sẵn sàng hoạt động ngay lập tức.
-        image_alt: lorem-ipsum
+        image_alt: VPSSIM Script
         actions: []
         type: feature_item
         image: images/vpssim-script.png
