@@ -113,7 +113,7 @@ sections:
         highlight: false
         actions:
           - label: Sử dụng gói này
-            url: ''
+            url: 'https://m.me/121349286117840?ref=caidatvpsfree'
             style: link
             has_icon: false
             icon: arrow-left
