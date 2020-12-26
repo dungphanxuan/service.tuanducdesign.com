@@ -140,7 +140,7 @@ sections:
             type: action
         type: pricing_plan
       - title: TỐI ƯU VPS
-        subtitle: ''
+        subtitle: Khách hàng vui lòng nhập đúng thông tin trước khi thanh toán.
         price: 250.000 VNĐ
         details: |-
           Dọn dẹp file rác còn tồn đọng trên Server
