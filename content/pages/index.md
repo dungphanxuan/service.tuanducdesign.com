@@ -155,7 +155,7 @@ sections:
             type: action
         type: feature_item
         image: images/hocvps-script.png
-      - title: ''
+      - title: HOSTVN Scripts
         content: >-
           ## Lorem ipsum
 
