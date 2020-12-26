@@ -163,7 +163,7 @@ sections:
         actions:
           - label: Trang chủ HOSTVN Script
             url: 'https://hostvn.vn/'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
