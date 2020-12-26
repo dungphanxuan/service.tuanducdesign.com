@@ -206,7 +206,7 @@ sections:
         type: pricing_plan
       - title: BẢO MẬT WEBSITE
         subtitle: lorem-ipsum
-        price: lorem-ipsum
+        price: 250.000 VNĐ
         details: >-
           ## Lorem ipsum
 
