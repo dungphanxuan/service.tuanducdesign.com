@@ -51,7 +51,7 @@ sections:
           memcached giúp cho hệ thống của bạn tăng tốc lên một cách đáng kể.
         actions:
           - label: Trang chủ Memcached
-            url: /features
+            url: 'https://memcached.org/'
             style: primary
             has_icon: false
             icon: arrow-right
