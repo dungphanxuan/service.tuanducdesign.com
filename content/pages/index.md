@@ -300,6 +300,7 @@ sections:
         style: secondary
         has_icon: false
         icon: facebook
+        new_window: true
 meta_title: Stackbit Azimuth Theme
 meta_description: The preview of the Azimuth theme
 layout: landing
