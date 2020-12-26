@@ -102,7 +102,7 @@ sections:
     background: gray
     pricing_plans:
       - title: Cài Đặt VPS
-        subtitle: ''
+        subtitle: Cài đặt các tính năng cơ bản lên VPS
         price: 0 VNĐ
         details: |-
           Tính năng cơ bản gồm :
