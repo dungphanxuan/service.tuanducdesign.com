@@ -36,7 +36,7 @@ sections:
           - label: Trang chủ Module PageSpeed
             url: 'https://developers.google.com/speed/pagespeed/module'
             style: primary
-            has_icon: false
+            has_icon: true
             icon: arrow-right
             icon_position: right
             new_window: true
