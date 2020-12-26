@@ -50,7 +50,7 @@ sections:
           nhớ bao giờ cũng cao hơn so với lưu trữ file nên việc sử dụng
           memcached giúp cho hệ thống của bạn tăng tốc lên một cách đáng kể.
         actions:
-          - label: Memcached
+          - label: Trang chủ Memcached
             url: /features
             style: secondary
             has_icon: true
