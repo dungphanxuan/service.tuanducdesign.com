@@ -146,7 +146,7 @@ sections:
         actions:
           - label: Trang chủ HocVPS Scripts
             url: 'https://hocvps.com/'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
