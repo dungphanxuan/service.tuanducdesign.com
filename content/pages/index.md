@@ -161,7 +161,9 @@ sections:
     type: section_pricing
   - section_id: ''
     title: Bảng giá dịch vụ Website
-    subtitle: lorem-ipsum
+    subtitle: >-
+      Chọn gói theo nhu cầu của bạn. Việc miễn phí các tính năng cơ bản là mãi
+      mãi.
     background: gray
     pricing_plans: []
     type: section_pricing
