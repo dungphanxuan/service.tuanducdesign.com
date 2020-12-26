@@ -84,7 +84,7 @@ sections:
         image_alt: Nginx Amplify
         actions:
           - label: Trang chủ Nginx Amplify
-            url: lorem-ipsum
+            url: 'https://amplify.nginx.com/'
             style: link
             has_icon: false
             icon: arrow-left
