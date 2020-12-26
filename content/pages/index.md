@@ -290,7 +290,7 @@ sections:
     title: Latest Posts
   - section_id: ''
     type: section_cta
-    title: This Is Call To Action Block!
+    title: Tham gia vào nhóm
     subtitle: This is an optional description for the call to action block.
     actions:
       - label: Get Started
