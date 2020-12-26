@@ -118,7 +118,7 @@ sections:
             has_icon: false
             icon: envelope
             icon_position: left
-            new_window: false
+            new_window: true
             no_follow: false
             type: action
         type: pricing_plan
