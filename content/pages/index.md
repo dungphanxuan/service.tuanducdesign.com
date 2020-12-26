@@ -179,15 +179,6 @@ sections:
           giản, VPS của bạn sẽ sẵn sàng hoạt động ngay lập tức.
         image_alt: LarVPS Script
         actions:
-          - label: Trang chủ LarVPS Script
-            url: 'https://larvps.com/'
-            style: primary
-            has_icon: false
-            icon: arrow-left
-            icon_position: left
-            new_window: false
-            no_follow: false
-            type: action
           - label: lorem-ipsum
             url: 'https://larvps.com/'
             style: link
