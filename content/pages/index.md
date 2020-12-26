@@ -53,7 +53,7 @@ sections:
           - label: Trang chủ Memcached
             url: /features
             style: secondary
-            has_icon: true
+            has_icon: false
             icon: arrow-right
             icon_position: right
       - title: Cool Feature of Your Services
