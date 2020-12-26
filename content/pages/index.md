@@ -185,7 +185,7 @@ sections:
             no_follow: true
             type: action
         type: pricing_plan
-      - title: lorem-ipsum
+      - title: TỐI ƯU WEBSITE
         subtitle: lorem-ipsum
         price: lorem-ipsum
         details: >-
