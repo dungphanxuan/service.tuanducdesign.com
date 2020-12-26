@@ -59,7 +59,7 @@ sections:
             new_window: true
             no_follow: true
       - title: Cài đặt Redis
-        image_alt: App user profile preview
+        image_alt: Redis
         content: >-
           Redis là hệ thống caching lưu trữ dữ liệu trong RAM tương tự như
           Memcached. Không chỉ hỗ trợ cache dạng keys/values tốt như Memcached
