@@ -138,7 +138,7 @@ sections:
       của mình dễ dàng.
     background: gray
     features:
-      - title: HocVPS
+      - title: HocVPS Scripts
         content: >-
           ## Lorem ipsum
 
