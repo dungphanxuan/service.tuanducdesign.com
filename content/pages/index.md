@@ -66,7 +66,7 @@ sections:
           mà Redis còn hỗ trợ nhiều cấu trúc dữ liệu khác như hash, list, set,
           sorted set, string.
         actions:
-          - label: Learn More
+          - label: Trang chủ Redis
             url: /features
             style: secondary
             has_icon: true
