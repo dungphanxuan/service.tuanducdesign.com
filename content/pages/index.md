@@ -179,7 +179,7 @@ sections:
           giản, VPS của bạn sẽ sẵn sàng hoạt động ngay lập tức.
         image_alt: LarVPS Script
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ LarVPS Script
             url: lorem-ipsum
             style: link
             has_icon: false
