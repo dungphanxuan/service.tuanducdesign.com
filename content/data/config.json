@@ -1,7 +1,7 @@
 {
     "title": "Tuan Duc Design",
     "path_prefix": "/",
-    "base_font": "nunito-sans",
+    "base_font": "system-sans",
     "palette": "blue",
     "header": {
         "logo_img": "images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png",
@@ -14,8 +14,8 @@
                 "style": "link"
             },
             {
-                "label": "Nổi bật",
-                "url": "/features",
+                "label": "Dịch vụ",
+                "url": "/service",
                 "style": "link"
             },
             {
@@ -25,7 +25,7 @@
             },
             {
                 "label": "F.A.Q",
-                "url": "/style-guide",
+                "url": "/faq",
                 "style": "link"
             },
             {
