@@ -67,7 +67,7 @@ sections:
           sorted set, string.
         actions:
           - label: Trang chủ Redis
-            url: /features
+            url: 'https://redis.io/'
             style: secondary
             has_icon: true
             icon: arrow-right
