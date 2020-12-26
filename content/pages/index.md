@@ -133,7 +133,9 @@ sections:
     title: Latest Posts
   - section_id: ''
     title: Công cụ sử dụng trên VPS
-    subtitle: lorem-ipsum
+    subtitle: >-
+      Chúng tôi luôn chọn các công cụ mới nhất để giúp khách hàng quản lý VPS
+      của mình dễ dàng.
     background: gray
     features: []
     type: section_features
