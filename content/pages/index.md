@@ -204,7 +204,7 @@ sections:
             no_follow: false
             type: action
         type: pricing_plan
-      - title: lorem-ipsum
+      - title: BẢO MẬT WEBSITE
         subtitle: lorem-ipsum
         price: lorem-ipsum
         details: >-
