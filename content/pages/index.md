@@ -180,7 +180,7 @@ sections:
         image_alt: VPSSIM Script
         actions:
           - label: Trang chủ VPSSIM Script
-            url: 'https://vpssim.vn/?rel='
+            url: 'https://vpssim.vn/'
             style: link
             has_icon: false
             icon: arrow-left
