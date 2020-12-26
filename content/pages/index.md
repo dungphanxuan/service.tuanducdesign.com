@@ -207,17 +207,10 @@ sections:
       - title: BẢO MẬT WEBSITE
         subtitle: lorem-ipsum
         price: 250.000 VNĐ
-        details: >-
-          ## Lorem ipsum
+        details: |-
+          Ẩn thư mục nóng trên website
 
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Chặn hotlink (Không cho người khác download ảnh về local)
         highlight: false
         actions: []
         type: pricing_plan
