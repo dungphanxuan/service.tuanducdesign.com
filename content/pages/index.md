@@ -146,7 +146,7 @@ sections:
           Dọn dẹp file rác còn tồn đọng trên Server
 
           Cấu hình crontab tự động dọn dẹp Server định kỳ
-        highlight: false
+        highlight: true
         actions: []
         type: pricing_plan
     type: section_pricing
