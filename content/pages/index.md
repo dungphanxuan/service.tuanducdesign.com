@@ -169,17 +169,9 @@ sections:
       - title: CÀI ĐẶT WEBSITE
         subtitle: ''
         price: 0 VNĐ
-        details: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+        details: |-
+          Cài đặt và cấu hình CloudFlare
+          Cài đặt mã nguồn website (WordPress, CodeIgniter, Laravel)
         highlight: false
         actions: []
         type: pricing_plan
