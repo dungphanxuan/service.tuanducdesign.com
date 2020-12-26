@@ -288,7 +288,7 @@ sections:
     type: section_posts
     background: gray
     title: Latest Posts
-  - section_id: call-to-action
+  - section_id: ''
     type: section_cta
     title: This Is Call To Action Block!
     subtitle: This is an optional description for the call to action block.
