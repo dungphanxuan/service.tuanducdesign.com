@@ -104,17 +104,12 @@ sections:
       - title: Cài Đặt VPS
         subtitle: ''
         price: 0 VNĐ
-        details: >-
-          ## Lorem ipsum
+        details: |-
+          Tính năng cơ bản gồm :
 
+          Cài đặt chứng chỉ SSL Let's Encrypt
 
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Dùng Lampp,Lempp hoặc Script
         highlight: false
         actions: []
         type: pricing_plan
