@@ -211,7 +211,7 @@ sections:
           Ẩn thư mục nóng trên website
 
           Chặn hotlink (Không cho người khác download ảnh về local)
-        highlight: false
+        highlight: true
         actions: []
         type: pricing_plan
     type: section_pricing
