@@ -194,7 +194,7 @@ sections:
           Hỗ trợ tối ưu giao diện và Font (Google, FontAwesome, v v)
         highlight: false
         actions:
-          - label: lorem-ipsum
+          - label: Liên hệ
             url: '#'
             style: link
             has_icon: false
