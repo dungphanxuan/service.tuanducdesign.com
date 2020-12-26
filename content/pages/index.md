@@ -103,7 +103,7 @@ sections:
     pricing_plans:
       - title: Cài Đặt VPS
         subtitle: ''
-        price: lorem-ipsum
+        price: 0 VNĐ
         details: >-
           ## Lorem ipsum
 
