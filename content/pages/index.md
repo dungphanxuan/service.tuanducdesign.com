@@ -172,7 +172,7 @@ sections:
             type: action
         type: feature_item
         image: images/hostvn.png
-      - title: lorem-ipsum
+      - title: LarVPS Script
         content: >-
           ## Lorem ipsum
 
