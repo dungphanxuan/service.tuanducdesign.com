@@ -301,6 +301,7 @@ sections:
         has_icon: false
         icon: facebook
         new_window: true
+        no_follow: true
 meta_title: Stackbit Azimuth Theme
 meta_description: The preview of the Azimuth theme
 layout: landing
