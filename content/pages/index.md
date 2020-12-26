@@ -36,7 +36,7 @@ sections:
           - label: Trang chủ Module PageSpeed
             url: 'https://developers.google.com/speed/pagespeed/module'
             style: secondary
-            has_icon: true
+            has_icon: false
             icon: arrow-right
             icon_position: right
       - title: Awesome Feature of Your Services
