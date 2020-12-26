@@ -116,7 +116,7 @@ sections:
             url: 'https://m.me/121349286117840?ref=caidatvpsfree'
             style: primary
             has_icon: true
-            icon: arrow-left
+            icon: envelope
             icon_position: left
             new_window: false
             no_follow: false
