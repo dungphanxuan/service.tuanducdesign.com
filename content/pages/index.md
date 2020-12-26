@@ -75,7 +75,7 @@ sections:
             new_window: true
             no_follow: true
         image: images/redis.png
-      - title: lorem-ipsum
+      - title: ''
         content: >-
           ## Lorem ipsum
 
