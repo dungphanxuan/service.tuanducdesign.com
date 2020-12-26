@@ -159,6 +159,12 @@ sections:
             type: action
         type: pricing_plan
     type: section_pricing
+  - section_id: lorem-ipsum
+    title: lorem-ipsum
+    subtitle: lorem-ipsum
+    background: gray
+    pricing_plans: []
+    type: section_pricing
   - section_id: ''
     title: Công cụ sử dụng trên VPS
     subtitle: >-
@@ -231,12 +237,6 @@ sections:
       - label: Get Started
         url: /signup
         style: primary
-  - section_id: lorem-ipsum
-    title: lorem-ipsum
-    subtitle: lorem-ipsum
-    background: gray
-    pricing_plans: []
-    type: section_pricing
 meta_title: Stackbit Azimuth Theme
 meta_description: The preview of the Azimuth theme
 layout: landing
