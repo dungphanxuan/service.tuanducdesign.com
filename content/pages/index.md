@@ -188,7 +188,7 @@ sections:
             new_window: false
             no_follow: false
             type: action
-          - label: lorem-ipsum
+          - label: Trang chủ LarVPS
             url: 'https://larvps.com/'
             style: link
             has_icon: false
