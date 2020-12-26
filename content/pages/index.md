@@ -149,7 +149,7 @@ sections:
         highlight: true
         actions:
           - label: Liên hệ
-            url: lorem-ipsum
+            url: '#'
             style: primary
             has_icon: false
             icon: arrow-left
