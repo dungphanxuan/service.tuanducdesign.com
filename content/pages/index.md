@@ -162,6 +162,7 @@ sections:
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
+        image: images/hostvn.png
       - title: lorem-ipsum
         content: >-
           ## Lorem ipsum
