@@ -141,7 +141,7 @@ sections:
         type: pricing_plan
       - title: TỐI ƯU VPS
         subtitle: ''
-        price: lorem-ipsum
+        price: 250.000 VNĐ
         details: >-
           ## Lorem ipsum
 
