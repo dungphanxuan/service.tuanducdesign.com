@@ -164,7 +164,7 @@ sections:
           - label: Trang chủ HOSTVN Script
             url: 'https://hostvn.vn/'
             style: primary
-            has_icon: false
+            has_icon: true
             icon: arrow-left
             icon_position: left
             new_window: false
