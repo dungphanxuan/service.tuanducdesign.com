@@ -96,7 +96,9 @@ sections:
         image: images/nginx-amplify.png
   - section_id: ''
     title: Bảng giá dịch vụ VPS
-    subtitle: ''
+    subtitle: >-
+      Chọn gói theo nhu cầu của bạn. Việc miễn phí các tính năng cơ bản là mãi
+      mãi.
     background: gray
     pricing_plans:
       - title: Cài Đặt VPS
