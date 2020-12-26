@@ -174,16 +174,9 @@ sections:
         image: images/hostvn.png
       - title: LarVPS Script
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Tương tự như HocVPS Script và HOSTVN Script, LarVPS cũng là một script
+          tự động cài đặt và tối ưu hoạt động của VPS. Chỉ với vài lệnh đơn
+          giản, VPS của bạn sẽ sẵn sàng hoạt động ngay lập tức.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
