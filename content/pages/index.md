@@ -73,6 +73,7 @@ sections:
             icon: arrow-right
             icon_position: right
             new_window: true
+            no_follow: true
         image: images/redis.png
   - section_id: reviews
     type: section_reviews
