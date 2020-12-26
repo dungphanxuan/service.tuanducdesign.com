@@ -142,17 +142,10 @@ sections:
       - title: TỐI ƯU VPS
         subtitle: ''
         price: 250.000 VNĐ
-        details: >-
-          ## Lorem ipsum
+        details: |-
+          Dọn dẹp file rác còn tồn đọng trên Server
 
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Cấu hình crontab tự động dọn dẹp Server định kỳ
         highlight: false
         actions: []
         type: pricing_plan
