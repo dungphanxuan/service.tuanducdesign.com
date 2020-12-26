@@ -142,12 +142,10 @@ sections:
       - title: TỐI ƯU VPS
         subtitle: ''
         price: 250.000 VNĐ
-        details: |-
+        details: |
           Dọn dẹp file rác còn tồn đọng trên Server
 
           Cấu hình crontab tự động dọn dẹp Server định kỳ
-          ##
-          Khách hàng vui lòng nhập đúng thông tin trước khi thanh toán.
         highlight: false
         actions: []
         type: pricing_plan
