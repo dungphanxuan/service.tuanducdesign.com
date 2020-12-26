@@ -298,7 +298,7 @@ sections:
       - label: Get Started
         url: /signup
         style: secondary
-        has_icon: true
+        has_icon: false
         icon: facebook
 meta_title: Stackbit Azimuth Theme
 meta_description: The preview of the Azimuth theme
