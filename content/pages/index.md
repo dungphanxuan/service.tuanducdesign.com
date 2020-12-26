@@ -56,6 +56,7 @@ sections:
             has_icon: false
             icon: arrow-right
             icon_position: right
+            new_window: true
       - title: Cool Feature of Your Services
         image: images/feature3.png
         image_alt: App user profile preview
