@@ -112,7 +112,7 @@ sections:
           Dùng Lampp,Lempp hoặc Script
         highlight: false
         actions:
-          - label: lorem-ipsum
+          - label: ''
             url: lorem-ipsum
             style: link
             has_icon: false
