@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Trang chủ
 sections:
   - section_id: ''
     type: section_hero
