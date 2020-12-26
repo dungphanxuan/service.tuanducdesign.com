@@ -138,7 +138,7 @@ sections:
       của mình dễ dàng.
     background: gray
     features:
-      - title: lorem-ipsum
+      - title: HocVPS
         content: >-
           ## Lorem ipsum
 
