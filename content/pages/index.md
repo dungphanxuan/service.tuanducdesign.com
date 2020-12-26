@@ -163,7 +163,7 @@ sections:
         actions: []
         type: feature_item
         image: images/hostvn.png
-      - title: ''
+      - title: VPSSIM Script
         content: >-
           ## Lorem ipsum
 
