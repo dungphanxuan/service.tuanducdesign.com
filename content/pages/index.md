@@ -309,6 +309,8 @@ sections:
         new_window: true
         no_follow: true
 meta_title: Tuan Duc Design - Chuyên cung cấp dịch vụ VPS và Website
-meta_description: The preview of the Azimuth theme
+meta_description: >-
+  Chuyên cung cấp dịch vụ VPS và Website,Hướng dẫn bảo mật VPS và Website từ cơ
+  bản đến nâng cao cho người không chuyên,Hỗ trợ cài đặt VPS,Tối ưu VPS.
 layout: landing
 ---
