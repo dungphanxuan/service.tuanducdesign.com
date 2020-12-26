@@ -226,7 +226,7 @@ sections:
     type: section_pricing
   - section_id: ''
     title: Bảng giá dịch vụ WordPress
-    subtitle: lorem-ipsum
+    subtitle: Ngoài cung cấp các dịch vụ về VPS và Website ra
     background: gray
     pricing_plans: []
     type: section_pricing
