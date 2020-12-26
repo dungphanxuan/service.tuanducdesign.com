@@ -162,7 +162,7 @@ sections:
         image_alt: lorem-ipsum
         actions:
           - label: Trang chủ HOSTVN Script
-            url: lorem-ipsum
+            url: 'https://hostvn.vn/'
             style: link
             has_icon: false
             icon: arrow-left
