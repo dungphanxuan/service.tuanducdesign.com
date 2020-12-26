@@ -296,7 +296,7 @@ sections:
       bạn gặp sự cố.
     actions:
       - label: Get Started
-        url: ''
+        url: 'https://www.facebook.com/groups/tuanducsupport'
         style: secondary
         has_icon: false
         icon: facebook
