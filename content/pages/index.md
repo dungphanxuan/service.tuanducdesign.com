@@ -41,15 +41,6 @@ sections:
             icon_position: right
             new_window: true
             no_follow: true
-          - label: lorem-ipsum
-            url: lorem-ipsum
-            style: primary
-            has_icon: false
-            icon: arrow-left
-            icon_position: left
-            new_window: false
-            no_follow: false
-            type: action
       - title: Awesome Feature of Your Services
         image: images/feature2.png
         image_alt: App users welcoming a new member
