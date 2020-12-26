@@ -181,7 +181,7 @@ sections:
         actions:
           - label: Trang chủ VPSSIM Script
             url: 'https://vpssim.vn/'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
