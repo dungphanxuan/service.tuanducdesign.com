@@ -290,10 +290,6 @@ sections:
         type: feature_item
         image: images/larvps-script.png
     type: section_features
-  - section_id: recent-posts
-    type: section_posts
-    background: gray
-    title: Latest Posts
   - section_id: ''
     type: section_cta
     title: Tham gia vào nhóm
