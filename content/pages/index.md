@@ -132,7 +132,7 @@ sections:
     background: gray
     title: Latest Posts
   - section_id: ''
-    title: lorem-ipsum
+    title: Công nghệ sử dụng trên VPS
     subtitle: lorem-ipsum
     background: gray
     features: []
