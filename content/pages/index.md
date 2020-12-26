@@ -43,7 +43,7 @@ sections:
             no_follow: true
       - title: Awesome Feature of Your Services
         image: images/webserver-memcached-database.png
-        image_alt: App users welcoming a new member
+        image_alt: Webser
         content: >-
           Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
           sapien interdum luctus. Cras rhoncus condimentum metus sit amet
