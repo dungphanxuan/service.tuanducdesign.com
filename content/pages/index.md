@@ -180,7 +180,7 @@ sections:
         image_alt: LarVPS Script
         actions:
           - label: Trang chủ LarVPS Script
-            url: lorem-ipsum
+            url: 'https://larvps.com/'
             style: link
             has_icon: false
             icon: arrow-left
