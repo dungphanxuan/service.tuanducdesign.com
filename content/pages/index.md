@@ -167,7 +167,7 @@ sections:
     background: gray
     pricing_plans:
       - title: CÀI ĐẶT WEBSITE
-        subtitle: lorem-ipsum
+        subtitle: ''
         price: lorem-ipsum
         details: >-
           ## Lorem ipsum
