@@ -144,7 +144,7 @@ sections:
           các thành phần cần thiết nhất cho VPS với một dòng lệnh duy nhất.
         image_alt: HocVPS Script
         actions:
-          - label: Trang chủ HocVPS Scripts
+          - label: Trang chủ HocVPS Script
             url: 'https://hocvps.com/'
             style: primary
             has_icon: false
