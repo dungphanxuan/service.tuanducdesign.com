@@ -102,7 +102,7 @@ sections:
     background: gray
     pricing_plans:
       - title: Cài Đặt VPS
-        subtitle: lorem-ipsum
+        subtitle: ''
         price: lorem-ipsum
         details: >-
           ## Lorem ipsum
