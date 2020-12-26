@@ -157,16 +157,8 @@ sections:
         image: images/hocvps-script.png
       - title: HOSTVN Scripts
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          HOSTVN Script là 1 bash script chạy trên SSH sẽ tự động cài đặt tất cả
+          các thành phần cần thiết nhất cho VPS với một dòng lệnh duy nhất.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
