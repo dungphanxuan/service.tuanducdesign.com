@@ -155,23 +155,6 @@ sections:
             type: action
         type: feature_item
         image: images/hocvps-script.png
-      - title: HOSTVN Script
-        content: >-
-          HOSTVN Script là 1 bash script chạy trên SSH sẽ tự động cài đặt tất cả
-          các thành phần cần thiết nhất cho VPS với một dòng lệnh duy nhất.
-        image_alt: HOSTVN Script
-        actions:
-          - label: Trang chủ HOSTVN Script
-            url: 'https://hostvn.vn/'
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-            new_window: true
-            no_follow: true
-            type: action
-        type: feature_item
-        image: images/hostvn.png
       - title: VPSSIM Script
         content: >-
           Tương tự như HocVPS Script, VPSSIM cũng là một script tự động cài đặt
@@ -190,6 +173,23 @@ sections:
             type: action
         type: feature_item
         image: images/vpssim-script.png
+      - title: HOSTVN Script
+        content: >-
+          HOSTVN Script là 1 bash script chạy trên SSH sẽ tự động cài đặt tất cả
+          các thành phần cần thiết nhất cho VPS với một dòng lệnh duy nhất.
+        image_alt: HOSTVN Script
+        actions:
+          - label: Trang chủ HOSTVN Script
+            url: 'https://hostvn.vn/'
+            style: primary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+            new_window: true
+            no_follow: true
+            type: action
+        type: feature_item
+        image: images/hostvn.png
     type: section_features
 meta_title: Stackbit Azimuth Theme
 meta_description: The preview of the Azimuth theme
