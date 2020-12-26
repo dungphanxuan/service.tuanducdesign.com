@@ -181,7 +181,7 @@ sections:
         actions:
           - label: Trang chủ LarVPS Script
             url: 'https://larvps.com/'
-            style: link
+            style: secondary
             has_icon: false
             icon: arrow-left
             icon_position: left
