@@ -298,6 +298,7 @@ sections:
       - label: Get Started
         url: /signup
         style: secondary
+        has_icon: true
 meta_title: Stackbit Azimuth Theme
 meta_description: The preview of the Azimuth theme
 layout: landing
