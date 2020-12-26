@@ -34,7 +34,7 @@ sections:
           lazyload ảnh, rút gọn lại head và nhiều tính năng khác.
         actions:
           - label: Trang chủ Module PageSpeed
-            url: /features
+            url: 'https://developers.google.com/speed/pagespeed/module'
             style: secondary
             has_icon: true
             icon: arrow-right
