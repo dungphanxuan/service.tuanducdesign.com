@@ -213,7 +213,7 @@ sections:
           Chặn hotlink (Không cho người khác download ảnh về local)
         highlight: true
         actions:
-          - label: lorem-ipsum
+          - label: Liên hệ
             url: lorem-ipsum
             style: link
             has_icon: false
