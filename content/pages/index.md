@@ -95,7 +95,7 @@ sections:
         type: feature_item
         image: images/nginx-amplify.png
   - section_id: pricing-plans-vps
-    title: lorem-ipsum
+    title: Bảng giá dịch vụ VPS
     subtitle: lorem-ipsum
     background: gray
     pricing_plans: []
