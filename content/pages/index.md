@@ -553,7 +553,7 @@ sections:
         image_alt: Laravel
         actions:
           - label: Trang chủ Laravel
-            url: lorem-ipsum
+            url: 'https://laravel.com/'
             style: link
             has_icon: false
             icon: arrow-left
