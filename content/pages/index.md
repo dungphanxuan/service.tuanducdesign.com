@@ -296,7 +296,7 @@ sections:
         type: pricing_plan
     type: section_pricing
   - section_id: ''
-    title: lorem-ipsum
+    title: Bảng giá dịch vụ Thiết Kế Website
     subtitle: lorem-ipsum
     background: gray
     pricing_plans: []
