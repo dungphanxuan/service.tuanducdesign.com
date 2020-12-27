@@ -46,7 +46,7 @@
                 "type": "action"
             },
             {
-                "label": "Đăng ký",
+                "label": "Tham gia vào nhóm",
                 "url": "/signup",
                 "style": "primary"
             }
