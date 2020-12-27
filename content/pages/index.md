@@ -303,7 +303,7 @@ sections:
     background: gray
     pricing_plans:
       - title: Bootstrap 3 & 4 (BLOG)
-        subtitle: Thiết kế Website tin tức trên Bootrap 3 và 4
+        subtitle: Thiết kế Website tin tức trên Bootrap 3 và 4.
         price: lorem-ipsum
         details: >-
           ## Lorem ipsum
