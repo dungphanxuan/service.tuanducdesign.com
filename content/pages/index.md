@@ -642,9 +642,7 @@ sections:
           chủ Web Server Apache nó tiêu tốn nhiều tài nguyên hơn, Nên chúng tôi
           sẽ không hỗ trợ khách hàng tối ưu trên máy chủ này.
         type: faq_item
-      - question: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      - question: Cấu hình hệ thống trên Server bao nhiêu là đủ với website của tôi?
         answer: >-
           ## Lorem ipsum
 
