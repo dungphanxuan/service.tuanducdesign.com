@@ -354,16 +354,7 @@ sections:
 
           Tích hợp chức năng Seo riêng  + Giao diện
         highlight: true
-        actions:
-          - label: lorem-ipsum
-            url: lorem-ipsum
-            style: link
-            has_icon: false
-            icon: arrow-left
-            icon_position: left
-            new_window: false
-            no_follow: false
-            type: action
+        actions: []
         type: pricing_plan
     type: section_pricing
   - section_id: ''
