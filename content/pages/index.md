@@ -155,7 +155,7 @@ sections:
             url: 'https://m.me/121349286117840?ref=toiuuvps'
             style: primary
             has_icon: true
-            icon: arrow-left
+            icon: arrow-right
             icon_position: left
             new_window: true
             no_follow: true
