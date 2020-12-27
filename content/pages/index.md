@@ -473,7 +473,9 @@ sections:
     type: section_features
   - section_id: ''
     title: Hỗ trợ cài đặt Mã nguồn
-    subtitle: lorem-ipsum
+    subtitle: >-
+      Những mã nguồn phổ biến trên thế giới như WordPress, Joomla, Drupal,
+      Xenforo, Laravel, Codeigniter.
     background: gray
     features: []
     type: section_features
