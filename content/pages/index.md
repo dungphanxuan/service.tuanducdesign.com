@@ -477,7 +477,22 @@ sections:
       Những mã nguồn phổ biến trên thế giới như WordPress, Joomla, Drupal,
       Xenforo, Laravel, Codeigniter.
     background: gray
-    features: []
+    features:
+      - title: lorem-ipsum
+        content: >-
+          ## Lorem ipsum
+
+
+          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+          - Lorem ipsum
+
+          - dolor sit amet
+        image_alt: lorem-ipsum
+        actions: []
+        type: feature_item
     type: section_features
   - section_id: ''
     type: section_cta
