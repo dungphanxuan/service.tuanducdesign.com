@@ -457,7 +457,7 @@ sections:
           đây là bản phân phối Linux có nguồn gốc từ Red Hat Enterprise Linux
           (RHEL), nhóm CentOS đã phải xây dựng cơ sở hạ tầng để hỗ trợ RHEL 8
           mới được giới thiệu.
-        image_alt: lorem-ipsum
+        image_alt: CentOS 8
         actions: []
         type: feature_item
         image: images/centos-8.png
