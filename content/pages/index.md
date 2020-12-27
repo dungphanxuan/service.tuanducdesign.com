@@ -639,7 +639,7 @@ sections:
         new_window: true
         no_follow: true
   - section_id: ''
-    title: lorem-ipsum
+    title: Blog
     subtitle: lorem-ipsum
     background: gray
     type: section_posts
