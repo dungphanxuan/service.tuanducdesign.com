@@ -608,16 +608,8 @@ sections:
         image: images/vultr.jpg
       - title: INET
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          iNET.vn - Nhà đăng ký tên miền hỗ trợ khách hàng tốt nhất. Chuyên cung
+          cấp, mua bán Tên Miền,Hosting,Cloud VPS.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
