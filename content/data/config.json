@@ -46,17 +46,6 @@
                 "style": "link"
             },
             {
-                "label": "Liên hệ",
-                "url": "https://m.me/121349286117840?ref=lienhe",
-                "style": "link",
-                "has_icon": false,
-                "icon": "arrow-left",
-                "icon_position": "left",
-                "new_window": true,
-                "no_follow": true,
-                "type": "action"
-            },
-            {
                 "label": "Tham gia vào nhóm",
                 "url": "https://www.facebook.com/groups/tuanducsupport",
                 "style": "primary",
