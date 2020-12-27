@@ -657,7 +657,7 @@ sections:
           duy trì các dịch vụ bạn đã mua mà chúng tôi cung cấp nữa.
         type: faq_item
     type: section_faq
-  - section_id: Join the group
+  - section_id: Join-the-group
     type: section_cta
     title: Tham gia vào nhóm
     subtitle: >-
