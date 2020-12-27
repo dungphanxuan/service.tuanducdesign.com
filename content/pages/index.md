@@ -16,6 +16,7 @@ sections:
         url: '#services'
         style: secondary
         has_icon: true
+        icon: arrow-right
       - label: lorem-ipsum
         url: lorem-ipsum
         style: link
