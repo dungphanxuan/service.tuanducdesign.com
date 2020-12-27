@@ -346,7 +346,7 @@ sections:
         type: pricing_plan
       - title: BOOTSTRAP 3 & 4 (SHOPPING)
         subtitle: Thiết kế web bán hàng trên Bootstrap 3 & 4.
-        price: 1.000.000
+        price: 1.000.000 VNĐ
         details: >-
           ## Lorem ipsum
 
