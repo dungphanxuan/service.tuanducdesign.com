@@ -494,7 +494,7 @@ sections:
             no_follow: true
             type: action
           - label: Demo
-            url: lorem-ipsum
+            url: 'https://venberi.com/'
             style: link
             has_icon: false
             icon: arrow-left
