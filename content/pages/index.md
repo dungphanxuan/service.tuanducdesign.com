@@ -638,7 +638,7 @@ sections:
         icon: facebook
         new_window: true
         no_follow: true
-  - section_id: lorem-ipsum
+  - section_id: ''
     title: lorem-ipsum
     subtitle: lorem-ipsum
     background: gray
