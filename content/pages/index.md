@@ -344,7 +344,7 @@ sections:
             no_follow: false
             type: action
         type: pricing_plan
-      - title: lorem-ipsum
+      - title: BOOTSTRAP 3 & 4 (SHOPPING)
         subtitle: lorem-ipsum
         price: lorem-ipsum
         details: >-
