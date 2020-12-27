@@ -533,7 +533,7 @@ sections:
         content: >-
           Xenforo là mã nguồn mở được xây dựng bởi các lập trình viên tách ra từ
           nhóm vBullentin (vBB)
-        image_alt: Xenfor
+        image_alt: Xenforo
         actions:
           - label: lorem-ipsum
             url: lorem-ipsum
