@@ -284,7 +284,7 @@ sections:
           Xử lý các vấn đề liên quan đến bảo mật
         highlight: true
         actions:
-          - label: Liên H
+          - label: Liên hệ
             url: lorem-ipsum
             style: link
             has_icon: false
