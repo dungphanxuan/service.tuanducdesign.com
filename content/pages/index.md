@@ -570,7 +570,7 @@ sections:
         image_alt: Codeigniter
         actions:
           - label: Trang chủ Codeigniter
-            url: lorem-ipsum
+            url: ''
             style: link
             has_icon: false
             icon: arrow-left
