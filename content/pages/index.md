@@ -610,7 +610,7 @@ sections:
         content: >-
           iNET.vn - Nhà đăng ký tên miền hỗ trợ khách hàng tốt nhất. Chuyên cung
           cấp, mua bán Tên Miền,Hosting,Cloud VPS.
-        image_alt: lorem-ipsum
+        image_alt: INET
         actions: []
         type: feature_item
     type: section_features
