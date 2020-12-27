@@ -526,7 +526,7 @@ sections:
           - dolor sit amet
         image_alt: lorem-ipsum
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ Drupal
             url: lorem-ipsum
             style: link
             has_icon: false
