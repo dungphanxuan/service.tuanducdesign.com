@@ -625,11 +625,6 @@ sections:
         image: images/iNET.jpg
     type: section_features
   - section_id: ''
-    title: Blog
-    subtitle: Cập nhật các bài viết mới nhất trên blog.
-    background: gray
-    type: section_posts
-  - section_id: ''
     type: section_cta
     title: Tham gia vào nhóm
     subtitle: >-
