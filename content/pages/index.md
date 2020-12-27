@@ -227,7 +227,7 @@ sections:
             type: action
         type: pricing_plan
     type: section_pricing
-  - section_id: ''
+  - section_id: pricing-plans-wordpress
     title: Bảng giá dịch vụ WordPress
     subtitle: >-
       Ngoài cung cấp dịch vụ về VPS và Website ra chúng tôi còn cung cấp thêm
