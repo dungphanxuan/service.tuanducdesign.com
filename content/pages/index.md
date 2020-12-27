@@ -234,17 +234,12 @@ sections:
       - title: CÀI ĐẶT WORDPRESS
         subtitle: ''
         price: 0 VNĐ
-        details: >-
-          ## Lorem ipsum
+        details: |-
+          Cài đặt và cấu hình CloudFlare
 
+          Cài đặt plugin cache + nén định dạng ảnh
 
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Cài đặt CDN tăng tốc CSS, Javascript và ảnh
         highlight: false
         actions: []
         type: pricing_plan
