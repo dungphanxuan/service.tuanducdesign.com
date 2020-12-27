@@ -162,7 +162,7 @@ sections:
             type: action
         type: pricing_plan
     type: section_pricing
-  - section_id: ''
+  - section_id: pricing-plans-website
     title: Bảng giá dịch vụ Website
     subtitle: >-
       Chọn gói theo nhu cầu của bạn. Việc miễn phí các tính năng cơ bản là mãi
