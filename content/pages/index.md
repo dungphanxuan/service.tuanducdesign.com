@@ -567,7 +567,7 @@ sections:
         content: >-
           CodeIgniter là một web framework mã nguồn mở phát triển nhanh chóng,
           để sử dụng trong việc xây dựng các trang web động với PHP.
-        image_alt: lorem-ipsum
+        image_alt: Codeigniter
         actions: []
         type: feature_item
         image: images/codeIgniter.jpg
