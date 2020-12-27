@@ -62,8 +62,7 @@
                 "style": "primary",
                 "new_window": true,
                 "no_follow": true
-            },
-            {}
+            }
         ]
     },
     "footer": {
