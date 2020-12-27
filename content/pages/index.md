@@ -15,7 +15,7 @@ sections:
       - label: Xem thêm
         url: '#services'
         style: secondary
-  - section_id: ''
+  - section_id: service
     type: section_features
     background: gray
     title: Dịch vụ nổi bật của chúng tôi
