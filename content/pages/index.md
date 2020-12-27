@@ -345,7 +345,7 @@ sections:
             type: action
         type: pricing_plan
       - title: BOOTSTRAP 3 & 4 (SHOPPING)
-        subtitle: lorem-ipsum
+        subtitle: Thiết kế web bán hàng trên Bootstrap 3 & 4.
         price: lorem-ipsum
         details: >-
           ## Lorem ipsum
