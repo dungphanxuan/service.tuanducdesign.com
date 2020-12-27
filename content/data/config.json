@@ -35,7 +35,7 @@
                 "type": "action"
             },
             {
-                "label": "lorem-ipsum",
+                "label": "Trang chủ",
                 "url": "lorem-ipsum",
                 "style": "link",
                 "has_icon": false,
