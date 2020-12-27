@@ -590,16 +590,9 @@ sections:
     features:
       - title: Vultr
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Vultr là nhà cung cấp dịch vụ Cloud Server nổi tiếng chất lượng với
+          100% phần cứng SSD, 15 datacenter location trải dài trên khắp thế
+          giới.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
