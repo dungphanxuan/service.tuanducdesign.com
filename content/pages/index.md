@@ -552,7 +552,7 @@ sections:
           được sử dụng để xây dựng ứng dụng web từ các dự án nhỏ đến lớn.
         image_alt: Laravel
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ Laravel
             url: lorem-ipsum
             style: link
             has_icon: false
