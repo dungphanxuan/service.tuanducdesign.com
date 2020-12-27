@@ -433,7 +433,7 @@ sections:
       hàng dễ dàng khi sử dụng dịch vụ của mình.
     background: gray
     features:
-      - title: lorem-ipsum
+      - title: Centos 7
         content: >-
           ## Lorem ipsum
 
