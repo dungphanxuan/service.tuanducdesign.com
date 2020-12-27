@@ -664,7 +664,7 @@ sections:
       Tham gia vào nhóm trên Facebook của chúng tôi để trao đổi, hỏi đáp mỗi khi
       bạn gặp sự cố.
     actions:
-      - label: Get Started
+      - label: Tham gia ngay
         url: 'https://www.facebook.com/groups/tuanducsupport'
         style: secondary
         has_icon: false
