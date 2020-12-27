@@ -438,7 +438,7 @@ sections:
           CentOS – viết tắt của Community enterprise Operating System, là bản
           phân phối hệ điều hành dựa trên hạt nhân Linux . Được ra mắt lần đầu
           tiên vào tháng 5 năm 2004. 
-        image_alt: Centos 7
+        image_alt: CentOS 7
         actions:
           - label: Trang chủ CentOS 7
             url: lorem-ipsum
