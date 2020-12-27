@@ -485,6 +485,12 @@ sections:
         icon: facebook
         new_window: true
         no_follow: true
+  - section_id: lorem-ipsum
+    title: lorem-ipsum
+    subtitle: lorem-ipsum
+    background: gray
+    features: []
+    type: section_features
 meta_title: Tuan Duc Design - Chuyên cung cấp dịch vụ VPS và Website
 meta_description: >-
   Chuyên cung cấp dịch vụ VPS và Website,Hướng dẫn bảo mật VPS và Website từ cơ
