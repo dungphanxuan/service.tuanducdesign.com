@@ -282,7 +282,7 @@ sections:
           Thay đổi tiền tố trong Database
 
           Xử lý các vấn đề liên quan đến bảo mật
-        highlight: false
+        highlight: true
         actions: []
         type: pricing_plan
     type: section_pricing
