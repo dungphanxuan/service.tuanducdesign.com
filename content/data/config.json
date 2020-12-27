@@ -66,13 +66,6 @@
                 "label": "F.A.Q",
                 "url": "#faq",
                 "style": "link"
-            },
-            {
-                "label": "Liên hệ",
-                "url": "https://blog.tuanducdesign.com/",
-                "style": "primary",
-                "new_window": true,
-                "no_follow": true
             }
         ]
     },
