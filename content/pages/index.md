@@ -19,7 +19,7 @@ sections:
         icon: arrow-right
         icon_position: right
       - label: Dịch vụ
-        url: lorem-ipsum
+        url: /service
         style: link
         has_icon: false
         icon: arrow-left
