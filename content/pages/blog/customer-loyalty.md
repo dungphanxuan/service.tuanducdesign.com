@@ -13,7 +13,7 @@ excerpt: >-
 date: '2020-12-27'
 thumb_image: images/3_thumb.jpg
 thumb_image_alt: A group of people working in a cafe
-image: images/3.jpg
+image: images/huong-dan-kich-hoat-opcache-preload-tren-wordpress.jpg
 image_alt: A group of people working in a cafe
 layout: post
 ---
