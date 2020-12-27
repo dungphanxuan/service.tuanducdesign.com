@@ -478,7 +478,7 @@ sections:
       Xenforo, Laravel, Codeigniter.
     background: gray
     features:
-      - title: lorem-ipsum
+      - title: WordPress
         content: >-
           ## Lorem ipsum
 
