@@ -482,7 +482,7 @@ sections:
         content: >-
           WordPress là mã nguồn mở giúp bạn tạo website, blog hay ứng dụng dễ
           dàng và đẹp mắt.
-        image_alt: lorem-ipsum
+        image_alt: WordPress
         actions: []
         type: feature_item
         image: images/wordpress.png
