@@ -512,7 +512,7 @@ sections:
             type: action
         type: feature_item
         image: images/joomla.png
-      - title: lorem-ipsum
+      - title: Drupal
         content: >-
           ## Lorem ipsum
 
