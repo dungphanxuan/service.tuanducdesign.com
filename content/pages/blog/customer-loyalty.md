@@ -1,6 +1,10 @@
 ---
 title: Hướng dẫn kích hoạt Opcache Preload trên WordPress
-subtitle: A story about customer loyalty
+subtitle: >-
+  Nhằm hỗ trợ các khách hàng trải nghiệm phiên bản PHP 7.4, các hosting hiện nay
+  đã tiến hành tích hợp phiên bản PHP 7.4 vào tất cả các dịch vụ SSD Hosting của
+  họ. Và một trong các tính năng cải thiện tốc độ và tiết kiệm tài nguyên cho
+  website trên PHP 7.4, đó chính là Opcache Preload.
 author: content/data/authors/jane-doe.yaml
 excerpt: >-
   A story about customer loyalty curabitur sed consectetur nisi. Integer sit
