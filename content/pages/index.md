@@ -305,17 +305,12 @@ sections:
       - title: Bootstrap 3 & 4 (BLOG)
         subtitle: Thiết kế Website tin tức trên Bootrap 3 & 4.
         price: 1.000.000 VNĐ
-        details: >-
-          ## Lorem ipsum
+        details: |-
+          Sử dụng mã nguồn WordPress
 
+          Tích hợp chức năng Seo riêng
 
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Tích hợp chức năng tùy biến giao diện
         highlight: false
         actions: []
         type: pricing_plan
