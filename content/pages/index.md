@@ -500,7 +500,16 @@ sections:
           Joomla! là một hệ thống quản lý nội dung (CMS) cho phép bạn xây dựng
           trang web và ứng dụng trực tuyến mạnh mẽ.
         image_alt: Joomla
-        actions: []
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
         type: feature_item
         image: images/joomla.png
     type: section_features
