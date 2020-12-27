@@ -460,7 +460,7 @@ sections:
         image_alt: CentOS 8
         actions:
           - label: Trang chủ CentOS 8
-            url: lorem-ipsum
+            url: 'https://www.centos.org/'
             style: link
             has_icon: false
             icon: arrow-left
