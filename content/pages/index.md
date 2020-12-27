@@ -596,7 +596,7 @@ sections:
         image_alt: Vultr
         actions:
           - label: Trang chủ Vultr
-            url: lorem-ipsum
+            url: 'https://www.vultr.com/'
             style: link
             has_icon: false
             icon: arrow-left
