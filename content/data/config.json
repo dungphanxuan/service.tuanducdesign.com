@@ -189,7 +189,7 @@
                 "type": "footer_nav"
             }
         ],
-        "has_nav": true,
+        "has_nav": false,
         "nav_links": [],
         "content": "&copy; 2020 Tuan Duc Design. All rights reserved.",
         "links": []
