@@ -528,7 +528,7 @@ sections:
         actions:
           - label: Trang chủ Drupal
             url: 'https://www.drupal.org/'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
