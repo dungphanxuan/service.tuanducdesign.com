@@ -565,16 +565,8 @@ sections:
         image: images/laravel.jpg
       - title: Codeigniter
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          CodeIgniter là một web framework mã nguồn mở phát triển nhanh chóng,
+          để sử dụng trong việc xây dựng các trang web động với PHP.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
