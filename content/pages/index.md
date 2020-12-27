@@ -503,7 +503,7 @@ sections:
         actions:
           - label: Trang chủ Joomla
             url: 'https://www.joomla.org/'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
