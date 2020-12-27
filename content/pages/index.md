@@ -593,7 +593,7 @@ sections:
           Vultr là nhà cung cấp dịch vụ Cloud Server nổi tiếng chất lượng với
           100% phần cứng SSD, 15 datacenter location trải dài trên khắp thế
           giới.
-        image_alt: lorem-ipsum
+        image_alt: Vultr
         actions: []
         type: feature_item
         image: images/vultr.jpg
