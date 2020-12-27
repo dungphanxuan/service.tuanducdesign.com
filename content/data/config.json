@@ -26,7 +26,7 @@
             },
             {
                 "label": "Bảng giá VPS",
-                "url": "/pricing",
+                "url": "#pricing-plans-vps",
                 "style": "link"
             },
             {
