@@ -625,7 +625,7 @@ sections:
         image: images/iNET.jpg
     type: section_features
   - section_id: ''
-    title: lorem-ipsum
+    title: F.A.Q
     subtitle: lorem-ipsum
     background: gray
     faq_items: []
