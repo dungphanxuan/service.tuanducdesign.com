@@ -107,11 +107,6 @@
                         "new_window": true
                     },
                     {
-                        "label": "Đăng ký",
-                        "url": "/signup",
-                        "style": "link"
-                    },
-                    {
                         "label": "Liên hệ",
                         "url": "/contact",
                         "style": "link"
