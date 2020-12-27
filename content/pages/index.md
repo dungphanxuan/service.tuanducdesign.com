@@ -626,7 +626,7 @@ sections:
     type: section_features
   - section_id: ''
     title: F.A.Q
-    subtitle: 'Câu hỏi thường gặp về các dịch vụ '
+    subtitle: Câu hỏi thường gặp về các dịch vụ chúng tôi
     background: gray
     faq_items: []
     type: section_faq
