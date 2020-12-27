@@ -502,7 +502,7 @@ sections:
         image_alt: Joomla
         actions:
           - label: Trang chủ Joomla
-            url: lorem-ipsum
+            url: 'https://www.joomla.org/'
             style: link
             has_icon: false
             icon: arrow-left
