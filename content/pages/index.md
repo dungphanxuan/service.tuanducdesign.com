@@ -18,7 +18,7 @@ sections:
         has_icon: true
         icon: arrow-right
         icon_position: right
-  - section_id: service
+  - section_id: services
     type: section_features
     background: gray
     title: Dịch vụ nổi bật của chúng tôi
