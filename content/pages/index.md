@@ -453,16 +453,10 @@ sections:
         image: images/centos-7.png
       - title: Centos 8
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          CentOS 8 cuối cùng đã được phát hành vào ngày 24 tháng 9 năm 2019. Vì
+          đây là bản phân phối Linux có nguồn gốc từ Red Hat Enterprise Linux
+          (RHEL), nhóm CentOS đã phải xây dựng cơ sở hạ tầng để hỗ trợ RHEL 8
+          mới được giới thiệu.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
