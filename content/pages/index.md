@@ -302,7 +302,7 @@ sections:
       cấp thêm các dịch vụ về thiết kế Website.
     background: gray
     pricing_plans:
-      - title: Bootstrap 3 & 4 (
+      - title: Bootstrap 3 & 4 (BLOG)
         subtitle: lorem-ipsum
         price: lorem-ipsum
         details: >-
