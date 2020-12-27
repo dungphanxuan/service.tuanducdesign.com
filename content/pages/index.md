@@ -265,7 +265,7 @@ sections:
         actions:
           - label: Liên hệ
             url: '#'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
