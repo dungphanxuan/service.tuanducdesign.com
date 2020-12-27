@@ -447,7 +447,7 @@ sections:
             icon: arrow-right
             icon_position: right
             new_window: true
-            no_follow: false
+            no_follow: true
             type: action
         type: feature_item
         image: images/centos-7.png
