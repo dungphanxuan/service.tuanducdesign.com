@@ -581,7 +581,7 @@ sections:
         type: feature_item
         image: images/codeIgniter.jpg
     type: section_features
-  - section_id: lorem-ipsum
+  - section_id: ''
     title: lorem-ipsum
     subtitle: lorem-ipsum
     background: gray
