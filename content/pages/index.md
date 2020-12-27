@@ -613,7 +613,7 @@ sections:
         image_alt: INET
         actions:
           - label: Trang chủ INET
-            url: lorem-ipsum
+            url: 'https://inet.vn/'
             style: link
             has_icon: false
             icon: arrow-left
