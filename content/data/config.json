@@ -96,7 +96,8 @@
                         "url": "/about",
                         "style": "link",
                         "has_icon": true,
-                        "icon": "arrow-right"
+                        "icon": "arrow-right",
+                        "icon_position": "right"
                     },
                     {
                         "label": "Blog",
