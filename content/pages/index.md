@@ -648,9 +648,7 @@ sections:
           nhiều ảnh như mã nguồn WordPress, Thì CPU thường là 2 CPU, Ram là 4GB
           và phân vùng hệ thống là 250GB Disk.
         type: faq_item
-      - question: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      - question: Tôi có phải mất thêm tiền để duy trì dịch vụ không?
         answer: >-
           ## Lorem ipsum
 
