@@ -606,7 +606,7 @@ sections:
             type: action
         type: feature_item
         image: images/vultr.jpg
-      - title: lorem-ipsum
+      - title: ''
         content: >-
           ## Lorem ipsum
 
