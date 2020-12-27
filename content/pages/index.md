@@ -274,7 +274,7 @@ sections:
             type: action
         type: pricing_plan
       - title: CẤU HÌNH WORDPRESS GÓI B
-        subtitle: lorem-ipsum
+        subtitle: ''
         price: lorem-ipsum
         details: >-
           ## Lorem ipsum
