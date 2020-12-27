@@ -536,7 +536,7 @@ sections:
         image_alt: Xenforo
         actions:
           - label: Trang chủ Xenforo
-            url: lorem-ipsum
+            url: 'https://xenforo.com/'
             style: link
             has_icon: false
             icon: arrow-left
