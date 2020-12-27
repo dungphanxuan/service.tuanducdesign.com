@@ -47,7 +47,7 @@
             },
             {
                 "label": "Tham gia vào nhóm",
-                "url": "/signup",
+                "url": "",
                 "style": "primary"
             }
         ]
