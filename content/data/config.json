@@ -9,52 +9,72 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Trang chủ",
-                "url": "/",
-                "style": "link"
-            },
-            {
                 "label": "Dịch vụ",
-                "url": "/service",
+                "url": "#services",
                 "style": "link"
             },
             {
-                "label": "Bảng giá",
-                "url": "/pricing",
+                "label": "Bảng giá VPS",
+                "url": "#pricing-plans-vps",
                 "style": "link"
+            },
+            {
+                "label": "Bảng giá Website",
+                "url": "#pricing-plans-website",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            },
+            {
+                "label": "Bảng giá WordPress",
+                "url": "#pricing-plans-wordpress",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            },
+            {
+                "label": "Bảng giá thiết kế Website",
+                "url": "#pricing-plans-design-website",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
             },
             {
                 "label": "F.A.Q",
-                "url": "/faq",
+                "url": "#faq",
                 "style": "link"
             },
             {
+                "label": "Blog",
+                "url": "https://blog.tuanducdesign.com/",
+                "style": "primary",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            },
+            {
                 "label": "Liên hệ",
-                "url": "/contact",
-                "style": "link",
-                "has_icon": false,
-                "icon": "arrow-left",
-                "icon_position": "left",
-                "new_window": false,
-                "no_follow": false,
-                "type": "action"
+                "url": "https://m.me/121349286117840?ref=lienhe",
+                "style": "primary",
+                "new_window": true,
+                "no_follow": true
             },
-            {
-                "label": "lorem-ipsum",
-                "url": "lorem-ipsum",
-                "style": "link",
-                "has_icon": false,
-                "icon": "arrow-left",
-                "icon_position": "left",
-                "new_window": false,
-                "no_follow": false,
-                "type": "action"
-            },
-            {
-                "label": "Đăng ký",
-                "url": "/signup",
-                "style": "primary"
-            }
+            {}
         ]
     },
     "footer": {
@@ -74,22 +94,24 @@
                     {
                         "label": "Về chúng tôi",
                         "url": "/about",
-                        "style": "link"
+                        "style": "link",
+                        "has_icon": false,
+                        "icon": "arrow-right",
+                        "icon_position": "left",
+                        "new_window": true
                     },
                     {
                         "label": "Blog",
-                        "url": "/blog",
-                        "style": "link"
-                    },
-                    {
-                        "label": "Đăng ký",
-                        "url": "/signup",
-                        "style": "link"
+                        "url": "https://blog.tuanducdesign.com/",
+                        "style": "link",
+                        "new_window": true
                     },
                     {
                         "label": "Liên hệ",
-                        "url": "/contact",
-                        "style": "link"
+                        "url": "https://m.me/121349286117840?ref=lienhe",
+                        "style": "link",
+                        "new_window": true,
+                        "no_follow": true
                     }
                 ]
             },
@@ -169,19 +191,8 @@
                 "type": "footer_nav"
             }
         ],
-        "has_nav": true,
-        "nav_links": [
-            {
-                "label": "Điều khoản và dịch vụ",
-                "url": "/terms-of-service",
-                "style": "link"
-            },
-            {
-                "label": "Chính sách bảo mật",
-                "url": "/privacy-policy",
-                "style": "link"
-            }
-        ],
+        "has_nav": false,
+        "nav_links": [],
         "content": "&copy; 2020 Tuan Duc Design. All rights reserved.",
         "links": []
     },

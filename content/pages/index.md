@@ -1,7 +1,7 @@
 ---
 title: Trang chủ
 sections:
-  - section_id: ''
+  - section_id: main
     type: section_hero
     image: images/2C2CC916-F202-44A1-B8C4-0078A930406F.png
     image_alt: Cloud
@@ -15,7 +15,10 @@ sections:
       - label: Xem thêm
         url: '#services'
         style: secondary
-  - section_id: ''
+        has_icon: true
+        icon: arrow-right
+        icon_position: right
+  - section_id: services
     type: section_features
     background: gray
     title: Dịch vụ nổi bật của chúng tôi
@@ -94,7 +97,7 @@ sections:
             type: action
         type: feature_item
         image: images/nginx-amplify.png
-  - section_id: ''
+  - section_id: pricing-plans-vps
     title: Bảng giá dịch vụ VPS
     subtitle: >-
       Chọn gói theo nhu cầu của bạn. Việc miễn phí các tính năng cơ bản là mãi
@@ -159,7 +162,7 @@ sections:
             type: action
         type: pricing_plan
     type: section_pricing
-  - section_id: ''
+  - section_id: pricing-plans-website
     title: Bảng giá dịch vụ Website
     subtitle: >-
       Chọn gói theo nhu cầu của bạn. Việc miễn phí các tính năng cơ bản là mãi
@@ -224,7 +227,7 @@ sections:
             type: action
         type: pricing_plan
     type: section_pricing
-  - section_id: ''
+  - section_id: pricing-plans-wordpress
     title: Bảng giá dịch vụ WordPress
     subtitle: >-
       Ngoài cung cấp dịch vụ về VPS và Website ra chúng tôi còn cung cấp thêm
@@ -295,7 +298,7 @@ sections:
             type: action
         type: pricing_plan
     type: section_pricing
-  - section_id: ''
+  - section_id: pricing-plans-design-website
     title: Bảng giá dịch vụ thiết kế Website
     subtitle: >-
       Ngoài cung cấp các dịch vụ về VPS, Website và WordPress chúng tôi còn cung
@@ -366,7 +369,7 @@ sections:
             type: action
         type: pricing_plan
     type: section_pricing
-  - section_id: ''
+  - section_id: tools-vps
     title: Công cụ sử dụng trên VPS
     subtitle: >-
       Chúng tôi luôn chọn các công cụ mới nhất để giúp khách hàng quản lý VPS
@@ -426,7 +429,7 @@ sections:
         type: feature_item
         image: images/larvps-script.png
     type: section_features
-  - section_id: ''
+  - section_id: os-vps
     title: Hệ điều hành dùng trên VPS
     subtitle: >-
       Chúng tôi luôn chọn hệ điều hành CentOS 7 hoặc CentOS 8 để hỗ trợ khách
@@ -471,7 +474,7 @@ sections:
         type: feature_item
         image: images/centos-8.png
     type: section_features
-  - section_id: ''
+  - section_id: support-install-source-code
     title: Hỗ trợ cài đặt Mã nguồn
     subtitle: >-
       Những mã nguồn phổ biến trên thế giới như WordPress, Joomla, Drupal,
@@ -581,7 +584,7 @@ sections:
         type: feature_item
         image: images/codeIgniter.jpg
     type: section_features
-  - section_id: ''
+  - section_id: provider-vps
     title: Nhà cung cấp VPS
     subtitle: >-
       Hỗ trợ khách hàng tốt khi khách hàng sử dụng các nhà cung cấp VPS hàng đầu
@@ -624,12 +627,37 @@ sections:
         type: feature_item
         image: images/iNET.jpg
     type: section_features
-  - section_id: ''
-    title: Blog
-    subtitle: Cập nhật các bài viết mới nhất trên blog.
+  - section_id: faq
+    title: F.A.Q
+    subtitle: Câu hỏi thường gặp về các dịch vụ chúng tôi
     background: gray
-    type: section_posts
-  - section_id: ''
+    faq_items:
+      - question: 'Tôi nên dùng VPS CentOS, Ubuntu hay Win Server?'
+        answer: >-
+          Để sử dụng tốt các dịch vụ mà chúng tôi cung cấp. Bạn nên sử dụng VPS
+          CentOS, Trong trường hợp bạn chạy ASP.net. Bạn hãy sử dụng VPS Win
+          Server.
+        type: faq_item
+      - question: Tôi nên sử máy chủ Web Server nào cho phù hợp với trang web của tôi?
+        answer: >-
+          Để sử dụng tốt các dịch vụ mà chúng tôi cung cấp, Chúng tôi khuyên bạn
+          nên sử dụng máy chủ Web Server Nginx để đáp ứng mọi nhu cầu, Với máy
+          chủ Web Server Apache nó tiêu tốn nhiều tài nguyên hơn, Nên chúng tôi
+          sẽ không hỗ trợ khách hàng tối ưu trên máy chủ này.
+        type: faq_item
+      - question: Cấu hình hệ thống trên Server bao nhiêu là đủ với website của tôi?
+        answer: >-
+          Tùy nhu cầu sử dụng của bạn! Thông thường đối với một website tin tức
+          nhiều ảnh như mã nguồn WordPress, Thì CPU thường là 2 CPU, Ram là 4GB
+          và phân vùng hệ thống là 250GB Disk.
+        type: faq_item
+      - question: Tôi có phải mất thêm tiền để duy trì dịch vụ không?
+        answer: >-
+          Bạn chỉ cần đăng ký một lần là lần sau không cần phải đóng thêm phí để
+          duy trì các dịch vụ bạn đã mua mà chúng tôi cung cấp nữa.
+        type: faq_item
+    type: section_faq
+  - section_id: join-the-group
     type: section_cta
     title: Tham gia vào nhóm
     subtitle: >-
