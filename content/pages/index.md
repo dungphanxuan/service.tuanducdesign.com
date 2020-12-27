@@ -347,17 +347,12 @@ sections:
       - title: BOOTSTRAP 3 & 4 (SHOPPING)
         subtitle: Thiết kế web bán hàng trên Bootstrap 3 & 4.
         price: 1.500.000 VNĐ
-        details: >-
-          ## Lorem ipsum
+        details: |-
+          Sử dụng mã nguồn WordPress
 
+          Bán hàng không cần plugins Woocommerce
 
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Tích hợp chức năng Seo riêng  + Giao diện
         highlight: false
         actions: []
         type: pricing_plan
