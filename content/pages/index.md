@@ -486,7 +486,7 @@ sections:
         actions:
           - label: Trang chủ WordPress
             url: 'https://wordpress.org/'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
