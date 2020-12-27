@@ -70,7 +70,7 @@
             {
                 "label": "Công cụ",
                 "url": "#tools-vps",
-                "style": "primary",
+                "style": "secondary",
                 "has_icon": false,
                 "icon": "arrow-left",
                 "icon_position": "left",
