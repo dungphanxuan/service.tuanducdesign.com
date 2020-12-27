@@ -550,7 +550,7 @@ sections:
         content: >-
           Laravel là một trong những PHP Framework phổ biến nhất trên thế giới
           được sử dụng để xây dựng ứng dụng web từ các dự án nhỏ đến lớn.
-        image_alt: lorem-ipsum
+        image_alt: Laravel
         actions: []
         type: feature_item
         image: images/laravel.jpg
