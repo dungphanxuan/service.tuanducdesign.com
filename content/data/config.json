@@ -109,7 +109,8 @@
                     {
                         "label": "Liên hệ",
                         "url": "https://m.me/121349286117840?ref=lienhe",
-                        "style": "link"
+                        "style": "link",
+                        "new_window": true
                     }
                 ]
             },
