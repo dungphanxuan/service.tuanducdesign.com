@@ -429,7 +429,7 @@ sections:
         type: feature_item
         image: images/larvps-script.png
     type: section_features
-  - section_id: ''
+  - section_id: os-vps
     title: Hệ điều hành dùng trên VPS
     subtitle: >-
       Chúng tôi luôn chọn hệ điều hành CentOS 7 hoặc CentOS 8 để hỗ trợ khách
