@@ -463,7 +463,7 @@ sections:
             url: 'https://www.centos.org/'
             style: primary
             has_icon: true
-            icon: arrow-left
+            icon: arrow-right
             icon_position: left
             new_window: true
             no_follow: true
