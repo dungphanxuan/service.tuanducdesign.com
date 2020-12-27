@@ -637,16 +637,10 @@ sections:
         type: faq_item
       - question: Tôi nên sử máy chủ Web Server nào cho phù hợp với trang web của tôi?
         answer: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Để sử dụng tốt các dịch vụ mà chúng tôi cung cấp, Chúng tôi khuyên bạn
+          nên sử dụng máy chủ Web Server Nginx để đáp ứng mọi nhu cầu, Với máy
+          chủ Web Server Apache nó tiêu tốn nhiều tài nguyên hơn, Nên chúng tôi
+          sẽ không hỗ trợ khách hàng tối ưu trên máy chủ này.
         type: faq_item
     type: section_faq
   - section_id: ''
