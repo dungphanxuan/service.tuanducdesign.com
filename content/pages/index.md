@@ -535,7 +535,7 @@ sections:
           nhóm vBullentin (vBB)
         image_alt: Xenforo
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ Xenforo
             url: lorem-ipsum
             style: link
             has_icon: false
