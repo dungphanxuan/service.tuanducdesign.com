@@ -588,7 +588,7 @@ sections:
       thế giới.
     background: gray
     features:
-      - title: lorem-ipsum
+      - title: Vultr
         content: >-
           ## Lorem ipsum
 
