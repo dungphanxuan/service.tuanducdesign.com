@@ -584,7 +584,7 @@ sections:
         type: feature_item
         image: images/codeIgniter.jpg
     type: section_features
-  - section_id: vps-provider
+  - section_id: provider-vps
     title: Nhà cung cấp VPS
     subtitle: >-
       Hỗ trợ khách hàng tốt khi khách hàng sử dụng các nhà cung cấp VPS hàng đầu
