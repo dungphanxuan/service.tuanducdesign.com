@@ -569,7 +569,7 @@ sections:
           để sử dụng trong việc xây dựng các trang web động với PHP.
         image_alt: Codeigniter
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ Codeigniter
             url: lorem-ipsum
             style: link
             has_icon: false
