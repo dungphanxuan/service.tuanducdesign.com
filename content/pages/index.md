@@ -459,7 +459,7 @@ sections:
           mới được giới thiệu.
         image_alt: CentOS 8
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ CentOS 8
             url: lorem-ipsum
             style: link
             has_icon: false
