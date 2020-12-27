@@ -497,16 +497,8 @@ sections:
         image: images/wordpress.png
       - title: Joomla
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Joomla! là một hệ thống quản lý nội dung (CMS) cho phép bạn xây dựng
+          trang web và ứng dụng trực tuyến mạnh mẽ.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
