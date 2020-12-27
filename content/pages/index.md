@@ -152,7 +152,7 @@ sections:
         highlight: true
         actions:
           - label: Liên hệ
-            url: 'https://m.me/121349286117840?ref=lienhe'
+            url: 'https://m.me/121349286117840?ref=lienhe_dichvuvps'
             style: primary
             has_icon: false
             icon: arrow-right
