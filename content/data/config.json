@@ -192,11 +192,6 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Điều khoản và dịch vụ",
-                "url": "/terms-of-service",
-                "style": "link"
-            },
-            {
                 "label": "Chính sách bảo mật",
                 "url": "/privacy-policy",
                 "style": "link"
