@@ -614,7 +614,7 @@ sections:
         actions:
           - label: Trang chủ INET
             url: 'https://inet.vn/'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
