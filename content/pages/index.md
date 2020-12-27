@@ -441,7 +441,7 @@ sections:
         image_alt: CentOS 7
         actions:
           - label: Trang chủ CentOS 7
-            url: ''
+            url: 'https://www.centos.org/'
             style: primary
             has_icon: true
             icon: arrow-right
