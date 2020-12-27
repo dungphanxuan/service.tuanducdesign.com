@@ -255,17 +255,12 @@ sections:
       - title: CẤU HÌNH WORDPRESS GÓI A​
         subtitle: ''
         price: 200.000 VNĐ
-        details: >-
-          ## Lorem ipsum
+        details: |-
+          Tối ưu với PWA
 
+          Tối ưu CSS, Javascript và ảnh
 
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Tối ưu giao diện và Font
         highlight: false
         actions: []
         type: pricing_plan
