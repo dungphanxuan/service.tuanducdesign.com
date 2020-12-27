@@ -546,7 +546,7 @@ sections:
             type: action
         type: feature_item
         image: images/xenforo.png
-      - title: lorem-ipsum
+      - title: Laravel
         content: >-
           ## Lorem ipsum
 
