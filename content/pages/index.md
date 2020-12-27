@@ -485,7 +485,7 @@ sections:
         image_alt: WordPress
         actions:
           - label: Trang chủ WordPress
-            url: lorem-ipsum
+            url: 'https://wp.org/'
             style: link
             has_icon: false
             icon: arrow-left
