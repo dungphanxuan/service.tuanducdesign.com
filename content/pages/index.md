@@ -18,15 +18,6 @@ sections:
         has_icon: true
         icon: arrow-right
         icon_position: right
-      - label: Dịch vụ
-        url: /service
-        style: secondary
-        has_icon: true
-        icon: arrow-right
-        icon_position: right
-        new_window: false
-        no_follow: false
-        type: action
   - section_id: service
     type: section_features
     background: gray
