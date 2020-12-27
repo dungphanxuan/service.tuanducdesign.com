@@ -499,7 +499,7 @@ sections:
         content: >-
           Joomla! là một hệ thống quản lý nội dung (CMS) cho phép bạn xây dựng
           trang web và ứng dụng trực tuyến mạnh mẽ.
-        image_alt: lorem-ipsum
+        image_alt: Joomla
         actions: []
         type: feature_item
         image: images/joomla.png
