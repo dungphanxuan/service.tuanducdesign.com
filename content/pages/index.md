@@ -622,6 +622,7 @@ sections:
             no_follow: true
             type: action
         type: feature_item
+        image: images/iNET.jpg
     type: section_features
   - section_id: ''
     type: section_cta
