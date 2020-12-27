@@ -48,7 +48,8 @@
             {
                 "label": "Tham gia vào nhóm",
                 "url": "https://www.facebook.com/groups/tuanducsupport",
-                "style": "primary"
+                "style": "primary",
+                "new_window": true
             }
         ]
     },
