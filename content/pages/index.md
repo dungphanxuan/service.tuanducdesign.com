@@ -650,16 +650,8 @@ sections:
         type: faq_item
       - question: Tôi có phải mất thêm tiền để duy trì dịch vụ không?
         answer: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Bạn chỉ cần đăng ký một lần là lần sau không cần phải đóng thêm phí để
+          duy trì các dịch vụ bạn đã mua mà chúng tôi cung cấp nữa.
         type: faq_item
     type: section_faq
   - section_id: ''
