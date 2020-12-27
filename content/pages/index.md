@@ -273,7 +273,7 @@ sections:
             no_follow: false
             type: action
         type: pricing_plan
-      - title: lorem-ipsum
+      - title: CẤU HÌNH WORDPRESS GÓI B
         subtitle: lorem-ipsum
         price: lorem-ipsum
         details: >-
