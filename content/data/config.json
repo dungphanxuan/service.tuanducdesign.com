@@ -31,7 +31,7 @@
             },
             {
                 "label": "Bảng giá Website",
-                "url": "lorem-ipsum",
+                "url": "#pricing-plans-website",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
