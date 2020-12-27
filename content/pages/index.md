@@ -246,7 +246,7 @@ sections:
         highlight: false
         actions:
           - label: Sử dụng gói này
-            url: '#https://m.me/121349286117840?ref=caidatwordpress'
+            url: 'https://m.me/121349286117840?ref=caidatwordpress'
             style: primary
             has_icon: false
             icon: arrow-left
