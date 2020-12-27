@@ -439,16 +439,7 @@ sections:
           phân phối hệ điều hành dựa trên hạt nhân Linux . Được ra mắt lần đầu
           tiên vào tháng 5 năm 2004. 
         image_alt: Centos 7
-        actions:
-          - label: lorem-ipsum
-            url: lorem-ipsum
-            style: link
-            has_icon: false
-            icon: arrow-left
-            icon_position: left
-            new_window: false
-            no_follow: false
-            type: action
+        actions: []
         type: feature_item
         image: images/centos-7.png
     type: section_features
