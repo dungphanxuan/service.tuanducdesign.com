@@ -7,8 +7,10 @@ subtitle: >-
   website trên PHP 7.4, đó chính là Opcache Preload.
 author: content/data/authors/jane-doe.yaml
 excerpt: >-
-  A story about customer loyalty curabitur sed consectetur nisi. Integer sit
-  amet commodo massa.
+  Nhằm hỗ trợ các khách hàng trải nghiệm phiên bản PHP 7.4, các hosting hiện nay
+  đã tiến hành tích hợp phiên bản PHP 7.4 vào tất cả các dịch vụ SSD Hosting của
+  họ. Và một trong các tính năng cải thiện tốc độ và tiết kiệm tài nguyên cho
+  website trên PHP 7.4, đó chính là Opcache Preload.
 date: '2020-12-27'
 thumb_image: images/3_thumb.jpg
 thumb_image_alt: A group of people working in a cafe
