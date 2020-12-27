@@ -243,7 +243,7 @@ sections:
         highlight: false
         actions:
           - label: Sử dụng gói này
-            url: lorem-ipsum
+            url: '#'
             style: link
             has_icon: false
             icon: arrow-left
