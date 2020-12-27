@@ -297,7 +297,9 @@ sections:
     type: section_pricing
   - section_id: ''
     title: Bảng giá dịch vụ thiết kế Website
-    subtitle: ''
+    subtitle: >-
+      Ngoài cung cấp các dịch vụ về VPS, Website và Wordpress chúng tôi còn cung
+      cấp thêm các dịch vụ về thiết kế websit
     background: gray
     pricing_plans: []
     type: section_pricing
