@@ -427,7 +427,7 @@ sections:
         image: images/larvps-script.png
     type: section_features
   - section_id: ''
-    title: Hệ điều hành sử dụng trên VPS
+    title: Hệ điều hành dùng trên VPS
     subtitle: lorem-ipsum
     background: gray
     features: []
