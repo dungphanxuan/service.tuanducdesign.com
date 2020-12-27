@@ -635,9 +635,7 @@ sections:
           CentOS, Trong trường hợp bạn chạy ASP.net. Bạn hãy sử dụng VPS Win
           Server.
         type: faq_item
-      - question: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      - question: Tôi nên sử máy chủ Web Server nào cho phù hợp với trang web của tôi?
         answer: >-
           ## Lorem ipsum
 
