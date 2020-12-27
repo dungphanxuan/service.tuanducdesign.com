@@ -582,7 +582,7 @@ sections:
         image: images/codeIgniter.jpg
     type: section_features
   - section_id: ''
-    title: lorem-ipsum
+    title: Nhà cung cấp VPS
     subtitle: lorem-ipsum
     background: gray
     features: []
