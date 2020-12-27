@@ -625,6 +625,11 @@ sections:
         image: images/iNET.jpg
     type: section_features
   - section_id: ''
+    title: Blog
+    subtitle: Cập nhật các bài viết mới nhất trên blog.
+    background: gray
+    type: section_posts
+  - section_id: ''
     type: section_cta
     title: Tham gia vào nhóm
     subtitle: >-
@@ -638,11 +643,6 @@ sections:
         icon: facebook
         new_window: true
         no_follow: true
-  - section_id: ''
-    title: Blog
-    subtitle: Cập nhật các bài viết mới nhất trên blog.
-    background: gray
-    type: section_posts
 meta_title: Tuan Duc Design - Chuyên cung cấp dịch vụ VPS và Website
 meta_description: >-
   Chuyên cung cấp dịch vụ VPS và Website,Hướng dẫn bảo mật VPS và Website từ cơ
