@@ -629,9 +629,7 @@ sections:
     subtitle: Câu hỏi thường gặp về các dịch vụ chúng tôi
     background: gray
     faq_items:
-      - question: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      - question: 'Tôi nên dùng VPS CentOS, Ubuntu hay Win Server?'
         answer: >-
           ## Lorem ipsum
 
