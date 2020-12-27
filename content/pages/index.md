@@ -458,7 +458,16 @@ sections:
           (RHEL), nhóm CentOS đã phải xây dựng cơ sở hạ tầng để hỗ trợ RHEL 8
           mới được giới thiệu.
         image_alt: CentOS 8
-        actions: []
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
         type: feature_item
         image: images/centos-8.png
     type: section_features
