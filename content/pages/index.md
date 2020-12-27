@@ -480,16 +480,8 @@ sections:
     features:
       - title: WordPress
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          WordPress là mã nguồn mở giúp bạn tạo website, blog hay ứng dụng dễ
+          dàng và đẹp mắt.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
