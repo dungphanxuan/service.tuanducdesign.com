@@ -570,6 +570,7 @@ sections:
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
+        image: images/codeIgniter.jpg
     type: section_features
   - section_id: ''
     type: section_cta
