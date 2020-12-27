@@ -133,7 +133,7 @@ sections:
         highlight: false
         actions:
           - label: Liên hệ
-            url: '#'
+            url: 'https://m.me/121349286117840?ref=lienhe_dichvuvps'
             style: primary
             has_icon: false
             icon: arrow-left
@@ -152,13 +152,13 @@ sections:
         highlight: true
         actions:
           - label: Liên hệ
-            url: '#'
+            url: 'https://m.me/121349286117840?ref=lienhe_dichvuvps'
             style: primary
             has_icon: false
-            icon: arrow-left
-            icon_position: left
-            new_window: false
-            no_follow: false
+            icon: arrow-right
+            icon_position: right
+            new_window: true
+            no_follow: true
             type: action
         type: pricing_plan
     type: section_pricing
@@ -198,7 +198,7 @@ sections:
         highlight: false
         actions:
           - label: Liên hệ
-            url: '#'
+            url: 'https://m.me/121349286117840?ref=lienhe_dichvuwebsite'
             style: primary
             has_icon: false
             icon: arrow-left
@@ -217,7 +217,7 @@ sections:
         highlight: true
         actions:
           - label: Liên hệ
-            url: '#'
+            url: 'https://m.me/121349286117840?ref=lienhe_dichvuwebsite'
             style: primary
             has_icon: false
             icon: arrow-left
@@ -246,13 +246,13 @@ sections:
         highlight: false
         actions:
           - label: Sử dụng gói này
-            url: '#'
+            url: 'https://m.me/121349286117840?ref=caidatwordpress'
             style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
-            new_window: false
-            no_follow: false
+            new_window: true
+            no_follow: true
             type: action
         type: pricing_plan
       - title: CẤU HÌNH WORDPRESS GÓI A​
@@ -267,7 +267,7 @@ sections:
         highlight: false
         actions:
           - label: Liên hệ
-            url: '#'
+            url: 'https://m.me/121349286117840?ref=lienhe_dichvuwordpress'
             style: primary
             has_icon: false
             icon: arrow-left
@@ -288,7 +288,7 @@ sections:
         highlight: true
         actions:
           - label: Liên hệ
-            url: '#'
+            url: 'https://m.me/121349286117840?ref=lienhe_dichvuwordpress'
             style: primary
             has_icon: false
             icon: arrow-left
@@ -317,13 +317,13 @@ sections:
         highlight: false
         actions:
           - label: Liên hệ
-            url: '#'
+            url: 'https://m.me/121349286117840?ref=lienhe_dichvu_thietkewebsite'
             style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
-            new_window: false
-            no_follow: false
+            new_window: true
+            no_follow: true
             type: action
         type: pricing_plan
       - title: Bootstrap 3 & 4 (LANDING PAGE)
@@ -338,13 +338,13 @@ sections:
         highlight: false
         actions:
           - label: Liên hệ
-            url: '#'
+            url: 'https://m.me/121349286117840?ref=lienhe_dichvu_thietkewebsite'
             style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
-            new_window: false
-            no_follow: false
+            new_window: true
+            no_follow: true
             type: action
         type: pricing_plan
       - title: BOOTSTRAP 3 & 4 (SHOPPING)
