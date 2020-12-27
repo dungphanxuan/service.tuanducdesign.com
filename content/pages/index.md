@@ -624,6 +624,12 @@ sections:
         type: feature_item
         image: images/iNET.jpg
     type: section_features
+  - section_id: lorem-ipsum
+    title: lorem-ipsum
+    subtitle: lorem-ipsum
+    background: gray
+    faq_items: []
+    type: section_faq
   - section_id: ''
     type: section_cta
     title: Tham gia vào nhóm
@@ -638,12 +644,6 @@ sections:
         icon: facebook
         new_window: true
         no_follow: true
-  - section_id: lorem-ipsum
-    title: lorem-ipsum
-    subtitle: lorem-ipsum
-    background: gray
-    faq_items: []
-    type: section_faq
 meta_title: Tuan Duc Design - Chuyên cung cấp dịch vụ VPS và Website
 meta_description: >-
   Chuyên cung cấp dịch vụ VPS và Website,Hướng dẫn bảo mật VPS và Website từ cơ
