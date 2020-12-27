@@ -334,7 +334,7 @@ sections:
           Tích hợp chức năng tùy biến giao diện + Ads
         highlight: false
         actions:
-          - label: lorem-ipsum
+          - label: Liên hệ
             url: lorem-ipsum
             style: link
             has_icon: false
