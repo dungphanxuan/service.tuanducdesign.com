@@ -501,7 +501,7 @@ sections:
           trang web và ứng dụng trực tuyến mạnh mẽ.
         image_alt: Joomla
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ Joomla
             url: lorem-ipsum
             style: link
             has_icon: false
