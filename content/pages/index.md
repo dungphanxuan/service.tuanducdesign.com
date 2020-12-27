@@ -563,7 +563,7 @@ sections:
             type: action
         type: feature_item
         image: images/laravel.jpg
-      - title: lorem-ipsum
+      - title: Codeigniter
         content: >-
           ## Lorem ipsum
 
