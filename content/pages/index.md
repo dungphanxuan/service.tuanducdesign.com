@@ -451,7 +451,7 @@ sections:
             type: action
         type: feature_item
         image: images/centos-7.png
-      - title: lorem-ipsum
+      - title: 'Centos '
         content: >-
           ## Lorem ipsum
 
