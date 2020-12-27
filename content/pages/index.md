@@ -276,17 +276,12 @@ sections:
       - title: CẤU HÌNH WORDPRESS GÓI B
         subtitle: ''
         price: 250.000 VNĐ
-        details: >-
-          ## Lorem ipsum
+        details: |-
+          Tối ưu hóa cơ sở dữ liệu + Dọn dẹp bảng rác
 
+          Thay đổi tiền tố trong Database
 
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Xử lý các vấn đề liên quan đến bảo mật
         highlight: false
         actions: []
         type: pricing_plan
