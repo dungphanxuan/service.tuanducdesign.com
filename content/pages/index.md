@@ -474,7 +474,7 @@ sections:
         type: feature_item
         image: images/centos-8.png
     type: section_features
-  - section_id: ''
+  - section_id: support-install-source-code
     title: Hỗ trợ cài đặt Mã nguồn
     subtitle: >-
       Những mã nguồn phổ biến trên thế giới như WordPress, Joomla, Drupal,
