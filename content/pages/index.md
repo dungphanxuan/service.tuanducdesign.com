@@ -231,7 +231,7 @@ sections:
       các dịch vụ về WordPress.
     background: gray
     pricing_plans:
-      - title: lorem-ipsum
+      - title: CÀI ĐẶT WORDPRESS
         subtitle: lorem-ipsum
         price: lorem-ipsum
         details: >-
