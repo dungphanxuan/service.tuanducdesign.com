@@ -611,16 +611,7 @@ sections:
           iNET.vn - Nhà đăng ký tên miền hỗ trợ khách hàng tốt nhất. Chuyên cung
           cấp, mua bán Tên Miền,Hosting,Cloud VPS.
         image_alt: INET
-        actions:
-          - label: lorem-ipsum
-            url: lorem-ipsum
-            style: link
-            has_icon: false
-            icon: arrow-left
-            icon_position: left
-            new_window: false
-            no_follow: false
-            type: action
+        actions: []
         type: feature_item
     type: section_features
   - section_id: ''
