@@ -548,16 +548,8 @@ sections:
         image: images/xenforo.png
       - title: Laravel
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Laravel là một trong những PHP Framework phổ biến nhất trên thế giới
+          được sử dụng để xây dựng ứng dụng web từ các dự án nhỏ đến lớn.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
