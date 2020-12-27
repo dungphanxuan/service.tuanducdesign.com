@@ -516,7 +516,7 @@ sections:
         content: >-
           Drupal là một khung sườn phát triển phần mềm hướng mô-đun, một hệ quản
           trị nội dung miễn phí và mã nguồn mở.
-        image_alt: lorem-ipsum
+        image_alt: Drupal
         actions:
           - label: Trang chủ Drupal
             url: 'https://www.drupal.org/'
