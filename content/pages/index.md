@@ -154,7 +154,7 @@ sections:
           - label: Liên hệ
             url: 'https://m.me/121349286117840?ref=toiuuvps'
             style: primary
-            has_icon: true
+            has_icon: false
             icon: arrow-right
             icon_position: right
             new_window: true
