@@ -57,13 +57,6 @@
                 "style": "link"
             },
             {
-                "label": "Liên hệ",
-                "url": "https://m.me/121349286117840?ref=lienhe",
-                "style": "primary",
-                "new_window": true,
-                "no_follow": true
-            },
-            {
                 "label": "Blog",
                 "url": "https://blog.tuanducdesign.com/",
                 "style": "primary",
@@ -73,7 +66,15 @@
                 "new_window": false,
                 "no_follow": false,
                 "type": "action"
-            }
+            },
+            {
+                "label": "Liên hệ",
+                "url": "https://m.me/121349286117840?ref=lienhe",
+                "style": "primary",
+                "new_window": true,
+                "no_follow": true
+            },
+            {}
         ]
     },
     "footer": {
