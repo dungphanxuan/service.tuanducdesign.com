@@ -233,7 +233,7 @@ sections:
     pricing_plans:
       - title: CÀI ĐẶT WORDPRESS
         subtitle: ''
-        price: lorem-ipsum
+        price: 0 VNĐ
         details: >-
           ## Lorem ipsum
 
