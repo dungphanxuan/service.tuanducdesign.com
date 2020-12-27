@@ -627,7 +627,7 @@ sections:
         type: feature_item
         image: images/iNET.jpg
     type: section_features
-  - section_id: ''
+  - section_id: faq
     title: F.A.Q
     subtitle: Câu hỏi thường gặp về các dịch vụ chúng tôi
     background: gray
