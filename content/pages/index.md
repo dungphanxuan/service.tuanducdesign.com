@@ -254,7 +254,7 @@ sections:
         type: pricing_plan
       - title: CẤU HÌNH WORDPRESS GÓI A​
         subtitle: ''
-        price: lorem-ipsum
+        price: 200.000 VNĐ
         details: >-
           ## Lorem ipsum
 
