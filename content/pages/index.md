@@ -430,7 +430,7 @@ sections:
     title: Hệ điều hành dùng trên VPS
     subtitle: >-
       Chúng tôi luôn chọn hệ điều hành CentOS 7 hoặc CentOS 8 để hỗ trợ khách
-      hàng dễ dàng khi sử dụng dịch vụ của mình. 
+      hàng dễ dàng khi sử dụng dịch vụ của mình.
     background: gray
     features: []
     type: section_features
