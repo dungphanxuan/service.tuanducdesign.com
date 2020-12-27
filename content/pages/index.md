@@ -440,7 +440,7 @@ sections:
           tiên vào tháng 5 năm 2004. 
         image_alt: Centos 7
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ CentOS 7
             url: lorem-ipsum
             style: link
             has_icon: false
