@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Liên hệ
 sections:
   - section_id: contact
     type: section_contact
