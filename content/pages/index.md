@@ -466,7 +466,7 @@ sections:
             icon: arrow-left
             icon_position: left
             new_window: true
-            no_follow: false
+            no_follow: true
             type: action
         type: feature_item
         image: images/centos-8.png
