@@ -631,16 +631,9 @@ sections:
     faq_items:
       - question: 'Tôi nên dùng VPS CentOS, Ubuntu hay Win Server?'
         answer: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Để sử dụng tốt các dịch vụ mà chúng tôi cung cấp. Bạn nên sử dụng VPS
+          CentOS, Trong trường hợp bạn chạy ASP.net. Bạn hãy sử dụng VPS Win
+          Server.
         type: faq_item
     type: section_faq
   - section_id: ''
