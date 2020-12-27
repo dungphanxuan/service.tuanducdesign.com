@@ -190,13 +190,7 @@
             }
         ],
         "has_nav": true,
-        "nav_links": [
-            {
-                "label": "Chính sách bảo mật",
-                "url": "/privacy-policy",
-                "style": "link"
-            }
-        ],
+        "nav_links": [],
         "content": "&copy; 2020 Tuan Duc Design. All rights reserved.",
         "links": []
     },
