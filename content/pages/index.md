@@ -324,7 +324,7 @@ sections:
             type: action
         type: pricing_plan
       - title: Bootstrap 3 & 4 (LANDING PAGE)
-        subtitle: lorem-ipsum
+        subtitle: Thiết kế web landing page trên Bootstrap 3 & 4.​
         price: lorem-ipsum
         details: >-
           ## Lorem ipsum
