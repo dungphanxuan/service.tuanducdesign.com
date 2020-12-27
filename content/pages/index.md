@@ -301,7 +301,24 @@ sections:
       Ngoài cung cấp các dịch vụ về VPS, Website và WordPress chúng tôi còn cung
       cấp thêm các dịch vụ về thiết kế Website.
     background: gray
-    pricing_plans: []
+    pricing_plans:
+      - title: lorem-ipsum
+        subtitle: lorem-ipsum
+        price: lorem-ipsum
+        details: >-
+          ## Lorem ipsum
+
+
+          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+          - Lorem ipsum
+
+          - dolor sit amet
+        highlight: false
+        actions: []
+        type: pricing_plan
     type: section_pricing
   - section_id: ''
     title: Công cụ sử dụng trên VPS
