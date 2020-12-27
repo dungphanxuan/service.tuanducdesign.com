@@ -369,7 +369,7 @@ sections:
             type: action
         type: pricing_plan
     type: section_pricing
-  - section_id: ''
+  - section_id: tools-vps
     title: Công cụ sử dụng trên VPS
     subtitle: >-
       Chúng tôi luôn chọn các công cụ mới nhất để giúp khách hàng quản lý VPS
