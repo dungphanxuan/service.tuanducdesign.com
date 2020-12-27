@@ -534,16 +534,7 @@ sections:
           Xenforo là mã nguồn mở được xây dựng bởi các lập trình viên tách ra từ
           nhóm vBullentin (vBB)
         image_alt: Xenfor
-        actions:
-          - label: lorem-ipsum
-            url: lorem-ipsum
-            style: link
-            has_icon: false
-            icon: arrow-left
-            icon_position: left
-            new_window: false
-            no_follow: false
-            type: action
+        actions: []
         type: feature_item
         image: images/xenforo.png
     type: section_features
