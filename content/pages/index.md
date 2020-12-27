@@ -484,7 +484,7 @@ sections:
           dàng và đẹp mắt.
         image_alt: WordPress
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ WordPress
             url: lorem-ipsum
             style: link
             has_icon: false
