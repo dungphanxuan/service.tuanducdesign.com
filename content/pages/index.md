@@ -531,16 +531,8 @@ sections:
         image: images/drupal.png
       - title: Xenforo
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Xenforo là mã nguồn mở được xây dựng bởi các lập trình viên tách ra từ
+          nhóm vBullentin (vBB)
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
