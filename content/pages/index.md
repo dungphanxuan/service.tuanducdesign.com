@@ -21,7 +21,7 @@ sections:
       - label: Dịch vụ
         url: /service
         style: secondary
-        has_icon: false
+        has_icon: true
         icon: arrow-left
         icon_position: left
         new_window: false
