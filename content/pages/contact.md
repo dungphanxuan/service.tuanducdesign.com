@@ -39,4 +39,5 @@ sections:
     submit_label: Send Message
 layout: landing
 meta_title: Liên hệ - Tuan Duc Design
+meta_description: Liên hệ - Tuan Duc Design
 ---
