@@ -483,7 +483,16 @@ sections:
           WordPress là mã nguồn mở giúp bạn tạo website, blog hay ứng dụng dễ
           dàng và đẹp mắt.
         image_alt: WordPress
-        actions: []
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
         type: feature_item
         image: images/wordpress.png
     type: section_features
