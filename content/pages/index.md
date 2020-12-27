@@ -461,7 +461,7 @@ sections:
         actions:
           - label: Trang chủ CentOS 8
             url: 'https://www.centos.org/'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
