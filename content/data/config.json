@@ -65,7 +65,7 @@
             },
             {
                 "label": "Công cụ",
-                "url": "lorem-ipsum",
+                "url": "#tools-vps",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
