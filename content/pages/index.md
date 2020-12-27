@@ -435,16 +435,9 @@ sections:
     features:
       - title: Centos 7
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          CentOS – viết tắt của Community enterprise Operating System, là bản
+          phân phối hệ điều hành dựa trên hạt nhân Linux . Được ra mắt lần đầu
+          tiên vào tháng 5 năm 2004. 
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
