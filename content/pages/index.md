@@ -433,7 +433,7 @@ sections:
       hàng dễ dàng khi sử dụng dịch vụ của mình.
     background: gray
     features:
-      - title: Centos 7
+      - title: CentOS 7
         content: >-
           CentOS – viết tắt của Community enterprise Operating System, là bản
           phân phối hệ điều hành dựa trên hạt nhân Linux . Được ra mắt lần đầu
