@@ -15,6 +15,7 @@ sections:
       - label: Xem thêm
         url: '#services'
         style: secondary
+        has_icon: true
       - label: lorem-ipsum
         url: lorem-ipsum
         style: link
