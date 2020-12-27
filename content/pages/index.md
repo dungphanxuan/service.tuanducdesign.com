@@ -575,7 +575,7 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-            new_window: false
+            new_window: true
             no_follow: true
             type: action
         type: feature_item
