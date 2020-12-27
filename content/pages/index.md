@@ -462,7 +462,7 @@ sections:
           - label: Trang chủ CentOS 8
             url: 'https://www.centos.org/'
             style: primary
-            has_icon: false
+            has_icon: true
             icon: arrow-left
             icon_position: left
             new_window: true
