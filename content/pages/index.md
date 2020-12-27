@@ -493,7 +493,7 @@ sections:
             new_window: true
             no_follow: true
             type: action
-          - label: Demo
+          - label: Xem thêm
             url: 'https://venberi.com/'
             style: primary
             has_icon: true
