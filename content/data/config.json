@@ -63,11 +63,6 @@
                 "type": "action"
             },
             {
-                "label": "F.A.Q",
-                "url": "#faq",
-                "style": "link"
-            },
-            {
                 "label": "Công cụ",
                 "url": "#tools-vps",
                 "style": "link",
@@ -77,6 +72,11 @@
                 "new_window": false,
                 "no_follow": false,
                 "type": "action"
+            },
+            {
+                "label": "F.A.Q",
+                "url": "#faq",
+                "style": "link"
             }
         ]
     },
