@@ -514,16 +514,8 @@ sections:
         image: images/joomla.png
       - title: Drupal
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Drupal là một khung sườn phát triển phần mềm hướng mô-đun, một hệ quản
+          trị nội dung miễn phí và mã nguồn mở.
         image_alt: lorem-ipsum
         actions:
           - label: Trang chủ Drupal
