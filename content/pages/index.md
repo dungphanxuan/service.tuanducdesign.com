@@ -612,7 +612,7 @@ sections:
           cấp, mua bán Tên Miền,Hosting,Cloud VPS.
         image_alt: INET
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ INET
             url: lorem-ipsum
             style: link
             has_icon: false
