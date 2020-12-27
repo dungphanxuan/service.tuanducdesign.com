@@ -303,7 +303,7 @@ sections:
     background: gray
     pricing_plans:
       - title: Bootstrap 3 & 4 (BLOG)
-        subtitle: lorem-ipsum
+        subtitle: ''
         price: lorem-ipsum
         details: >-
           ## Lorem ipsum
