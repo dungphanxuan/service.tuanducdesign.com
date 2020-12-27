@@ -9,6 +9,17 @@
         "has_nav": true,
         "nav_links": [
             {
+                "label": "Trang chủ",
+                "url": "/",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            },
+            {
                 "label": "Dịch vụ",
                 "url": "/service",
                 "style": "link"
@@ -26,17 +37,6 @@
             {
                 "label": "Liên hệ",
                 "url": "/contact",
-                "style": "link",
-                "has_icon": false,
-                "icon": "arrow-left",
-                "icon_position": "left",
-                "new_window": false,
-                "no_follow": false,
-                "type": "action"
-            },
-            {
-                "label": "Trang chủ",
-                "url": "/",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
