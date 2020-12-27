@@ -65,7 +65,7 @@
             },
             {
                 "label": "Trang chủ",
-                "url": "main",
+                "url": "#main",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
