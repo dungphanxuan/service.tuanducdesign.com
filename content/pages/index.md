@@ -529,7 +529,7 @@ sections:
             type: action
         type: feature_item
         image: images/drupal.png
-      - title: lorem-ipsum
+      - title: Xenforo
         content: >-
           ## Lorem ipsum
 
