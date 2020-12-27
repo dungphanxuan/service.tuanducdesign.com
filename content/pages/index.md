@@ -495,7 +495,7 @@ sections:
             type: action
         type: feature_item
         image: images/wordpress.png
-      - title: lorem-ipsum
+      - title: Joomla
         content: >-
           ## Lorem ipsum
 
