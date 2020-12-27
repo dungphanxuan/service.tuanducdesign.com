@@ -644,16 +644,9 @@ sections:
         type: faq_item
       - question: Cấu hình hệ thống trên Server bao nhiêu là đủ với website của tôi?
         answer: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Tùy nhu cầu sử dụng của bạn! Thông thường đối với một website tin tức
+          nhiều ảnh như mã nguồn WordPress, Thì CPU thường là 2 CPU, Ram là 4GB
+          và phân vùng hệ thống là 250GB Disk.
         type: faq_item
     type: section_faq
   - section_id: ''
