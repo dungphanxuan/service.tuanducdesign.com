@@ -94,7 +94,7 @@
                     {
                         "label": "Về chúng tôi",
                         "url": "/about",
-                        "style": "link"
+                        "style": "primary"
                     },
                     {
                         "label": "Blog",
