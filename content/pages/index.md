@@ -537,7 +537,7 @@ sections:
         actions:
           - label: Trang chủ Xenforo
             url: 'https://xenforo.com/'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
