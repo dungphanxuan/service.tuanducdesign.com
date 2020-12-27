@@ -244,7 +244,7 @@ sections:
         actions:
           - label: Sử dụng gói này
             url: '#'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
