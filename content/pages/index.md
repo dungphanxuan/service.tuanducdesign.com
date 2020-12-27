@@ -325,7 +325,7 @@ sections:
         type: pricing_plan
       - title: Bootstrap 3 & 4 (LANDING PAGE)
         subtitle: Thiết kế web landing page trên Bootstrap 3 & 4.​
-        price: lorem-ipsum
+        price: 1.000.000 VNĐ
         details: >-
           ## Lorem ipsum
 
