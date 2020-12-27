@@ -472,7 +472,7 @@ sections:
         image: images/centos-8.png
     type: section_features
   - section_id: ''
-    title: lorem-ipsum
+    title: Hỗ trợ cài đặt Mã nguồn
     subtitle: lorem-ipsum
     background: gray
     features: []
