@@ -17,6 +17,7 @@ sections:
         style: secondary
         has_icon: true
         icon: arrow-right
+        icon_position: right
       - label: lorem-ipsum
         url: lorem-ipsum
         style: link
