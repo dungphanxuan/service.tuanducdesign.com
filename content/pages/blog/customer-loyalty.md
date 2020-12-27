@@ -17,6 +17,10 @@ image: images/huong-dan-kich-hoat-opcache-preload-tren-wordpress.jpg
 image_alt: Hướng dẫn kích hoạt Opcache Preload trên WordPress
 layout: post
 meta_title: Hướng dẫn kích hoạt Opcache Preload trên WordPress
+meta_description: >-
+  Nhằm hỗ trợ các khách hàng trải nghiệm phiên bản PHP 7.4, các hosting hiện nay
+  đã tiến hành tích hợp phiên bản PHP 7.4 vào tất cả các dịch vụ SSD Hosting của
+  họ. Và một trong các tính năng cải thiện tốc độ và tiết kiệm tài nguyên…
 ---
 
 **Loyalty** curabitur sed consectetur nisi. Integer sit amet commodo massa. Cras posuere justo magna, id placerat ligula vulputate malesuada. Aenean a ipsum quis neque ornare placerat eu eu orci. Nullam feugiat sed ante in euismod. Pellentesque a nibh dolor. Donec ultrices lacus eget orci commodo ultricies. Morbi placerat purus non varius egestas. Ut tempus ligula quis lorem suscipit, sed vulputate dolor placerat. Aliquam ut massa placerat, vehicula erat non, mattis leo. Pellentesque egestas velit sit amet lectus lobortis, sit amet pharetra ipsum porta. Nullam massa nulla, tincidunt vel volutpat vel, commodo id leo. Curabitur id volutpat lacus, sed commodo velit. Quisque facilisis consectetur nisl vitae vulputate. Proin porttitor ipsum ut diam faucibus, scelerisque posuere ex euismod. Aenean posuere bibendum egestas.
