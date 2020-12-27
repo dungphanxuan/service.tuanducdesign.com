@@ -97,7 +97,8 @@
                         "style": "link",
                         "has_icon": true,
                         "icon": "arrow-right",
-                        "icon_position": "right"
+                        "icon_position": "right",
+                        "new_window": true
                     },
                     {
                         "label": "Blog",
