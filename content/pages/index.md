@@ -551,7 +551,16 @@ sections:
           Laravel là một trong những PHP Framework phổ biến nhất trên thế giới
           được sử dụng để xây dựng ứng dụng web từ các dự án nhỏ đến lớn.
         image_alt: Laravel
-        actions: []
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
         type: feature_item
         image: images/laravel.jpg
     type: section_features
