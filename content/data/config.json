@@ -88,34 +88,6 @@
             },
             {
                 "type": "footer_nav",
-                "title": "Liên kết",
-                "nav_links": [
-                    {
-                        "label": "Về chúng tôi",
-                        "url": "/about",
-                        "style": "link",
-                        "has_icon": false,
-                        "icon": "arrow-right",
-                        "icon_position": "left",
-                        "new_window": true
-                    },
-                    {
-                        "label": "Blog",
-                        "url": "https://blog.tuanducdesign.com/",
-                        "style": "link",
-                        "new_window": true
-                    },
-                    {
-                        "label": "Liên hệ",
-                        "url": "https://m.me/121349286117840?ref=lienhe",
-                        "style": "link",
-                        "new_window": true,
-                        "no_follow": true
-                    }
-                ]
-            },
-            {
-                "type": "footer_nav",
                 "title": "Cộng đồng",
                 "nav_links": [
                     {
