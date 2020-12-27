@@ -506,8 +506,8 @@ sections:
             style: primary
             has_icon: true
             icon: arrow-right
-            icon_position: left
-            new_window: false
+            icon_position: right
+            new_window: true
             no_follow: false
             type: action
         type: feature_item
