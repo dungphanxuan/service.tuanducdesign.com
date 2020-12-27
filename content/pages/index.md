@@ -595,7 +595,7 @@ sections:
           giới.
         image_alt: Vultr
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ Vultr
             url: lorem-ipsum
             style: link
             has_icon: false
