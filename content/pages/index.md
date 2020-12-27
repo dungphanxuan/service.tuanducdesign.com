@@ -15,6 +15,15 @@ sections:
       - label: Xem thêm
         url: '#services'
         style: secondary
+      - label: lorem-ipsum
+        url: lorem-ipsum
+        style: link
+        has_icon: false
+        icon: arrow-left
+        icon_position: left
+        new_window: false
+        no_follow: false
+        type: action
   - section_id: service
     type: section_features
     background: gray
