@@ -527,7 +527,7 @@ sections:
         image_alt: lorem-ipsum
         actions:
           - label: Trang chủ Drupal
-            url: lorem-ipsum
+            url: 'https://www.drupal.org/'
             style: link
             has_icon: false
             icon: arrow-left
