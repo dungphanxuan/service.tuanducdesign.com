@@ -583,7 +583,9 @@ sections:
     type: section_features
   - section_id: ''
     title: Nhà cung cấp VPS
-    subtitle: lorem-ipsum
+    subtitle: >-
+      Hỗ trợ khách hàng tốt khi khách hàng sử dụng các nhà cung cấp VPS hàng đầu
+      thế giới.
     background: gray
     features: []
     type: section_features
