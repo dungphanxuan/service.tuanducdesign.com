@@ -42,7 +42,7 @@
             },
             {
                 "label": "Bảng giá thiết kế Website",
-                "url": "lorem-ipsum",
+                "url": "#pricing-plans-design-website",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
