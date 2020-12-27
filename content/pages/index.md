@@ -299,7 +299,7 @@ sections:
     title: Bảng giá dịch vụ thiết kế Website
     subtitle: >-
       Ngoài cung cấp các dịch vụ về VPS, Website và Wordpress chúng tôi còn cung
-      cấp thêm các dịch vụ về thiết kế website.
+      cấp thêm các dịch vụ về thiết kế Website.
     background: gray
     pricing_plans: []
     type: section_pricing
