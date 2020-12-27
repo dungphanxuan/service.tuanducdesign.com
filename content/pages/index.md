@@ -640,7 +640,7 @@ sections:
         no_follow: true
   - section_id: ''
     title: Blog
-    subtitle: Các bài viết mới nhất trên blog.
+    subtitle: Cập nhật các bài viết mới nhất trên blog.
     background: gray
     type: section_posts
 meta_title: Tuan Duc Design - Chuyên cung cấp dịch vụ VPS và Website
