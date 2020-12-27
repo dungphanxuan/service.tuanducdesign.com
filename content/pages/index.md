@@ -628,7 +628,22 @@ sections:
     title: F.A.Q
     subtitle: Câu hỏi thường gặp về các dịch vụ chúng tôi
     background: gray
-    faq_items: []
+    faq_items:
+      - question: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        answer: >-
+          ## Lorem ipsum
+
+
+          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+          - Lorem ipsum
+
+          - dolor sit amet
+        type: faq_item
     type: section_faq
   - section_id: ''
     type: section_cta
