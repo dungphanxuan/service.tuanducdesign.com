@@ -9,11 +9,6 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Trang chủ",
-                "url": "/",
-                "style": "link"
-            },
-            {
                 "label": "Dịch vụ",
                 "url": "/service",
                 "style": "link"
