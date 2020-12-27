@@ -97,7 +97,7 @@ sections:
             type: action
         type: feature_item
         image: images/nginx-amplify.png
-  - section_id: ''
+  - section_id: pricing-plans-vps
     title: Bảng giá dịch vụ VPS
     subtitle: >-
       Chọn gói theo nhu cầu của bạn. Việc miễn phí các tính năng cơ bản là mãi
