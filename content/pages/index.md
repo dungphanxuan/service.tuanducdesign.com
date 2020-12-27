@@ -353,7 +353,7 @@ sections:
           Bán hàng không cần plugins Woocommerce
 
           Tích hợp chức năng Seo riêng  + Giao diện
-        highlight: false
+        highlight: true
         actions: []
         type: pricing_plan
     type: section_pricing
