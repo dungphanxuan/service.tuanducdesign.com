@@ -55,7 +55,6 @@ export default class Body extends React.Component {
                         	<link rel="canonical" href={domain + page_url} itemprop="url"/>
                         );
                     })()))}
-                    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/defer_plus.min.js" as="script"/>
                     <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/defer_plus.min.js"></script>
                     <link rel="preload" href="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/polyfill.min.js" as="script"/>
                     <script>deferscript('https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/polyfill.min.js', 'polyfill-js', 1)</script>
@@ -68,14 +67,12 @@ export default class Body extends React.Component {
                     <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
                     )}
                     {(font === 'nunito-sans') ? (
-                    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="style"/>
                     <link rel="preconnect" href="https://fonts.googleapis.com"/>
                     <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
                     <script type="text/javascript">deferstyle('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap', 'nunito-sans', 1);</script>
                     ) : ((font === 'fira-sans') && (
-                    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" as="style"/>
                     <link rel="preconnect" href="https://fonts.googleapis.com"/>
                     <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -85,13 +82,7 @@ export default class Body extends React.Component {
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
-                    <link rel="preload" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" as="style"/>
-                    <link rel="preload" href="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" as="script"/>
                     <script type="text/javascript">deferstyle('https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css', 'animate-min', 3);</script>
-                    <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script"/>
-                    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png" as="image"/>
-                    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png" as="image"/>
-                    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" as="script"/>
                     <script type="deferjs">
                     new WOW().init();
                     window.fbAsyncInit = function() {
