@@ -7,8 +7,8 @@ export default class SectionFaq extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         return (
-            <section id={_.get(section, 'section_id', null)} className={'block faq-block bg-' + _.get(section, 'background', null) + ' outer animate__animated animate__fadeInUp'}>
-              <div className="inner-small">
+            <section id={_.get(section, 'section_id', null)} className={'block faq-block bg-' + _.get(section, 'background', null) + ' outer'}>
+              <div className="inner-small wow fadeInDown" data-wow-delay="0.5s">
                 <div className="block-header">
                   {_.get(section, 'title', null) && (
                   <h2 className="block-title">{_.get(section, 'title', null)}</h2>

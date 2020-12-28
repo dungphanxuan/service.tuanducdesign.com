@@ -8,8 +8,8 @@ export default class SectionFeatures extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         return (
-            <section id={_.get(section, 'section_id', null)} className={'block features-block bg-' + _.get(section, 'background', null) + ' outer animate__animated animate__fadeInUp'}>
-              <div className="block-header inner-small">
+            <section id={_.get(section, 'section_id', null)} className={'block features-block bg-' + _.get(section, 'background', null) + ' outer'}>
+              <div className="block-header inner-small wow fadeInDown" data-wow-delay="0.5s">
                 {_.get(section, 'title', null) && (
                 <h2 className="block-title">{_.get(section, 'title', null)}</h2>
                 )}
@@ -20,7 +20,7 @@ export default class SectionFeatures extends React.Component {
                 )}
               </div>
               {_.get(section, 'features', null) && (
-              <div className="inner">
+              <div className="inner wow fadeInDown" data-wow-delay="0.5s">
                 {_.map(_.get(section, 'features', null), (feature, feature_idx) => (
                 <div key={feature_idx} className="block-item">
                   <div className="grid">

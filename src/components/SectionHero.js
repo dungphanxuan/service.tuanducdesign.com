@@ -8,8 +8,8 @@ export default class SectionHero extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         return (
-            <section id={_.get(section, 'section_id', null)} className="block hero-block bg-accent outer animate__animated animate__fadeInUp">
-              <div className="inner">
+            <section id={_.get(section, 'section_id', null)} className="block hero-block bg-accent outer">
+              <div className="inner wow fadeInDown" data-wow-delay="0.5s">
                 <div className="grid">
                   {_.get(section, 'image', null) && (
                   <div className="cell block-preview">

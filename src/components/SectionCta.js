@@ -8,8 +8,8 @@ export default class SectionCta extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         return (
-            <section id={_.get(section, 'section_id', null)} className="block cta-block bg-accent outer animate__animated animate__fadeInUp">
-              <div className="inner-large">
+            <section id={_.get(section, 'section_id', null)} className="block cta-block bg-accent outer">
+              <div className="inner-large wow fadeInDown" data-wow-delay="0.5s">
                 <div className="grid">
                   <div className="cell block-content">
                     {_.get(section, 'title', null) && (
