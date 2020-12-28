@@ -20,15 +20,25 @@ export default class Body extends React.Component {
                     <meta charSet="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialScale=1.0" />
                     <meta name="google" content="notranslate" />
-                    <meta name="dc.description" content={_.get(this.props, 'page.frontmatter.meta_description', null)}/>
+                    <meta name="title" content={title}/>
                     <meta name="description" content={_.get(this.props, 'page.frontmatter.meta_description', null)}/>
+                    <meta property="og:type" content="website"/>
+                    <meta property="og:url" content={withPrefix('/')}/>
+                    <meta property="og:title" content={title}/>
+                    <meta property="og:description" content={_.get(this.props, 'page.frontmatter.meta_description', null)}/>
+                    <meta property="og:image" content={withPrefix(_.get(this.props, 'data.config.header.logo_img', null))}/>
+                    <meta property="twitter:card" content="summary_large_image"/>
+                    <meta property="twitter:url" content={withPrefix('/')}/>
+                    <meta property="twitter:title" content={title}/>
+                    <meta property="twitter:description" content={_.get(this.props, 'page.frontmatter.meta_description', null)}/>
+                    <meta property="twitter:image" content={withPrefix(_.get(this.props, 'data.config.header.logo_img', null))}/>
                     {_.get(this.props, 'page.frontmatter.canonical_url', null) ? (
-                    <link rel="canonical" href={_.get(this.props, 'page.frontmatter.canonical_url', null)}/>
+                    <link rel="canonical" href={_.get(this.props, 'page.frontmatter.canonical_url', null)} itemprop="url"/>
                     ) : (_.get(this.props, 'data.config.domain', null) && ((() => {
                         let domain = _.trim(_.get(this.props, 'data.config.domain', null), '/');
                         let page_url = withPrefix(_.get(this.props, 'page.__metadata.urlPath', null));
                         return (
-                        	<link rel="canonical" href={domain + page_url}/>
+                        	<link rel="canonical" href={domain + page_url} itemprop="url"/>
                         );
                     })()))}
                     {_.get(this.props, 'page.frontmatter.no_index', null) && (
@@ -45,14 +55,14 @@ export default class Body extends React.Component {
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
-                    <body className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
+                    <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
-                <div id="page" className="site">
-                  <Header {...this.props} />
+                <div id="page" className="site" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="https://schema.org/WebPageElement">
+                  <Header {...this.props} itemprop="mainEntity" itemscope="itemscope" itemtype="https://schema.org/WPHeader" />
                   <main id="content" className="site-content">
                     {this.props.children}
                   </main>
-                  <Footer {...this.props} />
+                  <Footer {...this.props} itemprop="mainEntity" itemscope="itemscope" itemtype="https://schema.org/WPFooter" />
                 </div>
             </React.Fragment>
         );
