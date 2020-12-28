@@ -27,7 +27,6 @@ export default class SectionReviews extends React.Component {
                       <p className="review-text">{htmlToReact(_.get(review, 'content', null))}</p>
                       <footer className="review-footer">
                         {_.get(review, 'avatar', null) && (
-                        <link rel="preload" href={withPrefix(_.get(review, 'avatar', null))} as="image"/>
                         <img className="review-avatar lazyload" data-src={withPrefix(_.get(review, 'avatar', null))} alt={_.get(review, 'author', null)} />
                         )}
                         <cite className="review-author">{_.get(review, 'author', null)}</cite>
