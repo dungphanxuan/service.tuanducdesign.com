@@ -72,11 +72,9 @@ export default class Body extends React.Component {
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
                     gtag('config', 'G-2J6CDEW9L3');
-                    if (/^http/.test(window.location.protocol)) {
                     deferscript('https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js', 'wow-min', 3);
                     deferscript('https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js', 'customerchat', 5);
-                    deferscript('https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3', 'gtag', 5);
-                    }    
+                    deferscript('https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3', 'gtag', 5);    
                     </script>
                     <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
