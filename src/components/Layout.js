@@ -26,10 +26,6 @@ export default class Body extends React.Component {
                     <link rel="dns-prefetch" href="https://static.xx.fbcdn.net"/>
                     <link rel="preconnect" href="https://www.googletagmanager.com"/>
                     <link rel="dns-prefetch" href="https://www.googletagmanager.com"/>
-                    {(font !== 'system-sans') && (
-                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                    <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
-                    )}
                     <title>{title}</title>
                     <meta charset="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialscale=1.0" />
@@ -67,6 +63,10 @@ export default class Body extends React.Component {
                     <script type="text/javascript">deferimg("img.fade",100,"lazied",function(a){a.onload=function(){a.className+=" show"}});</script>
                     {_.get(this.props, 'page.frontmatter.no_index', null) && (
                     <meta name="robots" content="noindex,follow" />
+                    )}
+                    {(font !== 'system-sans') && (
+                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                    <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
                     )}
                     {(font === 'nunito-sans') ? (
                     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="style"/>
