@@ -195,10 +195,3 @@ img {
   height: auto;
   max-width: 100%;
 }
-.fade {
-  transition: opacity 500ms ease;
-  opacity: 0;
-}
-.fade.show {
-  opacity: 1;
-}

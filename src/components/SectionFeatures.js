@@ -26,7 +26,7 @@ export default class SectionFeatures extends React.Component {
                   <div className="grid">
                     {_.get(feature, 'image', null) && (
                     <div className="cell block-preview wow fadeInDown" data-wow-delay="0.5s">
-                      <img className="fade" data-src={withPrefix(_.get(feature, 'image', null))} alt={_.get(feature, 'image_alt', null)} />
+                      <img className="lazyload" data-src={withPrefix(_.get(feature, 'image', null))} alt={_.get(feature, 'image_alt', null)} />
                     </div>
                     )}
                     <div className="cell block-content wow fadeInDown" data-wow-delay="0.5s">

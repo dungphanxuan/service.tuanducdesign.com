@@ -45,25 +45,31 @@ export default class Body extends React.Component {
                         	<link rel="canonical" href={domain + page_url} itemprop="url"/>
                         );
                     })()))}
-                    <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/defer_plus.min.js"></script>
-                    <script>deferscript('https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/polyfill.min.js', 'polyfill-js', 1)</script>
-                    <script type="text/javascript">deferimg("img.fade",100,"lazied",function(a){a.onload=function(){a.className+=" show"}});</script>
                     {_.get(this.props, 'page.frontmatter.no_index', null) && (
                     <meta name="robots" content="noindex,follow" />
                     )}
+                    {(font !== 'system-sans') && (
+                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                    )}
                     {(font === 'nunito-sans') ? (
-                    <script type="text/javascript">deferstyle('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap', 'nunito-sans', 1);</script>
+                    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="style">
+                    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" async/>
                     ) : ((font === 'fira-sans') && (
-                    <script type="text/javascript">deferstyle('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap', 'fira-sans', 1);</script>
+                    link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" as="style">
+                    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
                     ))}
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
-                    <script type="text/javascript">deferstyle('https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css', 'animate-min', 3);</script>
-                    <script type="deferjs">
-                    new WOW().init();
-                    deferscript('https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js', 'wow-min', 3);   
-                    </script>
+                    <link rel="preload" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" as="style">
+                    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
+                    <link rel="preload" href="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" as="script">
+                    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+                    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" as="script">
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3"></script>
+                    <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script">
+                    <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-2J6CDEW9L3");</script>
+                    <script>window.fbAsyncInit=function(){FB.init({xfbml:!0,version:"v9.0"})},function(e,t,n){var c,o=e.getElementsByTagName(t)[0];e.getElementById(n)||((c=e.createElement(t)).id=n,c.async=!0,c.defer=!0,c.src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js",o.parentNode.insertBefore(c,o))}(document,"script","facebook-jssdk");</script>
                     <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
                 <div id="page" className="site" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="https://schema.org/WebPageElement">
@@ -72,7 +78,10 @@ export default class Body extends React.Component {
                     {this.props.children}
                   </main>
                   <Footer {...this.props} />
+                  <div id="fb-root"></div>
+                  <div class="fb-customerchat" attribution=setup_tool page_id="121349286117840" theme_color="#0072ff" logged_in_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé" logged_out_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé"></div>
                 </div>
+                <script>new WOW().init();</script>
             </React.Fragment>
         );
     }
