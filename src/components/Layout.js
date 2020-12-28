@@ -16,6 +16,20 @@ export default class Body extends React.Component {
         return (
             <React.Fragment>
                 <Helmet>
+                    <link rel="preconnect" href="https://cdn.jsdelivr.net"/>
+                    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net"/>
+                    <link rel="preconnect" href="https://connect.facebook.net"/>
+                    <link rel="dns-prefetch" href="https://connect.facebook.net"/>
+                    <link rel="preconnect" href="https://cdn.rawgit.com"/>
+                    <link rel="dns-prefetch" href="https://cdn.rawgit.com"/>
+                    <link rel="preconnect" href="https://static.xx.fbcdn.net"/>
+                    <link rel="dns-prefetch" href="https://static.xx.fbcdn.net"/>
+                    <link rel="preconnect" href="https://www.googletagmanager.com"/>
+                    <link rel="dns-prefetch" href="https://www.googletagmanager.com"/>
+                    {(font !== 'system-sans') && (
+                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                    <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
+                    )}
                     <title>{title}</title>
                     <meta charset="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialscale=1.0" />
@@ -45,34 +59,69 @@ export default class Body extends React.Component {
                         	<link rel="canonical" href={domain + page_url} itemprop="url"/>
                         );
                     })()))}
+                    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/defer_plus.min.js" as="script"/>
+                    <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/defer_plus.min.js"></script>
+                    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/polyfill.min.js" as="script"/>
+                    <script>deferscript('https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/polyfill.min.js', 'polyfill-js', 1)</script>
+                    <style type="text/css">.fade{transition:opacity 500ms ease;opacity:0}.fade.show{opacity:1}</style>
+                    <script type="text/javascript">deferimg("img.fade",100,"lazied",function(a){a.onload=function(){a.className+=" show"}});</script>
                     {_.get(this.props, 'page.frontmatter.no_index', null) && (
                     <meta name="robots" content="noindex,follow" />
                     )}
-                    {(font !== 'system-sans') && (
-                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                    )}
                     {(font === 'nunito-sans') ? (
-                    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" async/>
+                    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="style"/>
+                    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+                    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                    <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
+                    <script type="text/javascript">deferstyle('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap', 'nunito-sans', 1);</script>
                     ) : ((font === 'fira-sans') && (
-                    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
+                    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" as="style"/>
+                    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+                    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                    <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
+                    <script type="text/javascript">deferstyle('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap', 'fira-sans', 1);</script>
                     ))}
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
                     <link rel="preload" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" as="style"/>
-                    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css"/>
                     <link rel="preload" href="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" as="script"/>
-                    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+                    <script type="text/javascript">deferstyle('https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css', 'animate-min', 3);</script>
+                    <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script"/>
+                    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png" as="image"/>
+                    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png" as="image"/>
+                    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" as="script"/>
+                    <script type="deferjs">
+                    new WOW().init();
+                    window.fbAsyncInit = function() {
+                      FB.init({
+                        xfbml            : true,
+                        version          : 'v9.0'
+                      });
+                    };
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-2J6CDEW9L3');
+                    if (/^http/.test(window.location.protocol)) {
+                    deferscript('https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js', 'wow-min', 3);
+                    deferscript('https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js', 'customerchat', 5);
+                    deferscript('https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3', 'gtag', 5);
+                    }    
+                    </script>
                     <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
                 <div id="page" className="site" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="https://schema.org/WebPageElement">
+                  <div id="fb-root"></div>
                   <Header {...this.props} />
                   <main id="content" className="site-content">
                     {this.props.children}
                   </main>
                   <Footer {...this.props} />
                 </div>
-                <script>new WOW().init();</script>
+                <div class="fb-customerchat" attribution=setup_tool page_id="121349286117840" theme_color="#0072ff" logged_in_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé" logged_out_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé"></div>
             </React.Fragment>
         );
     }

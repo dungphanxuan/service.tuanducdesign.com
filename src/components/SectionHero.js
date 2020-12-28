@@ -9,14 +9,14 @@ export default class SectionHero extends React.Component {
         let section = _.get(this.props, 'section', null);
         return (
             <section id={_.get(section, 'section_id', null)} className="block hero-block bg-accent outer">
-              <div className="inner wow fadeInDown" data-wow-delay="0.5s">
+              <div className="inner">
                 <div className="grid">
                   {_.get(section, 'image', null) && (
-                  <div className="cell block-preview">
-                    <img src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} loading="lazy" />
+                  <div className="cell block-preview wow fadeInDown" data-wow-delay="0.5s">
+                    <img className="fade" data-src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
                   </div>
                   )}
-                  <div className="cell block-content">
+                  <div className="cell block-content wow fadeInDown" data-wow-delay="0.5s">
                     {_.get(section, 'title', null) && (
                     <h2 className="block-title underline">{_.get(section, 'title', null)}</h2>
                     )}
