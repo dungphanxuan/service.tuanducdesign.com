@@ -21,7 +21,7 @@ export default class Page extends React.Component {
                   </header>
                   {_.get(this.props, 'page.frontmatter.image', null) && (
                   <div className="post-image">
-                    <img src={withPrefix(_.get(this.props, 'page.frontmatter.image', null))} alt={_.get(this.props, 'page.frontmatter.image_alt', null)} />
+                    <img src={withPrefix(_.get(this.props, 'page.frontmatter.image', null))} alt={_.get(this.props, 'page.frontmatter.image_alt', null)} loading="lazy" />
                   </div>
                   )}
                   <div className="post-content">

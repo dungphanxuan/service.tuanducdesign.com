@@ -58,11 +58,11 @@ export default class Body extends React.Component {
                     <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
                 <div id="page" className="site" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="https://schema.org/WebPageElement">
-                  <Header {...this.props} itemprop="mainEntity" itemscope="itemscope" itemtype="https://schema.org/WPHeader" />
+                  <Header {...this.props} />
                   <main id="content" className="site-content">
                     {this.props.children}
                   </main>
-                  <Footer {...this.props} itemprop="mainEntity" itemscope="itemscope" itemtype="https://schema.org/WPFooter" />
+                  <Footer {...this.props} />
                 </div>
             </React.Fragment>
         );

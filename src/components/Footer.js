@@ -8,7 +8,7 @@ import {htmlToReact} from '../utils';
 export default class Footer extends React.Component {
     render() {
         return (
-            <footer id="colophon" className="site-footer">
+            <footer id="colophon" className="site-footer" itemprop="mainEntity" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
               {_.get(this.props, 'data.config.footer.sections', null) && (
                 (_.size(_.get(this.props, 'data.config.footer.sections', null)) > 0) && (
                 <div className="footer-top outer">
