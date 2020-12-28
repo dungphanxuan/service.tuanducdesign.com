@@ -15,7 +15,7 @@ export default class Body extends React.Component {
         }
         return (
             <React.Fragment>
-                <Helmet>
+                <Helmet itemscope itemtype="http://schema.org/WebSite">
                     <title>{title}</title>
                     <meta charset="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialscale=1.0" />
@@ -25,6 +25,7 @@ export default class Body extends React.Component {
                     <meta name="dc.relation" content={withPrefix('/')}/>
                     <meta name="dc.source" content={withPrefix('/')}/>
                     <meta name="title" content={title}/>
+                    <meta itemprop="url" content={withPrefix('/')}/>
                     <meta name="description" content={_.get(this.props, 'page.frontmatter.meta_description', null)}/>
                     <meta property="og:type" content="website"/>
                     <meta property="og:url" content={withPrefix('/')}/>
