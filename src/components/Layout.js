@@ -5,7 +5,11 @@ import _ from 'lodash';
 import {withPrefix} from '../utils';
 import Header from './Header';
 import Footer from './Footer';
-
+function strip(html) {
+  var one = html.replace(/<\/?[^>]+(>|$)/gm, "");
+  var two = one.replace(/[\r\n]\s*[\r\n]/gm, "");
+  return two;
+}
 export default class Body extends React.Component {
     render() {
         let title = _.get(this.props, 'page.frontmatter.title', null) + ' | ' + _.get(this.props, 'data.config.title', null);
