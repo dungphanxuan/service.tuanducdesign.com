@@ -65,6 +65,7 @@ export default class Body extends React.Component {
                     deferscript('https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js', 'wow-min', 3);
                     deferscript('https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3', 'gtag', 5);    
                     </script>
+                    <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-2J6CDEW9L3");window.fbAsyncInit=function(){FB.init({xfbml:!0,version:"v9.0"})},function(e,t,n){var c,o=e.getElementsByTagName(t)[0];e.getElementById(n)||((c=e.createElement(t)).id=n,c.async=!0,c.defer=!0,c.src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js",o.parentNode.insertBefore(c,o))}(document,"script","facebook-jssdk");</script>
                     <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
                 <div id="page" className="site" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="https://schema.org/WebPageElement">
@@ -75,7 +76,6 @@ export default class Body extends React.Component {
                   </main>
                   <Footer {...this.props} />
                 </div>
-                <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-2J6CDEW9L3");window.fbAsyncInit=function(){FB.init({xfbml:!0,version:"v9.0"})},function(e,t,n){var c,o=e.getElementsByTagName(t)[0];e.getElementById(n)||((c=e.createElement(t)).id=n,c.async=!0,c.defer=!0,c.src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js",o.parentNode.insertBefore(c,o))}(document,"script","facebook-jssdk");</script>
                 <div class="fb-customerchat" attribution=setup_tool page_id="121349286117840" theme_color="#0072ff" logged_in_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé" logged_out_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé"></div>
             </React.Fragment>
         );
