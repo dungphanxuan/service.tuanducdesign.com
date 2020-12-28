@@ -59,7 +59,6 @@ export default class Body extends React.Component {
                     <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/defer_plus.min.js"></script>
                     <link rel="preload" href="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/polyfill.min.js" as="script"/>
                     <script>deferscript('https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/polyfill.min.js', 'polyfill-js', 1)</script>
-                    <style type="text/css">.fade{transition:opacity 500ms ease;opacity:0}.fade.show{opacity:1}</style>
                     <script type="text/javascript">deferimg("img.fade",100,"lazied",function(a){a.onload=function(){a.className+=" show"}});</script>
                     {_.get(this.props, 'page.frontmatter.no_index', null) && (
                     <meta name="robots" content="noindex,follow" />
