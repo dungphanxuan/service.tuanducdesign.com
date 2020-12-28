@@ -52,22 +52,15 @@ export default class Body extends React.Component {
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     )}
                     {(font === 'nunito-sans') ? (
-                    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="style">
                     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" async/>
                     ) : ((font === 'fira-sans') && (
-                    link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" as="style">
                     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
                     ))}
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
-                    <link rel="preload" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" as="style">
                     <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
-                    <link rel="preload" href="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" as="script">
                     <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
-                    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" as="script">
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3"></script>
-                    <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script">
                     <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
                 <div id="page" className="site" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="https://schema.org/WebPageElement">
