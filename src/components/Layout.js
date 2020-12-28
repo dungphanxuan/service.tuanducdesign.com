@@ -16,16 +16,6 @@ export default class Body extends React.Component {
         return (
             <React.Fragment>
                 <Helmet>
-                    <link rel="preconnect" href="https://cdn.jsdelivr.net"/>
-                    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net"/>
-                    <link rel="preconnect" href="https://connect.facebook.net"/>
-                    <link rel="dns-prefetch" href="https://connect.facebook.net"/>
-                    <link rel="preconnect" href="https://cdn.rawgit.com"/>
-                    <link rel="dns-prefetch" href="https://cdn.rawgit.com"/>
-                    <link rel="preconnect" href="https://static.xx.fbcdn.net"/>
-                    <link rel="dns-prefetch" href="https://static.xx.fbcdn.net"/>
-                    <link rel="preconnect" href="https://www.googletagmanager.com"/>
-                    <link rel="dns-prefetch" href="https://www.googletagmanager.com"/>
                     <title>{title}</title>
                     <meta charset="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialscale=1.0" />
@@ -56,7 +46,6 @@ export default class Body extends React.Component {
                         );
                     })()))}
                     <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/defer_plus.min.js"></script>
-                    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/polyfill.min.js" as="script"/>
                     <script>deferscript('https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@1.1.12/dist/polyfill.min.js', 'polyfill-js', 1)</script>
                     <script type="text/javascript">deferimg("img.fade",100,"lazied",function(a){a.onload=function(){a.className+=" show"}});</script>
                     {_.get(this.props, 'page.frontmatter.no_index', null) && (
@@ -64,19 +53,14 @@ export default class Body extends React.Component {
                     )}
                     {(font !== 'system-sans') && (
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                    <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
                     )}
                     {(font === 'nunito-sans') ? (
                     <link rel="preconnect" href="https://fonts.googleapis.com"/>
-                    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                    <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
                     <script type="text/javascript">deferstyle('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap', 'nunito-sans', 1);</script>
                     ) : ((font === 'fira-sans') && (
                     <link rel="preconnect" href="https://fonts.googleapis.com"/>
-                    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                    <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
                     <script type="text/javascript">deferstyle('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap', 'fira-sans', 1);</script>
                     ))}
                     {_.get(this.props, 'data.config.favicon', null) && (
