@@ -20,6 +20,10 @@ export default class Body extends React.Component {
                     <meta charset="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialscale=1.0" />
                     <meta name="google" content="notranslate" />
+                    <meta name="dc.title" content={title}/>
+                    <meta name="dc.description" content={_.get(this.props, 'page.frontmatter.meta_description', null)}/>
+                    <meta name="dc.relation" content={withPrefix('/')}/>
+                    <meta name="dc.source" content={withPrefix('/')}/>
                     <meta name="title" content={title}/>
                     <meta name="description" content={_.get(this.props, 'page.frontmatter.meta_description', null)}/>
                     <meta property="og:type" content="website"/>
