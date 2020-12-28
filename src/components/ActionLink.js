@@ -9,7 +9,7 @@ export default class ActionLink extends React.Component {
         return (
             <Link href={withPrefix(_.get(action, 'url', null))}
               {...(_.get(action, 'new_window', null) ? ({target: '_blank'}) : null)}
-              {...((_.get(action, 'new_window', null) || _.get(action, 'no_follow', null)) ? ({rel: (_.get(action, 'new_window', null) ? ('noopener ') : '') + (_.get(action, 'no_follow', null) ? ('nofollow') : '')}) : null)}>{_.get(action, 'label', null)}</Link>
+              {...((_.get(action, 'new_window', null) || _.get(action, 'no_follow', null)) ? ({rel: (_.get(action, 'new_window', null) ? ('noopener ') : '') + (_.get(action, 'no_follow', null) ? ('nofollow') : '')}) : null)} title={_.get(action, 'label', null)}>{_.get(action, 'label', null)}</Link>
         );
     }
 }

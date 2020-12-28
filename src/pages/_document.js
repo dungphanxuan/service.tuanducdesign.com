@@ -36,9 +36,9 @@ class MyDocument extends Document {
                 <Head>{this.helmetHeadComponents}</Head>
                 <body {...this.helmetBodyAttrComponents}>
                     <Main />
-                    <ScriptTag src={withPrefix('js/plugins.js')}/>
-                    <ScriptTag src={withPrefix('js/init.js')}/>
-                    <ScriptTag src={withPrefix('js/main.js')}/>
+                    <ScriptTag src={withPrefix('js/plugins.js')} defer />
+                    <ScriptTag src={withPrefix('js/init.js')} defer />
+                    <ScriptTag src={withPrefix('js/main.js')} defer />
                     <NextScript />
                 </body>
             </Html>
