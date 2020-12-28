@@ -17,8 +17,8 @@ export default class Body extends React.Component {
             <React.Fragment>
                 <Helmet>
                     <title>{title}</title>
-                    <meta charSet="utf-8"/>
-                    <meta name="viewport" content="width=device-width, initialScale=1.0" />
+                    <meta charset="utf-8"/>
+                    <meta name="viewport" content="width=device-width, initialscale=1.0" />
                     <meta name="google" content="notranslate" />
                     <meta name="title" content={title}/>
                     <meta name="description" content={_.get(this.props, 'page.frontmatter.meta_description', null)}/>
