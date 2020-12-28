@@ -5,11 +5,7 @@ import _ from 'lodash';
 import {withPrefix} from '../utils';
 import Header from './Header';
 import Footer from './Footer';
-function strip(html) {
-  var one = html.replace(/<\/?[^>]+(>|$)/gm, "");
-  var two = one.replace(/[\r\n]\s*[\r\n]/gm, "");
-  return two;
-}
+
 export default class Body extends React.Component {
     render() {
         let title = _.get(this.props, 'page.frontmatter.title', null) + ' | ' + _.get(this.props, 'data.config.title', null);
@@ -49,6 +45,7 @@ export default class Body extends React.Component {
                         	<link rel="canonical" href={domain + page_url} itemprop="url"/>
                         );
                     })()))}
+                    <link rel="preload" href={withPrefix(_.get(this.props, 'data.config.header.logo_img', null))} as="image"/>
                     {_.get(this.props, 'page.frontmatter.no_index', null) && (
                     <meta name="robots" content="noindex,follow" />
                     )}
@@ -56,15 +53,32 @@ export default class Body extends React.Component {
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     )}
                     {(font === 'nunito-sans') ? (
+                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+                    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="style"/>
                     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" async/>
                     ) : ((font === 'fira-sans') && (
+                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+                    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" as="style"/>
                     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
                     ))}
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
+                    <link rel="preconnect" href="https://cdn.rawgit.com"/>
+                    <link rel="preconnect" href="https://www.googletagmanager.com"/>
+                    <link rel="preconnect" href="https://static.xx.fbcdn.net"/>
+                    <link rel="preconnect" href="https://facebook.net"/>
+                    <link rel="preload" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" as="style"/>
                     <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css"/>
+                    <link rel="preload" href="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" as="script"/>
                     <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+                    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" as="script"/>
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3"></script>
+                    <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script"/>
+                    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png" as="image"/>
+                    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png" as="image"/>
                     <script type="application/ld+json">	
                     {`	
                       "@context": "https://schema.org",	

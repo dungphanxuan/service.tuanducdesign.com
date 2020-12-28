@@ -27,6 +27,7 @@ export default class SectionPosts extends React.Component {
                   <article key={post_idx} className="cell post">
                     <div className="card">
                       {_.get(post, 'frontmatter.thumb_image', null) && (
+                      <link rel="preload" href={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} as="image"/>
                       <Link className="post-thumbnail" href={withPrefix(_.get(post, '__metadata.urlPath', null))} title={_.get(post, 'frontmatter.thumb_image_alt', null)}>
                         <img className="lazyload" data-src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.thumb_image_alt', null)} />
                       </Link>

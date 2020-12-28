@@ -13,6 +13,7 @@ export default class SectionContent extends React.Component {
                 <div className="grid">
                   {_.get(section, 'image', null) && (
                   <div className="cell block-preview">
+                    <link rel="preload" href={withPrefix(_.get(section, 'image', null))} as="image"/>
                     <img className="lazyload" data-src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
                   </div>
                   )}

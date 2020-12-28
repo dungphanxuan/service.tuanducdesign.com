@@ -36,8 +36,11 @@ class MyDocument extends Document {
                 <Head>{this.helmetHeadComponents}</Head>
                 <body {...this.helmetBodyAttrComponents}>
                     <Main />
+                    <link rel="preload" href={withPrefix('js/plugins.js')} as="script"/>
                     <ScriptTag src={withPrefix('js/plugins.js')} defer />
+                    <link rel="preload" href={withPrefix('js/init.js')} as="script"/>
                     <ScriptTag src={withPrefix('js/init.js')} defer />
+                    <link rel="preload" href={withPrefix('js/main.js')} as="script"/>
                     <ScriptTag src={withPrefix('js/main.js')} defer />
                     <NextScript />
                 </body>
