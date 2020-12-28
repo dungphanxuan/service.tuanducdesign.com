@@ -61,6 +61,72 @@ export default class Body extends React.Component {
                     )}
                     <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css"/>
                     <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+                    <script type="application/ld+json">	
+                    {`	
+                      "@context": "https://schema.org",	
+                      "@type": "Organization",	
+                      "name": "Tuan Duc Design",	
+                      "url": "https://service.tuanducdesign.com/",	
+                      "logo": "https://service.tuanducdesign.com/images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png",	
+                      "sameAs": [	
+                        "https://www.facebook.com/tuanducdesign/",	
+                        "https://twitter.com/tuanducdesign/",	
+                        "https://www.instagram.com/mi.profile.56/",	
+                        "https://github.com/tuanducdesign/"	
+                      ],	
+                      "contactPoint": [	
+                        {	
+                          "@type": "ContactPoint",	
+                          "telephone": "+84388842026",	
+                          "contactType": "customer service",	
+                          "email": "miumiu.official.56@gmail.com",	
+                          "contactOption": "TollFree",	
+                          "areaServed": "VN",	
+                          "availableLanguage": "vi"	
+                        }	
+                      ]	
+                    `}	
+                    </script>	
+                    <script type="application/ld+json">	
+                    {`	
+                      "@context": "https://schema.org/",	
+                      "@type": "FAQPage",	
+                      "mainEntity": [	
+                        {	
+                          "@type": "Question",	
+                          "name": "Tôi nên dùng VPS CentOS, Ubuntu hay Win Server?",	
+                          "acceptedAnswer": {	
+                            "@type": "Answer",	
+                            "text": "Để sử dụng tốt các dịch vụ mà chúng tôi cung cấp. Bạn nên sử dụng VPS CentOS, Trong trường hợp bạn chạy ASP.net. Bạn hãy sử dụng VPS Win Server."	
+                          }	
+                        },	
+                        {	
+                          "@type": "Question",	
+                          "name": "Tôi nên sử máy chủ Web Server nào cho phù hợp với trang web của tôi?",	
+                          "acceptedAnswer": {	
+                            "@type": "Answer",	
+                            "text": "Để sử dụng tốt các dịch vụ mà chúng tôi cung cấp, Chúng tôi khuyên bạn nên sử dụng máy chủ Web Server Nginx để đáp ứng mọi nhu cầu, Với máy chủ Web Server Apache nó tiêu tốn nhiều tài nguyên hơn, Nên chúng tôi sẽ không hỗ trợ khách hàng tối ưu trên máy chủ này."	
+                          }	
+                        },	
+                        {	
+                          "@type": "Question",	
+                          "name": "Cấu hình hệ thống trên Server bao nhiêu là đủ với website của tôi?",	
+                          "acceptedAnswer": {	
+                            "@type": "Answer",	
+                            "text": "Tùy nhu cầu sử dụng của bạn! Thông thường đối với một website tin tức nhiều ảnh như mã nguồn WordPress, Thì CPU thường là 2 CPU, Ram là 4GB và phân vùng hệ thống là 250GB Disk."	
+                          }	
+                        },	
+                        {	
+                          "@type": "Question",	
+                          "name": "Tôi có phải mất thêm tiền để duy trì dịch vụ không?",	
+                          "acceptedAnswer": {	
+                            "@type": "Answer",	
+                            "text": "Bạn chỉ cần đăng ký một lần là lần sau không cần phải đóng thêm phí để duy trì các dịch vụ bạn đã mua mà chúng tôi cung cấp nữa."	
+                          }	
+                        }	
+                      ]	
+                    `}	
+                    </script>
                     <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
                 <div id="page" className="site" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="https://schema.org/WebPageElement">
