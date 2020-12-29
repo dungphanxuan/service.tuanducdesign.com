@@ -54,6 +54,49 @@ export default class Body extends React.Component {
                     {(font !== 'system-sans') && (
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     )}
+                    {(font === 'nunito-sans') ? (
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4E9ZKdn4qX5FHyg.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4E9dKdn4qX5FHyg.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4E9lKdn4qX5E.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G2JvY1wIUrt9w6fk2A.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G2JvY10IUrt9w6fk2A.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G2JvY1MIUrt9w6c.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cceyI9tAcVwob5A.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8ccezI9tAcVwob5A.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9tAcVwo.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5iU1ECVZl_86Y.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5jU1ECVZl_86Y.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5tU1ECVZl_.woff2" as="font" type="font/woff2" crossorigin/>
+                    ) : ((font === 'fira-sans') && (
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9C4kDNxMZdWfMOD5VvkrjEYTLVdlTOr0s.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9C4kDNxMZdWfMOD5VvkrjNYTLVdlTOr0s.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9C4kDNxMZdWfMOD5VvkrjFYTLVdlTOr0s.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9C4kDNxMZdWfMOD5VvkrjKYTLVdlTOr0s.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9C4kDNxMZdWfMOD5VvkrjGYTLVdlTOr0s.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9C4kDNxMZdWfMOD5VvkrjHYTLVdlTOr0s.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9C4kDNxMZdWfMOD5VvkrjJYTLVdlTO.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrAWRSf1VFnklULWJXg.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrAWRSf8VFnklULWJXg.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrAWRSf0VFnklULWJXg.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrAWRSf7VFnklULWJXg.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrAWRSf3VFnklULWJXg.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrAWRSf2VFnklULWJXg.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrAWRSf4VFnklULW.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9E4kDNxMZdWfMOD5VvmojLazX3dGTP.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9E4kDNxMZdWfMOD5Vvk4jLazX3dGTP.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9E4kDNxMZdWfMOD5Vvm4jLazX3dGTP.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9E4kDNxMZdWfMOD5VvlIjLazX3dGTP.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9E4kDNxMZdWfMOD5VvmIjLazX3dGTP.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9E4kDNxMZdWfMOD5VvmYjLazX3dGTP.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9E4kDNxMZdWfMOD5Vvl4jLazX3dA.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzeSxf6Xl7Gl3LX.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzeQhf6Xl7Gl3LX.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzeShf6Xl7Gl3LX.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzeRRf6Xl7Gl3LX.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzeSRf6Xl7Gl3LX.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzeSBf6Xl7Gl3LX.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzeRhf6Xl7Glw.woff2" as="font" type="font/woff2" crossorigin/>
+                    ))}
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
@@ -178,7 +221,7 @@ export default class Body extends React.Component {
                   </main>
                   <Footer {...this.props} />
                   <div id="fb-root"></div>
-                  <div className="fb-customerchat" page_id="121349286117840" theme_color="#0072ff" logged_in_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé" logged_out_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé"></div>
+                  <div className="fb-customerchat" data-lazy="true" page_id="121349286117840" theme_color="#0072ff" logged_in_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé" logged_out_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé"></div>
                 </div>
                 {(font === 'nunito-sans') ? (
                 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" async/>
