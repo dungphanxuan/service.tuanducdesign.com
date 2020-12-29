@@ -69,14 +69,8 @@ export default class Body extends React.Component {
                     <link rel="dns-prefetch" href="//www.googletagmanager.com"/>
                     <link rel="dns-prefetch" href="//static.xx.fbcdn.net"/>
                     <link rel="dns-prefetch" href="//connect.facebook.net"/>
-                    <link rel="preload" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" as="style"/>
-                    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" defer/>
-                    <link rel="preload" href="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" as="script"/>
-                    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" defer></script>
                     <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" as="script"/>
-                    <script src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" defer></script>
                     <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script"/>
-                    <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async defer></script>
                     <script type="application/ld+json">	
                     {`	
                       "@context": "https://schema.org",	
@@ -154,7 +148,8 @@ export default class Body extends React.Component {
                   <div id="fb-root"></div>
                   <div className="fb-customerchat" page_id="121349286117840" theme_color="#0072ff" logged_in_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé" logged_out_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé"></div>
                 </div>
-                <script>new WOW().init();</script>
+                <script src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" async></script>
+                <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async></script>
             </React.Fragment>
         );
     }
