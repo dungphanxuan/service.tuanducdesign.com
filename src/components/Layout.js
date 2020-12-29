@@ -55,6 +55,7 @@ export default class Body extends React.Component {
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     )}
                     {(font === 'nunito-sans') ? (
+                    <>
                     <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4E9ZKdn4qX5FHyg.woff2" as="font" type="font/woff2" crossorigin>
                     <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4E9dKdn4qX5FHyg.woff2" as="font" type="font/woff2" crossorigin>
                     <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4E9lKdn4qX5E.woff2" as="font" type="font/woff2" crossorigin>
@@ -67,7 +68,9 @@ export default class Body extends React.Component {
                     <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5iU1ECVZl_86Y.woff2" as="font" type="font/woff2" crossorigin>
                     <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5jU1ECVZl_86Y.woff2" as="font" type="font/woff2" crossorigin>
                     <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5tU1ECVZl_.woff2" as="font" type="font/woff2" crossorigin>
+                    </>
                     ) : ((font === 'fira-sans') && (
+                    <>
                     <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9C4kDNxMZdWfMOD5VvkrjEYTLVdlTOr0s.woff2" as="font" type="font/woff2" crossorigin>
                     <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9C4kDNxMZdWfMOD5VvkrjNYTLVdlTOr0s.woff2" as="font" type="font/woff2" crossorigin>
                     <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9C4kDNxMZdWfMOD5VvkrjFYTLVdlTOr0s.woff2" as="font" type="font/woff2" crossorigin>
@@ -96,6 +99,7 @@ export default class Body extends React.Component {
                     <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzeSRf6Xl7Gl3LX.woff2" as="font" type="font/woff2" crossorigin>
                     <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzeSBf6Xl7Gl3LX.woff2" as="font" type="font/woff2" crossorigin>
                     <link rel="preload" href="https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzeRhf6Xl7Glw.woff2" as="font" type="font/woff2" crossorigin>
+                    </>
                     ))}
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
