@@ -61,7 +61,6 @@ export default class Body extends React.Component {
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
-                    <link rel="preconnect" href="https://cdn.rawgit.com"/>
                     <link rel="preconnect" href="https://www.googletagmanager.com"/>
                     <link rel="preconnect" href="https://static.xx.fbcdn.net"/>
                     <link rel="preconnect" href="https://connect.facebook.net"/>
