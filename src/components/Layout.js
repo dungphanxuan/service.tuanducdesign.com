@@ -16,6 +16,7 @@ export default class Body extends React.Component {
         return (
             <React.Fragment>
                 <Helmet itemscope itemtype="http://schema.org/WebSite">
+                    <html lang="vi" />
                     <title>{title}</title>
                     <meta charset="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialscale=1.0" />
@@ -135,6 +136,44 @@ export default class Body extends React.Component {
                       ]	
                     `}	
                     </script>
+                    <script type="application/ld+json">
+                    {`
+                      "@context": "https://schema.org",
+                      "@type": "LocalBusiness",
+                      "name": "Tuan Duc Design",
+                      "image": "https://service.tuanducdesign.com/images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png",
+                      "@id": "https://service.tuanducdesign.com/",
+                      "url": "https://service.tuanducdesign.com/",
+                      "telephone": "+84388842026",
+                      "priceRange": "2$-100$",
+                      "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Khu đô thị Xa La",
+                        "addressLocality": "Hà Đông, Hà Nội",
+                        "postalCode": "100000",
+                        "addressCountry": "VN"
+                      },
+                      "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 20.9605457,
+                        "longitude": 105.7947563
+                      },
+                      "openingHoursSpecification": {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": [
+                          "Monday",
+                          "Tuesday",
+                          "Wednesday",
+                          "Thursday",
+                          "Friday",
+                          "Saturday",
+                          "Sunday"
+                        ],
+                        "opens": "07:00",
+                        "closes": "23:00"
+                      } 
+                    `}
+                    </script>
                     <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
                 <div id="page" className="site" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="https://schema.org/WebPageElement">
@@ -146,8 +185,8 @@ export default class Body extends React.Component {
                   <div id="fb-root"></div>
                   <div className="fb-customerchat" page_id="121349286117840" theme_color="#0072ff" logged_in_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé" logged_out_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé"></div>
                 </div>
-                <script src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" async></script>
-                <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async></script>
+                <script src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" defer></script>
+                <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" defer></script>
             </React.Fragment>
         );
     }
