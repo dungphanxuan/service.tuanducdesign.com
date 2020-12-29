@@ -22,6 +22,7 @@ export default class SectionFeatures extends React.Component {
               {_.get(section, 'features', null) && (
               <div className="inner">
                 {_.map(_.get(section, 'features', null), (feature, feature_idx) => (
+                <link rel="preload" href={withPrefix(_.get(feature, 'image', null))} as="image"/>
                 <div key={feature_idx} className="block-item">
                   <div className="grid">
                     {_.get(feature, 'image', null) && (

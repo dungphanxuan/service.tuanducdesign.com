@@ -12,6 +12,7 @@ export default class SectionContent extends React.Component {
               <div className="inner wow fadeInDown" data-wow-delay="0.5s">
                 <div className="grid">
                   {_.get(section, 'image', null) && (
+                  <link rel="preload" href={withPrefix(_.get(section, 'image', null))} as="image"/>
                   <div className="cell block-preview">
                     <img className="lazyload" data-src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
                   </div>

@@ -52,6 +52,7 @@ export default class Body extends React.Component {
                     )}
                     {(font !== 'system-sans') && (
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
                     )}
                     {(font === 'nunito-sans') ? (
                     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" async/>
@@ -64,14 +65,19 @@ export default class Body extends React.Component {
                     <link rel="preconnect" href="https://cdn.rawgit.com"/>
                     <link rel="preconnect" href="https://www.googletagmanager.com"/>
                     <link rel="preconnect" href="https://static.xx.fbcdn.net"/>
-                    <link rel="preconnect" href="https://facebook.net"/>
+                    <link rel="preconnect" href="https://connect.facebook.net"/>
+                    <link rel="dns-prefetch" href="//cdn.rawgit.com"/>
+                    <link rel="dns-prefetch" href="//www.googletagmanager.com"/>
+                    <link rel="dns-prefetch" href="//static.xx.fbcdn.net"/>
+                    <link rel="dns-prefetch" href="//connect.facebook.net"/>
                     <link rel="preload" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" as="style"/>
                     <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" async/>
                     <link rel="preload" href="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" as="script"/>
+                    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" async></script>
                     <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" as="script"/>
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3"></script>
                     <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script"/>
-                    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png" as="image"/>
-                    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png" as="image"/>
+                    <scirpt async src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js"></script>
                     <script type="application/ld+json">	
                     {`	
                       "@context": "https://schema.org",	
@@ -149,6 +155,7 @@ export default class Body extends React.Component {
                   <div id="fb-root"></div>
                   <div className="fb-customerchat" page_id="121349286117840" theme_color="#0072ff" logged_in_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé" logged_out_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé"></div>
                 </div>
+                <script>new WOW().init();</script>
             </React.Fragment>
         );
     }
