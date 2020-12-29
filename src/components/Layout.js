@@ -67,6 +67,11 @@ export default class Body extends React.Component {
                     <link rel="dns-prefetch" href="//facebook.com"/>
                     <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" as="script"/>
                     <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script"/>
+                    {(font === 'nunito-sans') ? (
+                    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="style"/>
+                    ) : ((font === 'fira-sans') && (
+                    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" as="style"/>
+                    ))}
                     <script type="application/ld+json">	
                     {`	
                       "@context": "https://schema.org",	
@@ -177,7 +182,7 @@ export default class Body extends React.Component {
                   <Header {...this.props} />
                   <main id="content" className="site-content">
                     {this.props.children}
-                  </main/>
+                  </main>
                   <Footer {...this.props} />
                   <div id="fb-root"></div>
                   <div className="fb-customerchat" data-lazy="true" page_id="121349286117840" theme_color="#0072ff" logged_in_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé" logged_out_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé"></div>
