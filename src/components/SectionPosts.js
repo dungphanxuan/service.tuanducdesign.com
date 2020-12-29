@@ -21,7 +21,7 @@ export default class SectionPosts extends React.Component {
                 </p>
                 )}
               </div>
-              <div className="inner wow fadeInDown" data-wow-delay="0.5s">
+              <div className="inner wow fadeInDown" data-wow-delay="1s">
                 <div className="grid post-feed">
                   {_.map(recent_posts, (post, post_idx) => (
                   <article key={post_idx} className="cell post">

@@ -19,7 +19,7 @@ export default class SectionReviews extends React.Component {
                 )}
               </div>
               {_.get(section, 'reviews', null) && (
-              <div className="inner wow fadeInDown" data-wow-delay="0.5s">
+              <div className="inner wow fadeInDown" data-wow-delay="1s">
                 <div className="grid">
                   {_.map(_.get(section, 'reviews', null), (review, review_idx) => (
                   <blockquote key={review_idx} className="cell review">
@@ -27,7 +27,6 @@ export default class SectionReviews extends React.Component {
                       <p className="review-text">{htmlToReact(_.get(review, 'content', null))}</p>
                       <footer className="review-footer">
                         {_.get(review, 'avatar', null) && (
-                        <link rel="preload" href={withPrefix(_.get(review, 'avatar', null))} as="image"/>
                         <img className="review-avatar lazyload" data-src={withPrefix(_.get(review, 'avatar', null))} alt={_.get(review, 'author', null)} />
                         )}
                         <cite className="review-author">{_.get(review, 'author', null)}</cite>
