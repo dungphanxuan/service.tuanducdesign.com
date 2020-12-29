@@ -54,25 +54,6 @@ export default class Body extends React.Component {
                     {(font !== 'system-sans') && (
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     )}
-                    {(font === 'nunito-sans') ? (
-                    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js" async></script>
-                    <script>
-                      WebFont.load({`
-                        google: {`
-                          families: ['Nunito Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap']
-                        `}
-                      `});
-                    </script>
-                    ) : ((font === 'fira-sans') && (
-                    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js" async></script>
-                    <script>
-                      WebFont.load({`
-                        google: {`
-                          families: ['Fira Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap']
-                        `}
-                      `});
-                    </script>
-                    ))}
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
@@ -199,6 +180,11 @@ export default class Body extends React.Component {
                   <div id="fb-root"></div>
                   <div className="fb-customerchat" page_id="121349286117840" theme_color="#0072ff" logged_in_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé" logged_out_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé"></div>
                 </div>
+                {(font === 'nunito-sans') ? (
+                <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" async/>
+                ) : ((font === 'fira-sans') && (
+                <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
+                ))}
                 <script src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" async></script>
                 <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async></script>
             </React.Fragment>
