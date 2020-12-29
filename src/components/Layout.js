@@ -68,11 +68,8 @@ export default class Body extends React.Component {
                     <link rel="preload" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" as="style"/>
                     <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" async/>
                     <link rel="preload" href="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" as="script"/>
-                    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" async/>
                     <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" as="script"/>
-                    <script src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" async/>
                     <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script"/>
-                    <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async defer/>
                     <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png" as="image"/>
                     <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png" as="image"/>
                     <script type="application/ld+json">	
