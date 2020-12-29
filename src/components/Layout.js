@@ -70,13 +70,13 @@ export default class Body extends React.Component {
                     <link rel="dns-prefetch" href="//static.xx.fbcdn.net"/>
                     <link rel="dns-prefetch" href="//connect.facebook.net"/>
                     <link rel="preload" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" as="style"/>
-                    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css"/>
+                    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" async/>
                     <link rel="preload" href="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" as="script"/>
-                    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+                    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" async></script>
                     <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" as="script"/>
-                    <script src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3"></script>
+                    <script src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" async></script>
                     <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script"/>
-                    <scirpt src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js"></script>
+                    <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async></script>
                     <script type="application/ld+json">	
                     {`	
                       "@context": "https://schema.org",	

@@ -9,14 +9,15 @@ export default class SectionContent extends React.Component {
         let section = _.get(this.props, 'section', null);
         return (
             <section id={_.get(section, 'section_id', null)} className={'block text-block bg-' + _.get(section, 'background', null) + ' outer'}>
-              <div className="inner wow fadeInDown" data-wow-delay="0.5s">
+              <div className="inner">
                 <div className="grid">
                   {_.get(section, 'image', null) && (
-                  <div className="cell block-preview">
+                  <link rel="preload" href={withPrefix(_.get(section, 'image', null))} as="image"/>
+                  <div className="cell block-preview wow fadeInDown" data-wow-delay="0.5s">
                     <img className="lazyload" data-src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
                   </div>
                   )}
-                  <div className="cell block-content">
+                  <div className="cell block-content wow fadeInDown" data-wow-delay="0.5s">
                     {_.get(section, 'title', null) && (
                     <h2 className="block-title underline">{_.get(section, 'title', null)}</h2>
                     )}
