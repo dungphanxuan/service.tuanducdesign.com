@@ -25,12 +25,11 @@ export default class SectionFeatures extends React.Component {
                 <div key={feature_idx} className="block-item">
                   <div className="grid">
                     {_.get(feature, 'image', null) && (
-                    <link rel="preload" href={withPrefix(_.get(feature, 'image', null))} as="image"/>
-                    <div className="cell block-preview wow fadeInDown" data-wow-delay="0.5s">
+                    <div className="cell block-preview wow fadeInDown" data-wow-delay="1s">
                       <img className="lazyload" data-src={withPrefix(_.get(feature, 'image', null))} alt={_.get(feature, 'image_alt', null)} />
                     </div>
                     )}
-                    <div className="cell block-content wow fadeInDown" data-wow-delay="0.5s">
+                    <div className="cell block-content wow fadeInDown" data-wow-delay="1s">
                       <h3 className="block-title underline">{_.get(feature, 'title', null)}</h3>
                       <div className="block-copy">
                         {markdownify(_.get(feature, 'content', null))}
