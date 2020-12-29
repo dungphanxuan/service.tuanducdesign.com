@@ -185,8 +185,8 @@ export default class Body extends React.Component {
                   <div id="fb-root"></div>
                   <div className="fb-customerchat" page_id="121349286117840" theme_color="#0072ff" logged_in_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé" logged_out_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé"></div>
                 </div>
-                <script src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" defer></script>
-                <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" defer></script>
+                <script src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" async></script>
+                <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async></script>
             </React.Fragment>
         );
     }
