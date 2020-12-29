@@ -52,7 +52,6 @@ export default class Body extends React.Component {
                     )}
                     {(font !== 'system-sans') && (
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
                     )}
                     {(font === 'nunito-sans') ? (
                     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" async/>
