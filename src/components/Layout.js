@@ -65,7 +65,6 @@ export default class Body extends React.Component {
                     <link rel="preconnect" href="https://www.googletagmanager.com"/>
                     <link rel="preconnect" href="https://static.xx.fbcdn.net"/>
                     <link rel="preconnect" href="https://connect.facebook.net"/>
-                    <link rel="dns-prefetch" href="//cdn.rawgit.com"/>
                     <link rel="dns-prefetch" href="//www.googletagmanager.com"/>
                     <link rel="dns-prefetch" href="//static.xx.fbcdn.net"/>
                     <link rel="dns-prefetch" href="//connect.facebook.net"/>
