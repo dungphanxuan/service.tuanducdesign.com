@@ -74,9 +74,9 @@ export default class Body extends React.Component {
                     <link rel="preload" href="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" as="script"/>
                     <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js" async></script>
                     <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" as="script"/>
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3"></script>
+                    <script src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" async></script>
                     <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script"/>
-                    <scirpt async src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js"></script>
+                    <scirpt src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async></script>
                     <script type="application/ld+json">	
                     {`	
                       "@context": "https://schema.org",	
