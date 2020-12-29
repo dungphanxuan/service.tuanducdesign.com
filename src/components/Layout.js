@@ -55,9 +55,23 @@ export default class Body extends React.Component {
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     )}
                     {(font === 'nunito-sans') ? (
-                    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" async/>
+                    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js" async></script>
+                    <script>
+                      WebFont.load({`
+                        google: {`
+                          families: ['Nunito Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap']
+                        `}
+                      `});
+                    </script>
                     ) : ((font === 'fira-sans') && (
-                    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
+                    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js" async></script>
+                    <script>
+                      WebFont.load({`
+                        google: {`
+                          families: ['Fira Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap']
+                        `}
+                      `});
+                    </script>
                     ))}
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
