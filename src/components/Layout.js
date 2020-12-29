@@ -55,6 +55,11 @@ export default class Body extends React.Component {
                     {(font !== 'system-sans') && (
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     )}
+                    {(font === 'nunito-sans') ? (
+                    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" async/>
+                    ) : ((font === 'fira-sans') && (
+                    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
+                    ))}
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
@@ -143,19 +148,14 @@ export default class Body extends React.Component {
                   </main>
                   <Footer {...this.props} />
                   <script type="text/javascript">
-                    new WOW().init();
                     function gtag(){`dataLayer.push(arguments)`}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-2J6CDEW9L3");
+                    new WOW().init();
                     window.fbAsyncInit = function() {`
                       FB.init({
                         xfbml            : true,
                         version          : 'v9.0'
                       });
                     `};
-                    {(font === 'nunito-sans') ? (
-                    deferstyle('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap', 'nunito-sans', 3);
-                    ) : ((font === 'fira-sans') && (
-                    deferstyle('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap', 'fira-sans', 3);
-                    ))}
                     deferstyle('https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css', 'animate-css', 1);
                     if (/^http/.test(window.location.protocol)) {`
                     deferscript('https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js', 'customerchat', 5);
@@ -166,6 +166,7 @@ export default class Body extends React.Component {
                   <div id="fb-root"></div>
                   <div className="fb-customerchat" page_id="121349286117840" theme_color="#0072ff" logged_in_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé" logged_out_greeting="Chào bạn? Bạn đang gặp khó khăn về quản lý VPS và Website? Nhắn tin cho mình nhé"></div>
                 </div>
+                <script>new WOW().init();</script>
             </React.Fragment>
         );
     }
