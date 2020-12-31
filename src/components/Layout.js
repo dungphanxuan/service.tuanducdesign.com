@@ -203,15 +203,7 @@ export default class Body extends React.Component {
                 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
                 ))}
                 <script src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" async></script>
-                <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async></script>
-                <devsite-progress id="app-progress" type="indeterminate">
-                <div class="devsite-progress--indeterminate">
-                <div class="devsite-progress--indeterminate-1"></div>
-                <div class="devsite-progress--indeterminate-2"></div>
-                <div class="devsite-progress--indeterminate-3"></div>
-                <div class="devsite-progress--indeterminate-4"></div>
-                </div>
-                </devsite-progress>
+                <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async defer></script>
             </React.Fragment>
         );
     }
