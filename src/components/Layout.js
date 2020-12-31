@@ -18,6 +18,16 @@ export default class Body extends React.Component {
                 <Helmet itemscope itemtype="http://schema.org/WebSite">
                     <html lang="vi" />
                     <title>{title}</title>
+                    <meta https-equiv="Cache-Control" content="public"/>
+                    <meta https-equiv="Content-Type" content="text/html; charset=ISO-2022-JP"/>
+                    <meta https-equiv="Content-Script-Type" content="text/javascript"/>
+                    <meta https-equiv="Content-Style-Type" content="text/css"/>
+                    <include expiration="8d" path="/_next/static/css/**.css" />
+                    <include expiration="8d" path="/_next/static/chunks/**.js" />
+                    <include expiration="5d" path="/images/**.gif" />
+                    <include expiration="5d" path="/images/**.jpeg" />
+                    <include expiration="5d" path="/images/**.jpg" />
+                    <include expiration="5d" path="/images/**.png" />
                     <meta charset="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialscale=1.0" />
                     <meta name="google" content="notranslate" />
