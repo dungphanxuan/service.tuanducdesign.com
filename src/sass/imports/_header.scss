@@ -53,6 +53,7 @@
       color: inherit;
     }
   }
+  
 
   .site-navigation {
     .current-menu-item {
@@ -251,5 +252,4 @@
     top: $container-padding;
   }
 }
-#masthead a:active
-  color: #0072ff !important
+#masthead a:active{color:#0072ff!important;}
