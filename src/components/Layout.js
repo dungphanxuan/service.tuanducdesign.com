@@ -18,16 +18,6 @@ export default class Body extends React.Component {
                 <Helmet itemscope itemtype="http://schema.org/WebSite">
                     <html lang="vi" />
                     <title>{title}</title>
-                    <meta https-equiv="Cache-Control" content="public"/>
-                    <meta https-equiv="Content-Type" content="text/html; charset=ISO-2022-JP"/>
-                    <meta https-equiv="Content-Script-Type" content="text/javascript"/>
-                    <meta https-equiv="Content-Style-Type" content="text/css"/>
-                    <include expiration="8d" path="/_next/static/css/**.css" />
-                    <include expiration="8d" path="/_next/static/chunks/**.js" />
-                    <include expiration="5d" path="/images/**.gif" />
-                    <include expiration="5d" path="/images/**.jpeg" />
-                    <include expiration="5d" path="/images/**.jpg" />
-                    <include expiration="5d" path="/images/**.png" />
                     <meta charset="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialscale=1.0" />
                     <meta name="google" content="notranslate" />
@@ -67,19 +57,19 @@ export default class Body extends React.Component {
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
+                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     <link rel="preconnect" href="https://www.googletagmanager.com"/>
-                    <link rel="preconnect" href="https://static.xx.fbcdn.net"/>
-                    <link rel="preconnect" href="https://connect.facebook.net"/>
-                    <link rel="preconnect" href="https://facebook.com"/>
+                    <link rel="preconnect" href="https://maxcdn.bootstrapcdn.com"/>
+                    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
                     <link rel="dns-prefetch" href="//www.googletagmanager.com"/>
-                    <link rel="dns-prefetch" href="//static.xx.fbcdn.net"/>
-                    <link rel="dns-prefetch" href="//connect.facebook.net"/>
-                    <link rel="dns-prefetch" href="//facebook.com"/>
+                    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com"/>
                     {(font === 'nunito-sans') ? (
                     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="style"/>
                     ) : ((font === 'fira-sans') && (
                     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" as="style"/>
                     ))}
+                    <link rel="preload" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" as="style"/>
+                    <link rel="preload" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2" as="font" type="font/woff2"/>
                     <script type="application/ld+json">	
                     {`	
                       "@context": "https://schema.org",	
@@ -198,6 +188,7 @@ export default class Body extends React.Component {
                 ) : ((font === 'fira-sans') && (
                 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
                 ))}
+                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" async/>
                 <div className="support-online"><div className="support-content"><a href="tel:0388842026" className="call-now" rel="nofollow" target="_blank" title="Hotline: 0388842026"><i className="fa fa-whatsapp" aria-hidden="true"></i><div className="animated infinite zoomIn td-alo-circle"></div><div className="animated infinite pulse td-alo-circle-fill"></div><span>Hotline: 0388842026</span></a><a className="mes" href="https://m.me/tuanducdesign/" target="_blank" title="Nhắn tin Facebook"><i className="fa fa-facebook-official" aria-hidden="true"></i><span>Nhắn tin trên Facebook</span></a><a className="mail" href="mailto:miumiu.official.56@gmail.com" target="_blank" title="Liên hệ tối ưu Website"><i className="fa fa-envelope"></i><span>Liên hệ tối ưu Website</span></a></div><a class="btn-support"><div class="animated infinite zoomIn td-alo-circle"></div><div className="animated infinite pulse td-alo-circle-fill"></div><i className="fa fa-user-circle" aria-hidden="true"></i></a></div>
             </React.Fragment>
         );
