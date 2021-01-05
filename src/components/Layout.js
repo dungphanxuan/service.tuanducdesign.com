@@ -198,7 +198,7 @@ export default class Body extends React.Component {
                 ) : ((font === 'fira-sans') && (
                 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
                 ))}
-                <a href="https://www.facebook.com/tuanducdesign" target="_blank" title="Làm thế nào để tôi giúp bạn?"><div id="td_Root"><div id="td_main"><div id="td_content">Làm thế nào để tôi giúp bạn?<div id="td_solid"></div></div><div id="td_avatar"><img className="lazyload" src={withPrefix(_.get(this.props, 'data.config.header.logo_img', null))} alt="Avatar" /><div id="td_badges">1</div></div></div></div></a>
+                <div className="support-online"><div className="support-content"><a href="tel:0388842026" className="call-now" rel="nofollow" target="_blank" title="Hotline: 0388842026"><i className="fa fa-whatsapp" aria-hidden="true"></i><div className="animated infinite zoomIn td-alo-circle"></div><div className="animated infinite pulse td-alo-circle-fill"></div><span>Hotline: 0388842026</span></a><a className="mes" href="https://m.me/tuanducdesign/" target="_blank" title="Nhắn tin Facebook"><i className="fa fa-facebook-official" aria-hidden="true"></i><span>Nhắn tin trên Facebook</span></a><a className="mail" href="mailto:miumiu.official.56@gmail.com" target="_blank" title="Liên hệ tối ưu Website"><i className="fa fa-envelope"></i><span>Liên hệ tối ưu Website</span></a></div><a class="btn-support"><div class="animated infinite zoomIn td-alo-circle"></div><div className="animated infinite pulse td-alo-circle-fill"></div><i className="fa fa-user-circle" aria-hidden="true"></i></a></div>
             </React.Fragment>
         );
     }
