@@ -173,6 +173,7 @@ export default class Body extends React.Component {
                       } 
                     `}
                     </script>
+                    <script src="https://apps.elfsight.com/p/platform.js"></script>
                     <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
                 <div id="page" className="site" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="https://schema.org/WebPageElement">
@@ -187,7 +188,6 @@ export default class Body extends React.Component {
                 ) : ((font === 'fira-sans') && (
                 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
                 ))}
-                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
                 <div className="elfsight-app-a8cc01ce-36b9-44cb-a569-1e16b23647f6"></div>
             </React.Fragment>
         );
