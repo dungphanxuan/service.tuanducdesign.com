@@ -75,8 +75,7 @@ export default class Body extends React.Component {
                     <link rel="dns-prefetch" href="//static.xx.fbcdn.net"/>
                     <link rel="dns-prefetch" href="//connect.facebook.net"/>
                     <link rel="dns-prefetch" href="//facebook.com"/>
-                    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" as="script"/>
-                    <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script"/>
+                    <link rel="preload" href="https://apps.elfsight.com/p/platform.js" as="script"/>
                     {(font === 'nunito-sans') ? (
                     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="style"/>
                     ) : ((font === 'fira-sans') && (
@@ -202,8 +201,8 @@ export default class Body extends React.Component {
                 ) : ((font === 'fira-sans') && (
                 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
                 ))}
-                <script src="https://www.googletagmanager.com/gtag/js?id=G-2J6CDEW9L3" async></script>
-                <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async defer></script>
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div className="elfsight-app-a8cc01ce-36b9-44cb-a569-1e16b23647f6"></div>
             </React.Fragment>
         );
     }
