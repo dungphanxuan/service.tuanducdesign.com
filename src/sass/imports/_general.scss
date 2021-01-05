@@ -213,7 +213,7 @@ img {
 }
 
 #td_content {
-  background: #fe2c55;
+  background: $color-primary;
   letter-spacing: 1px;
   color: white;
   display: block;
@@ -234,11 +234,11 @@ img {
   right: -10px;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 10px solid #fe2c55;
+  border-left: 10px solid $color-primary;
 }
 
 #td_avatar {
-  background: #fe2c55;
+  background: $color-primary;
   display: block;
   position: absolute;
   top: 10px;
@@ -246,7 +246,7 @@ img {
   height: 60px;
   width: 60px;
   border-radius: 99px;
-  border: 2px solid #fe2c55;
+  border: 2px solid $color-primary;
 
   img {
     width: 100%;
@@ -256,7 +256,7 @@ img {
 }
 
 #td_badges {
-  background: #fe2c55;
+  background: $color-primary;
   width: 20px;
   height: 20px;
   border-radius: 99px;

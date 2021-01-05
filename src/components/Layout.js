@@ -198,7 +198,7 @@ export default class Body extends React.Component {
                 ) : ((font === 'fira-sans') && (
                 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
                 ))}
-                <a href="https://www.facebook.com/tuanducdesign" target="_blank" title="Làm thế nào để tôi giúp bạn?"><div id="td_Root"><div id="td_main"><div id="td_content">Làm thế nào để tôi giúp bạn?<div id="td_solid"></div></div><div id="td_avatar"><img src={withPrefix(_.get(this.props, 'data.config.header.logo_img', null))} alt="Avatar" /><div id="td_badges">1</div></div></div></div></a>
+                <a href="https://www.facebook.com/tuanducdesign" target="_blank" title="Làm thế nào để tôi giúp bạn?"><div id="td_Root"><div id="td_main"><div id="td_content">Làm thế nào để tôi giúp bạn?<div id="td_solid"></div></div><div id="td_avatar"><img className="lazyload" src={withPrefix(_.get(this.props, 'data.config.header.logo_img', null))} alt="Avatar" /><div id="td_badges">1</div></div></div></div></a>
             </React.Fragment>
         );
     }
