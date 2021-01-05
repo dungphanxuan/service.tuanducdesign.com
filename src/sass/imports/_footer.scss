@@ -1,5 +1,5 @@
 #colophon {
-  background: $gray-700;
+  background: $gray-100;
   color: $gray-400;
 
   h1,
@@ -8,7 +8,7 @@
   h4,
   h5,
   h6 {
-    color: $gray-200;
+    color: $gray-700;
   }
 
   a {
@@ -16,7 +16,7 @@
       color: inherit;
 
       &:hover {
-        color: $gray-200;
+        color: $color-primary;
       }
     }
   }
