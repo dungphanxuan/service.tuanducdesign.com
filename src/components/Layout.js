@@ -59,16 +59,13 @@ export default class Body extends React.Component {
                     )}
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     <link rel="preconnect" href="https://www.googletagmanager.com"/>
-                    <link rel="preconnect" href="https://apps.elfsight.com"/>
                     <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
                     <link rel="dns-prefetch" href="//www.googletagmanager.com"/>
-                    <link rel="dns-prefetch" href="//apps.elfsight.com"/>
                     {(font === 'nunito-sans') ? (
                     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="style"/>
                     ) : ((font === 'fira-sans') && (
                     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" as="style"/>
                     ))}
-                    <link rel="preload" href="https://apps.elfsight.com/p/platform.js" as="script"/>
                     <script type="application/ld+json">	
                     {`	
                       "@context": "https://schema.org",	
@@ -173,7 +170,6 @@ export default class Body extends React.Component {
                       } 
                     `}
                     </script>
-                    <script src="https://apps.elfsight.com/p/platform.js"></script>
                     <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
                 <div id="page" className="site" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="https://schema.org/WebPageElement">
@@ -188,7 +184,7 @@ export default class Body extends React.Component {
                 ) : ((font === 'fira-sans') && (
                 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
                 ))}
-                <div className="elfsight-app-a8cc01ce-36b9-44cb-a569-1e16b23647f6"></div>
+                <a className="chat-facebook" href="https://messenger.com/t/tuanducdesign" target="blank" title="Chat Facebook">Chat Facebook</a>
             </React.Fragment>
         );
     }
