@@ -207,3 +207,10 @@ img {
     position: fixed;
     color: white;
 }
+a.chat-facebook {
+  &:hover {
+    color: white;
+  }
+
+  text-decoration: none;
+}
