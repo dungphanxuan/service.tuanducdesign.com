@@ -18,7 +18,7 @@ sections:
         url: '#cai-dat-vps'
         style: secondary
         has_icon: false
-        icon: arrow-left
+        icon: arrow-right
         icon_position: left
         new_window: false
         no_follow: false
