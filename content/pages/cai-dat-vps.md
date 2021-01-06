@@ -15,7 +15,7 @@ sections:
     image_alt: Cloud
     actions:
       - label: Xem thêm
-        url: lorem-ipsum
+        url: '#cai-dat-vps'
         style: link
         has_icon: false
         icon: arrow-left
