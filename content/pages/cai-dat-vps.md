@@ -34,7 +34,7 @@ sections:
         type: action
     type: section_hero
     image: images/2C2CC916-F202-44A1-B8C4-0078A930406F.png
-  - section_id: lorem-ipsum
+  - section_id: 'cai-dat-vps '
     title: Tại sao nên dùng dịch vụ cài đặt VPS
     subtitle: lorem-ipsum
     background: gray
