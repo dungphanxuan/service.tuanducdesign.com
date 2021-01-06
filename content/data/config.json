@@ -188,7 +188,7 @@
             {
                 "label": "Facebook",
                 "url": "https://",
-                "style": "link",
+                "style": "secondary",
                 "has_icon": true,
                 "icon": "facebook",
                 "icon_position": "left",
