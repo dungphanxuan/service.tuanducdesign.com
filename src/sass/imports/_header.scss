@@ -63,9 +63,12 @@
     a:not(.button) {
       color: inherit;
   
-      &:hover,.active {
+      &:hover {
         color: $color-primary;
       }
+    }
+    .active {
+      color: $color-primary;      
     }
   }
 }
