@@ -42,11 +42,6 @@ class MyDocument extends Document {
                     <ScriptTag src={withPrefix('js/init.js')} async />
                     <link rel="preload" href={withPrefix('js/main.js')} as="script"/>
                     <ScriptTag src={withPrefix('js/main.js')} async />
-                    {(font === 'nunito-sans') ? (
-                    <ScriptTag src={withPrefix('js/nunito-sans.js')} async/>
-                    ) : ((font === 'fira-sans') && (
-                    <ScriptTag src={withPrefix('js/fira-sans.js')} async/>
-                    ))}
                     <NextScript />
                 </body>
             </Html>

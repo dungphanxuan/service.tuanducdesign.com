@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
+import ScriptTag from 'react-script-tag';
 import _ from 'lodash';
 
 import {withPrefix} from '../utils';
@@ -184,6 +185,11 @@ export default class Body extends React.Component {
                   </main>
                   <Footer {...this.props} />
                 </div>
+                {(font === 'nunito-sans') ? (
+                <ScriptTag src={withPrefix('js/nunito-sans.js')} async/>
+                ) : ((font === 'fira-sans') && (
+                <ScriptTag src={withPrefix('js/fira-sans.js')} async/>
+                ))}
                 <div id="fb-root"></div>
                 <div className="fb-customerchat" data-lazy="true" page_id="121349286117840" theme_color="#fe2c55" logged_in_greeting="Chào bạn? Chúng tôi có thể giúp gì cho bạn?" logged_out_greeting="Chào bạn? Chúng tôi có thể giúp gì cho bạn?"></div>
             </React.Fragment>
