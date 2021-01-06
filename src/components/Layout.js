@@ -198,7 +198,6 @@ export default class Body extends React.Component {
                 ))}
                 <div id="fb-root"></div>
                 <div className="fb-customerchat" data-lazy="true" page_id="121349286117840" theme_color="#fe2c55" logged_in_greeting="Chào bạn? Chúng tôi có thể giúp gì cho bạn?" logged_out_greeting="Chào bạn? Chúng tôi có thể giúp gì cho bạn?"></div>
-                <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async defer></script>
             </React.Fragment>
         );
     }
