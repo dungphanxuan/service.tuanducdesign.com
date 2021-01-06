@@ -160,15 +160,6 @@ sections:
             new_window: true
             no_follow: true
             type: action
-          - label: Xem thêm về gói này
-            url: /toi-uu-vps
-            style: link
-            has_icon: false
-            icon: arrow-left
-            icon_position: left
-            new_window: false
-            no_follow: false
-            type: action
         type: pricing_plan
     type: section_pricing
   - section_id: pricing-plans-website
