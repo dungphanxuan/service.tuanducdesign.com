@@ -36,7 +36,9 @@ sections:
     image: images/2C2CC916-F202-44A1-B8C4-0078A930406F.png
   - section_id: cai-dat-vps
     title: Tại sao nên dùng dịch vụ cài đặt VPS
-    subtitle: 'Khi sử dụng các dịch vụ miễn phí của chúng tôi bạn sẽ không '
+    subtitle: >-
+      Khi sử dụng các dịch vụ miễn phí của chúng tôi bạn sẽ không phải tồn tiền
+      hay mất thời gian để cài đặt.
     background: gray
     features: []
     type: section_features
