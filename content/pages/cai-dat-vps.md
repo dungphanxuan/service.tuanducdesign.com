@@ -13,7 +13,16 @@ sections:
       Danh sách các tính năng cũng như các module được hỗ trợ khi khách hàng sử
       dụng dịch vụ cài đặt VPS của chúng tôi.
     image_alt: Cloud
-    actions: []
+    actions:
+      - label: lorem-ipsum
+        url: lorem-ipsum
+        style: link
+        has_icon: false
+        icon: arrow-left
+        icon_position: left
+        new_window: false
+        no_follow: false
+        type: action
     type: section_hero
     image: images/2C2CC916-F202-44A1-B8C4-0078A930406F.png
 layout: landing
