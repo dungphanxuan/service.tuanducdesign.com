@@ -173,11 +173,6 @@
                     }
                 ],
                 "type": "footer_nav"
-            },
-            {
-                "title": "Thông tin",
-                "nav_links": [],
-                "type": "footer_nav"
             }
         ],
         "has_nav": false,
