@@ -25,7 +25,7 @@ sections:
         type: action
       - label: Cài đặt ngay
         url: /huong-dan-cai-dat-vps
-        style: link
+        style: secondary
         has_icon: false
         icon: arrow-left
         icon_position: left
