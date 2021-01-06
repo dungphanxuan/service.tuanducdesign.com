@@ -123,7 +123,7 @@ sections:
             no_follow: true
             type: action
           - label: Xem thêm về gói này
-            url: lorem-ipsum
+            url: /cai-dat-vps
             style: link
             has_icon: false
             icon: arrow-left
