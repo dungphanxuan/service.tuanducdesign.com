@@ -59,13 +59,16 @@ export default class Body extends React.Component {
                     )}
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     <link rel="preconnect" href="https://www.googletagmanager.com"/>
+                    <link rel="preconnect" href="https://static.xx.fbcdn.net"/>
+                    <link rel="preconnect" href="https://connect.facebook.net"/>
+                    <link rel="preconnect" href="https://facebook.com"/>
+                    <link rel="preconnect" href="https://www.facebook.com"/>
                     <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
                     <link rel="dns-prefetch" href="//www.googletagmanager.com"/>
-                    {(font === 'nunito-sans') ? (
-                    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="style"/>
-                    ) : ((font === 'fira-sans') && (
-                    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" as="style"/>
-                    ))}
+                    <link rel="dns-prefetch" href="//static.xx.fbcdn.net"/>
+                    <link rel="dns-prefetch" href="//connect.facebook.net"/>
+                    <link rel="dns-prefetch" href="//facebook.com"/>
+                    <link rel="dns-prefetch" href="//www.facebook.com"/>
                     <script type="application/ld+json">	
                     {`	
                       "@context": "https://schema.org",	
@@ -170,6 +173,8 @@ export default class Body extends React.Component {
                       } 
                     `}
                     </script>
+                    <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script" />
+                    <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async defer></script>
                     <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
                 <div id="page" className="site" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="https://schema.org/WebPageElement">
@@ -179,12 +184,8 @@ export default class Body extends React.Component {
                   </main>
                   <Footer {...this.props} />
                 </div>
-                {(font === 'nunito-sans') ? (
-                <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" async/>
-                ) : ((font === 'fira-sans') && (
-                <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" async/>
-                ))}
-                <a className="chat-facebook" href="https://messenger.com/t/tuanducdesign" target="blank" title="Chat Facebook">Chat Facebook</a>
+                <div id="fb-root"></div>
+                <div className="fb-customerchat" data-lazy="true" page_id="121349286117840" theme_color="#fe2c55" logged_in_greeting="Chào bạn? Chúng tôi có thể giúp gì cho bạn?" logged_out_greeting="Chào bạn? Chúng tôi có thể giúp gì cho bạn?"></div>
             </React.Fragment>
         );
     }
