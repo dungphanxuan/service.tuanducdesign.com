@@ -183,7 +183,7 @@
                 "type": "footer_nav"
             }
         ],
-        "has_nav": false,
+        "has_nav": true,
         "nav_links": [],
         "content": "&copy; 2021 Tuan Duc Design. All rights reserved.",
         "links": []
