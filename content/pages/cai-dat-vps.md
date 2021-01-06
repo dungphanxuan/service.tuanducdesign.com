@@ -53,7 +53,7 @@ sections:
           - Lorem ipsum
 
           - dolor sit amet
-        image_alt: lorem-ipsum
+        image_alt: Cài đặt nhanh chóng
         actions: []
         type: feature_item
         image: images/monitor-loading.png
