@@ -5,8 +5,9 @@ const sourcebitConfig = require('./sourcebit.js');
 
 
 sourcebit.fetch(sourcebitConfig);
-
+const isProd = process.env.NODE_ENV === 'production'
 module.exports = {
+    assetPrefix: isProd ? 'https://cdn.staticaly.com/img/service.tuanducdesign.com' : '',
     trailingSlash: true,
     poweredByHeader: false,
     generateEtags: false,
