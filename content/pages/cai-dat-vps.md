@@ -24,7 +24,7 @@ sections:
         no_follow: false
         type: action
       - label: Cài đặt ngay
-        url: lorem-ipsum
+        url: /huong-dan-cai-dat-vps
         style: link
         has_icon: false
         icon: arrow-left
