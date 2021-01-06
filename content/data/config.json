@@ -164,23 +164,6 @@
                     }
                 ],
                 "type": "footer_nav"
-            },
-            {
-                "title": "Sản phẩm",
-                "nav_links": [
-                    {
-                        "label": "Blog",
-                        "url": "https://tuanducdesign.com/",
-                        "style": "link",
-                        "has_icon": false,
-                        "icon": "arrow-left",
-                        "icon_position": "left",
-                        "new_window": true,
-                        "no_follow": false,
-                        "type": "action"
-                    }
-                ],
-                "type": "footer_nav"
             }
         ],
         "has_nav": false,
