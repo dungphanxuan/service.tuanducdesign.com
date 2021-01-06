@@ -10,7 +10,7 @@
         "nav_links": [
             {
                 "label": "Trang chủ",
-                "url": "#main",
+                "url": "https://tuanducdesign.com/",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
