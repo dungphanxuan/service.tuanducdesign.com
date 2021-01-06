@@ -43,16 +43,8 @@ sections:
     features:
       - title: Cài đặt nhanh chóng
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Bạn chỉ cần click sử dụng gói này sau đó liên hệ với chúng tôi để
+          chúng tôi cài đặt VPS cho bạn.
         image_alt: Cài đặt nhanh chóng
         actions: []
         type: feature_item
