@@ -48,7 +48,6 @@ export default class Body extends React.Component {
                         	<link rel="canonical" href={domain + page_url} itemprop="url"/>
                         );
                     })()))}
-                    <link rel="preload" href={withPrefix(_.get(this.props, 'data.config.header.logo_img', null))} as="image"/>
                     {_.get(this.props, 'page.frontmatter.no_index', null) && (
                     <meta name="robots" content="noindex,follow" />
                     )}
@@ -64,12 +63,21 @@ export default class Body extends React.Component {
                     <link rel="preconnect" href="https://connect.facebook.net"/>
                     <link rel="preconnect" href="https://facebook.com"/>
                     <link rel="preconnect" href="https://www.facebook.com"/>
+                    <link rel="preconnect" href="https://ajax.googleapis.com"/>
                     <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
                     <link rel="dns-prefetch" href="//www.googletagmanager.com"/>
                     <link rel="dns-prefetch" href="//static.xx.fbcdn.net"/>
                     <link rel="dns-prefetch" href="//connect.facebook.net"/>
                     <link rel="dns-prefetch" href="//facebook.com"/>
                     <link rel="dns-prefetch" href="//www.facebook.com"/>
+                    <link rel="dns-prefetch" href="//ajax.googleapis.com"/>
+                    {(font === 'nunito-sans') ? (
+                    <link rel="preload" href={withPrefix('js/nunito-sans.js')} as="script"/>
+                    ) : ((font === 'fira-sans') && (
+                    <link rel="preload" href={withPrefix('js/fira-sans.js')} as="script"/>
+                    ))}
+                    <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script" />
+                    <link rel="preload" href={withPrefix(_.get(this.props, 'data.config.header.logo_img', null))} as="image"/>
                     <script type="application/ld+json">	
                     {`	
                       "@context": "https://schema.org",	
@@ -174,8 +182,6 @@ export default class Body extends React.Component {
                       } 
                     `}
                     </script>
-                    <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script" />
-                    <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async defer></script>
                     <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
                 <div id="page" className="site" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="https://schema.org/WebPageElement">
@@ -192,6 +198,7 @@ export default class Body extends React.Component {
                 ))}
                 <div id="fb-root"></div>
                 <div className="fb-customerchat" data-lazy="true" page_id="121349286117840" theme_color="#fe2c55" logged_in_greeting="Chào bạn? Chúng tôi có thể giúp gì cho bạn?" logged_out_greeting="Chào bạn? Chúng tôi có thể giúp gì cho bạn?"></div>
+                <script src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" async defer></script>
             </React.Fragment>
         );
     }

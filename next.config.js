@@ -8,6 +8,9 @@ sourcebit.fetch(sourcebitConfig);
 
 module.exports = {
     trailingSlash: true,
+    poweredByHeader: false,
+    generateEtags: false,
+    compress: false,
     devIndicators: {
         autoPrerender: false
     },
