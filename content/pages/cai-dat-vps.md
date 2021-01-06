@@ -10,16 +10,8 @@ sections:
   - section_id: main
     title: Cài đặt VPS
     content: >-
-      ## Lorem ipsum
-
-
-      Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-      - Lorem ipsum
-
-      - dolor sit amet
+      Danh sách các tính năng cũng như các module được hỗ trợ khi khách hàng sử
+      dụng dịch vụ cài đặt VPS của chúng tôi.
     image_alt: Cloud
     actions: []
     type: section_hero
