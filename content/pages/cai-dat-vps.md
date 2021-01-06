@@ -41,7 +41,7 @@ sections:
       hay mất thời gian để cài đặt.
     background: gray
     features:
-      - title: lorem-ipsum
+      - title: Cài đặt nhanh chóng
         content: >-
           ## Lorem ipsum
 
