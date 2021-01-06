@@ -91,23 +91,6 @@
                 "image": "images/B5B2444A-79B2-42B1-AE08-FF1CCE67FFE5_4_6006.png"
             },
             {
-                "title": "Cùng hệ thống",
-                "nav_links": [
-                    {
-                        "label": "Venberi",
-                        "url": "https://venberi.com/",
-                        "style": "link",
-                        "has_icon": false,
-                        "icon": "arrow-left",
-                        "icon_position": "left",
-                        "new_window": true,
-                        "no_follow": false,
-                        "type": "action"
-                    }
-                ],
-                "type": "footer_nav"
-            },
-            {
                 "type": "footer_nav",
                 "title": "Cộng đồng",
                 "nav_links": [
@@ -171,6 +154,23 @@
                     {
                         "label": "Cá Bảy Màu",
                         "url": "https://cabaymau.net/",
+                        "style": "link",
+                        "has_icon": false,
+                        "icon": "arrow-left",
+                        "icon_position": "left",
+                        "new_window": true,
+                        "no_follow": false,
+                        "type": "action"
+                    }
+                ],
+                "type": "footer_nav"
+            },
+            {
+                "title": "Cùng hệ thống",
+                "nav_links": [
+                    {
+                        "label": "Venberi",
+                        "url": "https://venberi.com/",
                         "style": "link",
                         "has_icon": false,
                         "icon": "arrow-left",
