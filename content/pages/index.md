@@ -150,7 +150,7 @@ sections:
             new_window: true
             no_follow: true
             type: action
-          - label: Xem thêm gói này
+          - label: Xem thêm về gói này
             url: lorem-ipsum
             style: link
             has_icon: false
