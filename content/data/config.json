@@ -179,7 +179,8 @@
                 "image_url": "lorem-ipsum",
                 "title": "lorem-ipsum",
                 "content": "## Lorem ipsum\n\nLorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n- Lorem ipsum\n- dolor sit amet",
-                "type": "footer_text"
+                "type": "footer_text",
+                "image": "images/58111AA6-D0D9-4C10-BC6C-068FDAC2CE6D_4_5005_c.jpeg"
             }
         ],
         "has_nav": false,
