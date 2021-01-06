@@ -184,7 +184,19 @@
             }
         ],
         "has_nav": false,
-        "nav_links": [],
+        "nav_links": [
+            {
+                "label": "lorem-ipsum",
+                "url": "lorem-ipsum",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            }
+        ],
         "content": "&copy; 2020 Tuan Duc Design. All rights reserved.",
         "links": []
     },
