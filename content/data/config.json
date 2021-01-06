@@ -164,16 +164,6 @@
                     }
                 ],
                 "type": "footer_nav"
-            },
-            {
-                "title": "lorem-ipsum",
-                "content": "## Lorem ipsum\n\nLorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n- Lorem ipsum\n- dolor sit amet",
-                "form_id": "lorem-ipsum",
-                "form_action": "lorem-ipsum",
-                "hide_labels": false,
-                "form_fields": [],
-                "submit_label": "lorem-ipsum",
-                "type": "footer_form"
             }
         ],
         "has_nav": false,
