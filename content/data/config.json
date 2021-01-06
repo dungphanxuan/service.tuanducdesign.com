@@ -184,19 +184,7 @@
             }
         ],
         "has_nav": true,
-        "nav_links": [
-            {
-                "label": "Facebook",
-                "url": "https://",
-                "style": "link",
-                "has_icon": false,
-                "icon": "arrow-right",
-                "icon_position": "left",
-                "new_window": false,
-                "no_follow": false,
-                "type": "action"
-            }
-        ],
+        "nav_links": [],
         "content": "&copy; 2021 Tuan Duc Design. All rights reserved.",
         "links": []
     },
