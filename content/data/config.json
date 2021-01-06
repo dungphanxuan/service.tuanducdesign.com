@@ -10,7 +10,7 @@
         "nav_links": [
             {
                 "label": "Trang chủ",
-                "url": "#main",
+                "url": "https://tuanducdesign.com/",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
@@ -83,12 +83,12 @@
     "footer": {
         "sections": [
             {
-                "type": "footer_text",
-                "image": "images/B5B2444A-79B2-42B1-AE08-FF1CCE67FFE5_4_6006.png",
-                "image_url": "/",
                 "image_alt": "Tuan Duc Design",
+                "image_url": "https://service.tuanducdesign.com/",
+                "title": "",
                 "content": "Chuyên cung cấp dịch vụ VPS và Website, Hướng dẫn bảo mật VPS và Website từ cơ bản đến nâng cao cho người không chuyên, Hỗ trợ cài đặt VPS,Tối ưu VPS thông qua module PageSpeed của Google,Cài đặt Memcached,Redis,SSL và Cloudflare.",
-                "title": ""
+                "type": "footer_text",
+                "image": "images/B5B2444A-79B2-42B1-AE08-FF1CCE67FFE5_4_6006.png"
             },
             {
                 "type": "footer_nav",
@@ -166,11 +166,11 @@
                 "type": "footer_nav"
             },
             {
-                "title": "Sản phẩm",
+                "title": "Cùng hệ thống",
                 "nav_links": [
                     {
-                        "label": "Mẫu website Tin Tức",
-                        "url": "https://tuanducdesign.com/",
+                        "label": "Venberi",
+                        "url": "https://venberi.com/",
                         "style": "link",
                         "has_icon": false,
                         "icon": "arrow-left",
@@ -188,6 +188,6 @@
         "content": "&copy; 2021 Tuan Duc Design. All rights reserved.",
         "links": []
     },
-    "domain": "https://tuanducdesign.com/",
+    "domain": "https://service.tuanducdesign.com/",
     "favicon": "images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png"
 }
