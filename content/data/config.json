@@ -83,6 +83,23 @@
     "footer": {
         "sections": [
             {
+                "title": "Sản phẩm",
+                "nav_links": [
+                    {
+                        "label": "error",
+                        "url": "lorem-ipsum",
+                        "style": "link",
+                        "has_icon": false,
+                        "icon": "arrow-left",
+                        "icon_position": "left",
+                        "new_window": false,
+                        "no_follow": false,
+                        "type": "action"
+                    }
+                ],
+                "type": "footer_nav"
+            },
+            {
                 "type": "footer_text",
                 "image": "images/B5B2444A-79B2-42B1-AE08-FF1CCE67FFE5_4_6006.png",
                 "image_url": "/",
@@ -159,23 +176,6 @@
                         "icon": "arrow-left",
                         "icon_position": "left",
                         "new_window": true,
-                        "no_follow": false,
-                        "type": "action"
-                    }
-                ],
-                "type": "footer_nav"
-            },
-            {
-                "title": "Sản phẩm",
-                "nav_links": [
-                    {
-                        "label": "error",
-                        "url": "lorem-ipsum",
-                        "style": "link",
-                        "has_icon": false,
-                        "icon": "arrow-left",
-                        "icon_position": "left",
-                        "new_window": false,
                         "no_follow": false,
                         "type": "action"
                     }
