@@ -7,7 +7,7 @@ meta_description: >-
 canonical_url: cai-dat-vps
 no_index: false
 sections:
-  - section_id: lorem-ipsum
+  - section_id: main
     title: Cài đặt VPS
     content: >-
       ## Lorem ipsum
