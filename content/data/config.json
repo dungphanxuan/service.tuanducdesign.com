@@ -169,13 +169,13 @@
                 "title": "Sản phẩm",
                 "nav_links": [
                     {
-                        "label": "Mẫu website Landing Page",
-                        "url": "",
+                        "label": "Mẫu website Tin Tức",
+                        "url": "https://tuanducdesign.com/",
                         "style": "link",
                         "has_icon": false,
                         "icon": "arrow-left",
                         "icon_position": "left",
-                        "new_window": false,
+                        "new_window": true,
                         "no_follow": false,
                         "type": "action"
                     }
@@ -185,7 +185,7 @@
         ],
         "has_nav": false,
         "nav_links": [],
-        "content": "&copy; 2020 Tuan Duc Design. All rights reserved.",
+        "content": "&copy; 2021 Tuan Duc Design. All rights reserved.",
         "links": []
     },
     "domain": "https://tuanducdesign.com/",
