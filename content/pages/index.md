@@ -141,15 +141,6 @@ sections:
             new_window: true
             no_follow: true
             type: action
-          - label: Xem thêm về gói này
-            url: /bao-mat-vps
-            style: link
-            has_icon: false
-            icon: arrow-left
-            icon_position: left
-            new_window: false
-            no_follow: false
-            type: action
         type: pricing_plan
       - title: TỐI ƯU VPS
         subtitle: ''
