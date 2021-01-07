@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Action from './Action';
 import ActionLink from './ActionLink';
 import BlogPostFooter from './BlogPostFooter';
