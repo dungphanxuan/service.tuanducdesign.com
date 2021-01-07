@@ -63,7 +63,7 @@ export default class Body extends React.Component {
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
                     {_.get(this.props, 'data.config.favicon', null) && (
-                    <link rel="apple-touch-icon" href="https://res.cloudinary.com/tuanducdesign"{withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
+                    <link rel="apple-touch-icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
                     <meta name="theme-color" content="#fe2c55"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
