@@ -12,11 +12,11 @@ export default class SectionContent extends React.Component {
               <div className="inner">
                 <div className="grid">
                   {_.get(section, 'image', null) && (
-                  <div className="cell block-preview wow fadeInDown" data-wow-delay="0.5s">
+                  <div className="cell block-preview wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
                     <img className="lazyload" data-src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
                   </div>
                   )}
-                  <div className="cell block-content wow fadeInDown" data-wow-delay="1s">
+                  <div className="cell block-content wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                     {_.get(section, 'title', null) && (
                     <h2 className="block-title underline">{_.get(section, 'title', null)}</h2>
                     )}

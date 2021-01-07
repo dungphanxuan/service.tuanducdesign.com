@@ -11,7 +11,7 @@ export default class SectionPosts extends React.Component {
         let recent_posts = display_posts.slice(0, 3);
         return (
             <section id={_.get(section, 'section_id', null)} className={'block posts-block bg-' + _.get(section, 'background', null) + ' outer'}>
-              <div className="block-header inner-small wow fadeInDown" data-wow-delay="0.5s">
+              <div className="block-header inner-small">
                 {_.get(section, 'title', null) && (
                 <h2 className="block-title">{_.get(section, 'title', null)}</h2>
                 )}
@@ -21,7 +21,7 @@ export default class SectionPosts extends React.Component {
                 </p>
                 )}
               </div>
-              <div className="inner wow fadeInDown" data-wow-delay="1s">
+              <div className="inner">
                 <div className="grid post-feed">
                   {_.map(recent_posts, (post, post_idx) => (
                   <article key={post_idx} className="cell post">

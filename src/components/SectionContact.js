@@ -9,7 +9,7 @@ export default class SectionContact extends React.Component {
         let section = _.get(this.props, 'section', null);
         return (
             <section id={_.get(section, 'section_id', null)} className={'block contact-block bg-' + _.get(section, 'background', null) + ' outer'}>
-              <div className="block-header inner-small wow fadeInDown" data-wow-delay="0.5s">
+              <div className="block-header inner-small wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
                 {_.get(section, 'title', null) && (
                 <h2 className="block-title">{_.get(section, 'title', null)}</h2>
                 )}
@@ -19,7 +19,7 @@ export default class SectionContact extends React.Component {
                 </p>
                 )}
               </div>
-              <div className="block-content inner-medium wow fadeInDown" data-wow-delay="0.5s">
+              <div className="block-content inner-medium wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                 {markdownify(_.get(section, 'content', null))}
                 <form name={_.get(section, 'form_id', null)} id={_.get(section, 'form_id', null)}{...(_.get(section, 'form_action', null) ? ({action: _.get(section, 'form_action', null)}) : null)} method="POST" data-netlify="true" data-netlify-honeypot={_.get(section, 'form_id', null) + '-bot-field'}>
                   <div className="screen-reader-text">
