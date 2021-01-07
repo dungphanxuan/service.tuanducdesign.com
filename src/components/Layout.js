@@ -82,6 +82,12 @@ export default class Body extends React.Component {
                     <link rel="dns-prefetch" href="//ajax.googleapis.com"/>
                     {(font === 'nunito-sans') ? (
                     <link rel="preload" href={withPrefix('js/nunito-sans.js')} as="script"/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9tAcVwo.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8ccezI9tAcVwob5A.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5tU1ECVZl_.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5jU1ECVZl_86Y.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cceyI9tAcVwob5A.woff2" as="font" type="font/woff2" crossorigin/>
+                    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5iU1ECVZl_86Y.woff2" as="font" type="font/woff2" crossorigin/>
                     ) : ((font === 'fira-sans') && (
                     <link rel="preload" href={withPrefix('js/fira-sans.js')} as="script"/>
                     ))}
