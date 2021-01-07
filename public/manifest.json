@@ -1,0 +1,53 @@
+{
+  "name": "Tuan Duc Design",
+  "short_name": "TD Design",
+  "theme_color": "#ffffff",
+  "background_color": "#004740",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "images/CA0E67E9-AAD0-4D36-82D8-674C7504DFD1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}

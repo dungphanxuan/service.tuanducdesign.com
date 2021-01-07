@@ -2,7 +2,6 @@ import React from 'react';
 import {Helmet} from 'react-helmet';
 import ScriptTag from 'react-script-tag';
 import _ from 'lodash';
-
 import {withPrefix} from '../utils';
 import Header from './Header';
 import Footer from './Footer';
@@ -54,9 +53,14 @@ export default class Body extends React.Component {
                     {(font !== 'system-sans') && (
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     )}
+                    <link rel="manifest" href="/manifest.json" />
                     {_.get(this.props, 'data.config.favicon', null) && (
+                    <link href={withPrefix(_.get(this.props, 'data.config.favicon', null))} rel="icon" type="image/png" sizes="16x16" />
+                    <link href={withPrefix(_.get(this.props, 'data.config.favicon', null))} rel="icon" type="image/png" sizes="32x32" />
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
+                    <link rel="apple-touch-icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
+                    <meta name="theme-color" content="#fe2c55"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     <link rel="preconnect" href="https://www.googletagmanager.com"/>
                     <link rel="preconnect" href="https://static.xx.fbcdn.net"/>
