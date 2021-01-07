@@ -80,7 +80,6 @@ export default class Body extends React.Component {
                     <link rel="dns-prefetch" href="//facebook.com"/>
                     <link rel="dns-prefetch" href="//www.facebook.com"/>
                     <link rel="dns-prefetch" href="//ajax.googleapis.com"/>
-                    <link rel="preload" href={withPrefix('js/lazyload.js')} as="script"/>
                     {(font === 'nunito-sans') ? (
                     <link rel="preload" href={withPrefix('js/nunito-sans.js')} as="script"/>
                     ) : ((font === 'fira-sans') && (
