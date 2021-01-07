@@ -1,5 +1,4 @@
 // import App from 'next/app'
-import Image from 'next/image';
 import { useEffect } from 'react';
 import Router from 'next/router';
 import '../sass/main.scss';
