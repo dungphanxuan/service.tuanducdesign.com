@@ -1,14 +1,8 @@
-const withPWA = require('next-pwa')
-const runtimeCaching = require('next-pwa/cache')
 const path = require('path');
 const sourcebit = require('sourcebit');
 const sourcebitConfig = require('./sourcebit.js');
 sourcebit.fetch(sourcebitConfig);
-module.exports = withPWA({
-    pwa: {
-    dest: 'public',
-    runtimeCaching,
-    },
+module.exports = {
     trailingSlash: true,
     poweredByHeader: false,
     generateEtags: false,
@@ -37,4 +31,4 @@ module.exports = withPWA({
         config.plugins.push(new webpack.WatchIgnorePlugin([/\/content\//]));
         return config;
     }
-})
+};

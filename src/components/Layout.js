@@ -53,7 +53,6 @@ export default class Body extends React.Component {
                     {(font !== 'system-sans') && (
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     )}
-                    <link rel="manifest" href="/manifest.json" />
                     {_.get(this.props, 'data.config.favicon', null) && (
                     <link href={withPrefix(_.get(this.props, 'data.config.favicon', null))} rel="icon" type="image/png" sizes="16x16"/>
                     )}
