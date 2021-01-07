@@ -6,7 +6,7 @@ module.exports = {
     trailingSlash: true,
     poweredByHeader: false,
     generateEtags: false,
-    compress: false,
+    compress: true,
     devIndicators: {
         autoPrerender: false
     },
