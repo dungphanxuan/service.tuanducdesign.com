@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-
+import Image from 'next/image';
 import {Link, withPrefix, markdownify} from '../utils';
 
 export default class FooterText extends React.Component {
@@ -12,7 +12,7 @@ export default class FooterText extends React.Component {
                 _.get(section, 'image_url', null) ? (
                 <Link className="widget-image" href={withPrefix(_.get(section, 'image_url', null))} title={_.get(section, 'image_alt', null)}><img className="lazyload" data-src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} /></Link>
                 ) : 
-                <p className="widget-image"><img className="lazyload" data-src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} /></p>
+                <p className="widget-image"><Image className="lazyload" data-src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} /></p>
               )}
               {_.get(section, 'title', null) && (
               <h2 className="widget-title">{_.get(section, 'title', null)}</h2>

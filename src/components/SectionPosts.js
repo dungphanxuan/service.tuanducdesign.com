@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-
+import Image from 'next/image';
 import {htmlToReact, getPages, Link, withPrefix} from '../utils';
 import BlogPostFooter from './BlogPostFooter';
 
@@ -28,7 +28,7 @@ export default class SectionPosts extends React.Component {
                     <div className="card">
                       {_.get(post, 'frontmatter.thumb_image', null) && (
                       <Link className="post-thumbnail" href={withPrefix(_.get(post, '__metadata.urlPath', null))} title={_.get(post, 'frontmatter.thumb_image_alt', null)}>
-                        <img className="lazyload" data-src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.thumb_image_alt', null)} />
+                        <Image className="lazyload" data-src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.thumb_image_alt', null)} />
                       </Link>
                       )}
                       <div className="post-body">

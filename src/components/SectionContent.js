@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-
+import Image from 'next/image';
 import {withPrefix, markdownify} from '../utils';
 import CtaButtons from './CtaButtons';
 
@@ -13,7 +13,7 @@ export default class SectionContent extends React.Component {
                 <div className="grid">
                   {_.get(section, 'image', null) && (
                   <div className="cell block-preview wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                    <img className="lazyload" data-src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
+                    <Image className="lazyload" data-src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
                   </div>
                   )}
                   <div className="cell block-content wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
