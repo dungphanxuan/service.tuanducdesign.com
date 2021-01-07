@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-import Image from 'next/image';
+
 import {htmlToReact, getPages, Link, withPrefix} from '../utils';
 import BlogPostFooter from './BlogPostFooter';
 

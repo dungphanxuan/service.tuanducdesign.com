@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-import Image from 'next/image';
+
 import {htmlToReact, withPrefix, markdownify} from '../utils';
 import CtaButtons from './CtaButtons';
 
