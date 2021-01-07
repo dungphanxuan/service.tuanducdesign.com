@@ -55,9 +55,15 @@ export default class Body extends React.Component {
                     )}
                     <link rel="manifest" href="/manifest.json" />
                     {_.get(this.props, 'data.config.favicon', null) && (
-                    <link href={withPrefix(_.get(this.props, 'data.config.favicon', null))} rel="icon" type="image/png" sizes="16x16" />
-                    <link href={withPrefix(_.get(this.props, 'data.config.favicon', null))} rel="icon" type="image/png" sizes="32x32" />
+                    <link href={withPrefix(_.get(this.props, 'data.config.favicon', null))} rel="icon" type="image/png" sizes="16x16"/>
+                    )}
+                    {_.get(this.props, 'data.config.favicon', null) && (
+                    <link href={withPrefix(_.get(this.props, 'data.config.favicon', null))} rel="icon" type="image/png" sizes="32x32"/>
+                    )}
+                    {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
+                    )}
+                    {_.get(this.props, 'data.config.favicon', null) && (
                     <link rel="apple-touch-icon" href={withPrefix(_.get(this.props, 'data.config.favicon', null))}/>
                     )}
                     <meta name="theme-color" content="#fe2c55"/>
