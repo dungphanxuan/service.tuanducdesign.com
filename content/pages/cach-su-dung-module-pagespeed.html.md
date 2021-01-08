@@ -8,7 +8,16 @@ sections:
   - section_id: main
     title: Cách sử dụng Module Pagespeed
     subtitle: Các bước sử dụng và tối ưu website khi cài đặt Module Pagespeed
-    actions: []
+    actions:
+      - label: lorem-ipsum
+        url: lorem-ipsum
+        style: link
+        has_icon: false
+        icon: arrow-left
+        icon_position: left
+        new_window: false
+        no_follow: false
+        type: action
     type: section_cta
 layout: landing
 ---
