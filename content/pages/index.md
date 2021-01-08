@@ -44,15 +44,6 @@ sections:
             icon_position: right
             new_window: true
             no_follow: true
-          - label: Cách sử dụng
-            url: /cach-su-dung-module-pagespeed
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-            new_window: true
-            no_follow: false
-            type: action
       - title: Cài đặt Memcached
         image: images/webserver-memcached-database.png
         image_alt: Memcached
