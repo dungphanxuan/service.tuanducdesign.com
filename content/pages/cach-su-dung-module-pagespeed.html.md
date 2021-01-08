@@ -12,7 +12,7 @@ sections:
       - label: Xem hướng dẫn
         url: lorem-ipsum
         style: secondary
-        has_icon: false
+        has_icon: true
         icon: arrow-left
         icon_position: left
         new_window: false
