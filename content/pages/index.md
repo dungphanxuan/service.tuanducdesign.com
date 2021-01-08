@@ -45,7 +45,7 @@ sections:
             new_window: true
             no_follow: true
           - label: Cách sử dụng
-            url: lorem-ipsum
+            url: /cach-su-dung-module-pagespeed
             style: primary
             has_icon: true
             icon: arrow-right
