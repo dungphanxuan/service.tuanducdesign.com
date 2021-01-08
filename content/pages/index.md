@@ -572,7 +572,7 @@ sections:
           để sử dụng trong việc xây dựng các trang web động với PHP.
         image_alt: Codeigniter
         actions:
-          - label: Trang chủ Codeigniter
+          - label: Trang chủ CodeIgniter
             url: 'https://codeigniter.com/'
             style: primary
             has_icon: true
