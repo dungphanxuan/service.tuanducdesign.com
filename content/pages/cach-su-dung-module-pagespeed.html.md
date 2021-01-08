@@ -20,7 +20,7 @@ sections:
         type: action
     type: section_cta
   - section_id: configuration
-    title: 'Cấu hình '
+    title: Cấu hình Module Pagespeed
     subtitle: lorem-ipsum
     background: gray
     features: []
