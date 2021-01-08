@@ -19,17 +19,22 @@ export default class Body extends React.Component {
                     <html lang="vi" />
                     <head itemscope itemtype="http://schema.org/WebSite" />
                     <title>{title}</title>
+                    <base href={withPrefix('/')}/>
                     <meta charset="utf-8"/>
-                    <meta name="viewport" content="width=device-width, initialscale=1.0" />
-                    <meta name="google" content="notranslate" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1" />
+                    <meta name="theme-color" content="#fe2c55"/>
+                    <meta name="google" content="notranslate"/>
                     <meta name="dc.title" content={title}/>
                     <meta name="dc.description" content={_.get(this.props, 'page.frontmatter.meta_description', null)}/>
                     <meta name="dc.relation" content={withPrefix('/')}/>
                     <meta name="dc.source" content={withPrefix('/')}/>
+                    <meta name="dc.language" content="vi"/>
                     <meta name="title" content={title}/>
                     <meta itemprop="url" content={withPrefix('/')}/>
                     <meta name="description" content={_.get(this.props, 'page.frontmatter.meta_description', null)}/>
+                    <meta property="og:locale" content="vi" >
                     <meta property="og:type" content="website"/>
+                    <meta property="og:site_name" content={title}/>
                     <meta property="og:url" content={withPrefix('/')}/>
                     <meta property="og:title" content={title}/>
                     <meta property="og:description" content={_.get(this.props, 'page.frontmatter.meta_description', null)}/>
