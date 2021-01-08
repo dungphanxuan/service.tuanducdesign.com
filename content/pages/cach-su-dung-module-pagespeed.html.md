@@ -5,7 +5,7 @@ meta_description: Các bước sử dụng và tối ưu website khi cài đặt
 canonical_url: cach-su-dung-module-pagespeed.html
 no_index: false
 sections:
-  - section_id: lorem-ipsum
+  - section_id: main
     title: lorem-ipsum
     subtitle: lorem-ipsum
     actions: []
