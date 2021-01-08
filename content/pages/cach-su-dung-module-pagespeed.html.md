@@ -26,16 +26,8 @@ sections:
     features:
       - title: 'Bước 1 : Chuẩn bị'
         content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Để cài đặt Module Pagespeed, bạn cần tối thiểu 512MB RAM (bao gồm cả
+          Swap File) và các trình biên dịch C++, gcc 4.8 hoặc clang 3.3 trở lên.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
