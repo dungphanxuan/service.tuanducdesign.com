@@ -256,7 +256,18 @@
     }
   }
 }
-
+    .card.highlight {
+    border: unset;
+    background: linear-gradient(90deg,$color-primary,$color-secondary);
+    color: #fff;
+    }
+    .card.highlight h3,.card.highlight .plan-price {
+    color: #fff;
+    }
+    .card.highlight .block-buttons a {
+    background: transparent;
+    border-color: #fff;
+    }
 .plan {
   .card {
     display: -ms-flexbox;
@@ -436,7 +447,6 @@
       flex: 0 0 100%;
       max-width: 100%;
     }
-
     .card {
       display: -ms-flexbox;
       display: flex;
