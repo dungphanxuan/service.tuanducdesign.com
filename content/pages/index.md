@@ -36,7 +36,7 @@ sections:
           head xuống footer để website tải nhanh hơn, async Google Analytics,
           lazyload ảnh, rút gọn lại head và nhiều tính năng khác.
         actions:
-          - label: Trang chủ Module PageSpeed
+          - label: Trang chủ Module Pagespeed
             url: 'https://developers.google.com/speed/pagespeed/module'
             style: primary
             has_icon: true
@@ -572,7 +572,7 @@ sections:
           để sử dụng trong việc xây dựng các trang web động với PHP.
         image_alt: Codeigniter
         actions:
-          - label: Trang chủ Codeigniter
+          - label: Trang chủ CodeIgniter
             url: 'https://codeigniter.com/'
             style: primary
             has_icon: true
