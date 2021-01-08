@@ -20,7 +20,7 @@ sections:
         type: action
     type: section_cta
   - section_id: configuration
-    title: lorem-ipsum
+    title: 'Cấu hình '
     subtitle: lorem-ipsum
     background: gray
     features: []
