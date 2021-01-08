@@ -657,8 +657,8 @@ sections:
           duy trì các dịch vụ bạn đã mua mà chúng tôi cung cấp nữa.
         type: faq_item
       - question: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Nếu tôi đã sử dụng dịch vụ A rồi thì sử dụng dịch vụ B có phải mất
+          thêm tiền không?
         answer: >-
           ## Lorem ipsum
 
