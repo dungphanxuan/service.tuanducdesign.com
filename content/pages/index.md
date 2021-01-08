@@ -656,7 +656,7 @@ sections:
           Bạn chỉ cần đăng ký một lần là lần sau không cần phải đóng thêm phí để
           duy trì các dịch vụ bạn đã mua mà chúng tôi cung cấp nữa.
         type: faq_item
-      - question: Nếu tôi sử dụng mã nguồn WordPress thì tôi cần chú ý những gì?
+      - question: Tôi nên sử dụng plugins cache nào trên máy chủ của tôi?
         answer: >-
           ## Lorem ipsum
 
