@@ -15,8 +15,9 @@ export default class Body extends React.Component {
         }
         return (
             <React.Fragment>
-                <Helmet itemscope itemtype="http://schema.org/WebSite">
+                <Helmet>
                     <html lang="vi" />
+                    <head itemscope itemtype="http://schema.org/WebSite" />
                     <title>{title}</title>
                     <meta charset="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialscale=1.0" />

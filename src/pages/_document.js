@@ -37,11 +37,11 @@ class MyDocument extends Document {
                 <body {...this.helmetBodyAttrComponents}>
                     <Main />
                     <link rel="preload" href={withPrefix('js/plugins.js')} as="script"/>
-                    <ScriptTag src={withPrefix('js/plugins.js')} async />
+                    <ScriptTag src={withPrefix('js/plugins.js')} />
                     <link rel="preload" href={withPrefix('js/init.js')} as="script"/>
-                    <ScriptTag src={withPrefix('js/init.js')} async />
+                    <ScriptTag src={withPrefix('js/init.js')} />
                     <link rel="preload" href={withPrefix('js/main.js')} as="script"/>
-                    <ScriptTag src={withPrefix('js/main.js')} async />
+                    <ScriptTag src={withPrefix('js/main.js')} />
                     <NextScript />
                 </body>
             </Html>
