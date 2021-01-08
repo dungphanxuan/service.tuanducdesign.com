@@ -11,7 +11,7 @@ sections:
     actions:
       - label: Xem hướng dẫn trên trang chủ
         url: lorem-ipsum
-        style: link
+        style: secondary
         has_icon: false
         icon: arrow-left
         icon_position: left
