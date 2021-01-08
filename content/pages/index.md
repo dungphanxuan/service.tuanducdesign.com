@@ -656,9 +656,7 @@ sections:
           Bạn chỉ cần đăng ký một lần là lần sau không cần phải đóng thêm phí để
           duy trì các dịch vụ bạn đã mua mà chúng tôi cung cấp nữa.
         type: faq_item
-      - question: >-
-          Nếu tôi đã sử dụng dịch vụ A rồi thì sử dụng dịch vụ B có phải mất
-          thêm tiền không?
+      - question: Khi sử dụng dịch vụ bên chúng tôi thì bạn sẽ nhận lại được gì?
         answer: >-
           ## Lorem ipsum
 
