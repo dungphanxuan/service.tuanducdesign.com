@@ -6,7 +6,7 @@ canonical_url: cach-su-dung-module-pagespeed.html
 no_index: false
 sections:
   - section_id: main
-    title: lorem-ipsum
+    title: Cách sử dụng Module Pagespeed
     subtitle: lorem-ipsum
     actions: []
     type: section_cta
