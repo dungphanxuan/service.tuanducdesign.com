@@ -44,7 +44,7 @@ sections:
             icon_position: right
             new_window: true
             no_follow: true
-          - label: ''
+          - label: Cách sử dụng
             url: lorem-ipsum
             style: primary
             has_icon: true
