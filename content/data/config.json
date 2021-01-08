@@ -161,6 +161,17 @@
                         "new_window": true,
                         "no_follow": false,
                         "type": "action"
+                    },
+                    {
+                        "label": "Wow1Academy",
+                        "url": "https://wow1academy.com/",
+                        "style": "link",
+                        "has_icon": false,
+                        "icon": "arrow-right",
+                        "icon_position": "left",
+                        "new_window": true,
+                        "no_follow": true,
+                        "type": "action"
                     }
                 ],
                 "type": "footer_nav"
