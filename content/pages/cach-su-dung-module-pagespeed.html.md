@@ -7,7 +7,7 @@ no_index: false
 sections:
   - section_id: main
     title: Cách sử dụng Module Pagespeed
-    subtitle: lorem-ipsum
+    subtitle: Các bước sử dụng và tối ưu website khi cài đặt Module Pagespeed
     actions: []
     type: section_cta
 layout: landing
