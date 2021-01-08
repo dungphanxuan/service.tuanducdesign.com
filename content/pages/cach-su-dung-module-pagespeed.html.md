@@ -24,7 +24,7 @@ sections:
     subtitle: Các bước cấu hình Module Pagespeed để tối ưu website hiệu quả.
     background: gray
     features:
-      - title: lorem-ipsum
+      - title: 'Bước 1 '
         content: >-
           ## Lorem ipsum
 
