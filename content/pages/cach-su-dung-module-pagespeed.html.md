@@ -24,7 +24,7 @@ sections:
     subtitle: Các bước cấu hình Module Pagespeed để tối ưu website hiệu quả.
     background: gray
     features:
-      - title: 'Bước 1 : Cài đặt Module Pagespeed'
+      - title: 'Bước 1 : Chuẩn bị'
         content: >-
           ## Lorem ipsum
 
