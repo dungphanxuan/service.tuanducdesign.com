@@ -9,7 +9,7 @@ sections:
     title: Cách sử dụng Module Pagespeed
     subtitle: Các bước sử dụng và tối ưu website khi cài đặt Module Pagespeed
     actions:
-      - label: lorem-ipsum
+      - label: Xem hướng dẫn trên trang chủ
         url: lorem-ipsum
         style: link
         has_icon: false
