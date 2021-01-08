@@ -19,7 +19,7 @@ sections:
         no_follow: true
         type: action
     type: section_cta
-  - section_id: options
+  - section_id: configuration
     title: lorem-ipsum
     subtitle: lorem-ipsum
     background: gray
