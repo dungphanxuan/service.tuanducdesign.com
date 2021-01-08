@@ -21,7 +21,7 @@ sections:
     type: section_cta
   - section_id: configuration
     title: Cấu hình Module Pagespeed
-    subtitle: lorem-ipsum
+    subtitle: Các bước cấu hình Module Pagespeed để tối ưu website hiệu quả.
     background: gray
     features: []
     type: section_features
