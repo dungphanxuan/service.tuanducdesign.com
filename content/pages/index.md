@@ -44,7 +44,7 @@ sections:
             icon_position: right
             new_window: true
             no_follow: true
-          - label: lorem-ipsum
+          - label: ''
             url: lorem-ipsum
             style: primary
             has_icon: true
