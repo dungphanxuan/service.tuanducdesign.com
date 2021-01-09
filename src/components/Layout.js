@@ -16,8 +16,7 @@ export default class Body extends React.Component {
         return (
             <React.Fragment>
                 <Helmet>
-                    <html lang="vi" />
-                    <head itemscope itemtype="http://schema.org/WebSite" />
+                    <html lang="vi" itemscope itemtype="http://schema.org/WebSite" />
                     <title>{title}</title>
                     <base href={withPrefix('/')}/>
                     <meta charset="utf-8"/>
