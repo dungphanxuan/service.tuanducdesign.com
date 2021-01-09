@@ -32,7 +32,7 @@ export default class Body extends React.Component {
                     <meta name="title" content={title}/>
                     <meta itemprop="url" content={withPrefix('/')}/>
                     <meta name="description" content={_.get(this.props, 'page.frontmatter.meta_description', null)}/>
-                    <meta property="og:locale" content="vi" >
+                    <meta property="og:locale" content="vi"/>
                     <meta property="og:type" content="website"/>
                     <meta property="og:site_name" content={title}/>
                     <meta property="og:url" content={withPrefix('/')}/>
