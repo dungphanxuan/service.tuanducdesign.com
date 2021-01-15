@@ -96,7 +96,8 @@ export default class Body extends React.Component {
                     <link rel="preload" href="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js" as="script" />
                     <link rel="preload" href={withPrefix(_.get(this.props, 'data.config.header.logo_img', null))} as="image"/>
                     <script type="application/ld+json">	
-                    {`	
+                    {`
+                     {
                       "@context": "https://schema.org",	
                       "@type": "Organization",	
                       "name": "Tuan Duc Design",	
@@ -118,11 +119,13 @@ export default class Body extends React.Component {
                           "areaServed": "VN",	
                           "availableLanguage": "vi"	
                         }	
-                      ]	
+                      ]
+                    }
                     `}	
                     </script>	
                     <script type="application/ld+json">	
-                    {`	
+                    {`
+                     {
                       "@context": "https://schema.org/",	
                       "@type": "FAQPage",	
                       "mainEntity": [	
@@ -158,11 +161,13 @@ export default class Body extends React.Component {
                             "text": "Bạn chỉ cần đăng ký một lần là lần sau không cần phải đóng thêm phí để duy trì các dịch vụ bạn đã mua mà chúng tôi cung cấp nữa."	
                           }	
                         }	
-                      ]	
+                      ]
+                    }
                     `}	
                     </script>
                     <script type="application/ld+json">
                     {`
+                    {
                       "@context": "https://schema.org",
                       "@type": "LocalBusiness",
                       "name": "Tuan Duc Design",
@@ -196,11 +201,13 @@ export default class Body extends React.Component {
                         ],
                         "opens": "07:00",
                         "closes": "23:00"
-                      } 
+                      }
+                    }
                     `}
                     </script>
                     <script type='application/ld+json'>
                     {`
+                    {
                       "@context": "https://schema.org/",
                       "@type": "Product",
                       "name": "Tuan Duc Design - Chuyên cung cấp dịch vụ VPS và Website",
@@ -209,6 +216,7 @@ export default class Body extends React.Component {
                         "ratingValue" : "4.5",
                         "ratingCount": "15"
                       }
+                    }
                     `}
                     </script>
                     <body itemscope="itemscope" itemtype="https://schema.org/WebPage" className={'palette-' + _.get(this.props, 'data.config.palette', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
