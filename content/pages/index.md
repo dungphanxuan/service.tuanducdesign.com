@@ -673,9 +673,9 @@ sections:
         no_follow: true
 meta_title: Tuan Duc Design - Chuyên cung cấp dịch vụ VPS và Website
 meta_description: >-
-  Tuan Duc DesignChuyên cung cấp dịch vụ VPS và Website,Hướng dẫn bảo mật VPS và
-  Website từ cơ bản đến nâng cao cho người không chuyên,Hỗ trợ cài đặt VPS,Tối
-  ưu VPS.
+  Tuan Duc Design. Chuyên cung cấp dịch vụ VPS và Website,Hướng dẫn bảo mật VPS
+  và Website từ cơ bản đến nâng cao cho người không chuyên,Hỗ trợ cài đặt
+  VPS,Tối ưu VPS.
 layout: landing
 canonical_url: 'https://service.tuanducdesign.com/'
 ---
