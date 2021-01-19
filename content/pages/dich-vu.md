@@ -9,7 +9,9 @@ no_index: false
 sections:
   - section_id: dich-vu
     title: Dịch vụ nổi bật của chúng tôi
-    subtitle: lorem-ipsum
+    subtitle: >-
+      Bạn đang quan tâm đến các dịch vụ nổi bật của tôi? Dưới đây là một số dịch
+      vụ nổi bật của chúng tôi có thể nó sẽ hữu ích với bạn.
     background: gray
     features: []
     type: section_features
