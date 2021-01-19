@@ -141,7 +141,7 @@ sections:
       Tham gia vào nhóm trên Facebook của chúng tôi để trao đổi, hỏi đáp mỗi khi
       bạn gặp sự cố.
     actions:
-      - label: lorem-ipsum
+      - label: Tham gia ngay
         url: lorem-ipsum
         style: link
         has_icon: false
