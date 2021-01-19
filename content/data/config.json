@@ -41,11 +41,6 @@
                 "type": "action"
             },
             {
-                "label": "F.A.Q",
-                "url": "#faq",
-                "style": "link"
-            },
-            {
                 "label": "OS VPS",
                 "url": "https://service.tuanducdesign.com/#os-vps",
                 "style": "link",
@@ -55,6 +50,11 @@
                 "new_window": false,
                 "no_follow": false,
                 "type": "action"
+            },
+            {
+                "label": "F.A.Q",
+                "url": "#faq",
+                "style": "link"
             }
         ]
     },
