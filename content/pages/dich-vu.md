@@ -124,6 +124,7 @@ sections:
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
+        image: images/wordpress.png
     type: section_features
 layout: landing
 ---
