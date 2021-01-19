@@ -69,7 +69,7 @@ sections:
           Cấu hình crontab tự động dọn dẹp Server định kỳ
         highlight: true
         actions:
-          - label: lorem-ipsum
+          - label: Liên hệ
             url: lorem-ipsum
             style: link
             has_icon: false
