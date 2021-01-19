@@ -6,7 +6,7 @@ canonical_url: 'https://service.tuanducdesign.com/bang-gia/'
 no_index: false
 sections:
   - section_id: main
-    title: lorem-ipsum
+    title: Bảng giá dịch vụ
     content: >-
       ## Lorem ipsum
 
