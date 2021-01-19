@@ -48,8 +48,8 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-            new_window: false
-            no_follow: false
+            new_window: true
+            no_follow: true
             type: action
         type: feature_item
         image: images/webserver-memcached-database.png
