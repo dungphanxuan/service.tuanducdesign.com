@@ -50,7 +50,7 @@ sections:
         actions:
           - label: Liên hệ
             url: 'https://m.me/121349286117840?ref=lienhe_dichvuvps'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
