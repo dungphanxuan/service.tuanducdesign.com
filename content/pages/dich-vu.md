@@ -122,7 +122,16 @@ sections:
           Hỗ trợ khách hàng cài đặt mã nguồn WordPress lên Hosting hoặc VPS của
           khách hàng.
         image_alt: lorem-ipsum
-        actions: []
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
         type: feature_item
         image: images/wordpress.png
     type: section_features
