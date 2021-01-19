@@ -43,6 +43,7 @@ sections:
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
+        image: images/webserver-memcached-database.png
     type: section_features
 layout: landing
 ---
