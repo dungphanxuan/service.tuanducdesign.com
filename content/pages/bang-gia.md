@@ -19,7 +19,7 @@ sections:
     background: gray
     pricing_plans:
       - title: CÀI ĐẶT VPS
-        subtitle: lorem-ipsum
+        subtitle: ''
         price: lorem-ipsum
         details: >-
           ## Lorem ipsum
