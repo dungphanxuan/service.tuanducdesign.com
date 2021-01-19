@@ -136,7 +136,7 @@ sections:
         image: images/wordpress.png
     type: section_features
   - section_id: lorem-ipsum
-    title: 'Tham gia vào nhóm '
+    title: Tham gia vào nhóm
     subtitle: lorem-ipsum
     actions: []
     type: section_cta
