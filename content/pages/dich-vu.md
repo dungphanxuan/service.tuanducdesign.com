@@ -40,7 +40,7 @@ sections:
           những dữ liệu bạn hay sử dụng vào bộ nhớ RAM. Do tốc độ đọc ghi của bộ
           nhớ bao giờ cũng cao hơn so với lưu trữ file nên việc sử dụng
           memcached giúp cho hệ thống của bạn tăng tốc lên một cách đáng kể.
-        image_alt: lorem-ipsum
+        image_alt: Memcached
         actions: []
         type: feature_item
         image: images/webserver-memcached-database.png
