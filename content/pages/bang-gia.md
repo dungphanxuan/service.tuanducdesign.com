@@ -80,28 +80,5 @@ sections:
             type: action
         type: pricing_plan
     type: section_pricing
-  - section_id: ''
-    title: ''
-    subtitle: ''
-    background: gray
-    pricing_plans:
-      - title: CẤU HÌNH NGINX
-        subtitle: ''
-        price: 250.000 VNĐ
-        details: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
-        highlight: false
-        actions: []
-        type: pricing_plan
-    type: section_pricing
 layout: landing
 ---
