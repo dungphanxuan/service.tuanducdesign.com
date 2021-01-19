@@ -59,7 +59,7 @@ sections:
           Memcached. Không chỉ hỗ trợ cache dạng keys/values tốt như Memcached
           mà Redis còn hỗ trợ nhiều cấu trúc dữ liệu khác như hash, list, set,
           sorted set, string.
-        image_alt: lorem-ipsum
+        image_alt: Redis
         actions: []
         type: feature_item
         image: images/redis.png
