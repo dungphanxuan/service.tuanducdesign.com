@@ -1,7 +1,9 @@
 ---
 title: Dịch Vụ
 meta_title: Dịch Vụ
-meta_description: 'Bạn đang quan tâm đến dịch vụ VPS, dịch vụ Website,'
+meta_description: >-
+  Bạn đang quan tâm đến dịch vụ VPS, dịch vụ Website, dịch vụ WordPress và dịch
+  vụ 
 canonical_url: lorem-ipsum
 no_index: false
 sections: []
