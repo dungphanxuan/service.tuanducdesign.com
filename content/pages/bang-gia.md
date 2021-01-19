@@ -7,17 +7,9 @@ no_index: false
 sections:
   - section_id: main
     title: Bảng giá dịch vụ
-    content: >-
-      ## Lorem ipsum
-
-
-      Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-      - Lorem ipsum
-
-      - dolor sit amet
+    content: >
+      Chọn gói theo nhu cầu của bạn. Việc miễn phí các tính năng cơ bản là mãi
+      mãi.
     image_alt: lorem-ipsum
     actions: []
     type: section_hero
