@@ -94,7 +94,7 @@ sections:
       - title: Cài đặt VPS
         content: >
           Khi khách hàng đã mua xong cloud VPS bên nhà cung cấp mà khách hàng
-          lựa chọn thì chúng tôi sẽ tiến hành cài đặt VPS cho khách hàng.
+          lựa chọn, thì chúng tôi sẽ tiến hành cài đặt VPS cho khách hàng.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
