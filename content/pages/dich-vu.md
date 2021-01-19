@@ -62,6 +62,7 @@ sections:
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
+        image: images/redis.png
     type: section_features
 layout: landing
 ---
