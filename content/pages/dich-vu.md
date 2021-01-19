@@ -97,7 +97,7 @@ sections:
           lựa chọn, thì chúng tôi sẽ tiến hành cài đặt VPS cho khách hàng.
         image_alt: Cloud
         actions:
-          - label: Nhà cung cấp Vultr
+          - label: Vultr
             url: 'https://www.vultr.com/'
             style: primary
             has_icon: true
