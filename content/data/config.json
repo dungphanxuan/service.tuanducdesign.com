@@ -52,11 +52,6 @@
                 "type": "action"
             },
             {
-                "label": "F.A.Q",
-                "url": "#faq",
-                "style": "link"
-            },
-            {
                 "label": "Cài đặt Mã nguồn",
                 "url": "https://service.tuanducdesign.com/#support-install-source-code",
                 "style": "link",
@@ -66,6 +61,11 @@
                 "new_window": false,
                 "no_follow": false,
                 "type": "action"
+            },
+            {
+                "label": "F.A.Q",
+                "url": "#faq",
+                "style": "link"
             }
         ]
     },
