@@ -82,7 +82,7 @@ sections:
         actions:
           - label: Trang chủ Nginx Amplify
             url: 'https://amplify.nginx.com/'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
