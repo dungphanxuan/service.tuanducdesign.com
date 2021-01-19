@@ -14,7 +14,7 @@ sections:
       vụ nổi bật của chúng tôi có thể nó sẽ hữu ích với bạn.
     background: gray
     features:
-      - title: Cài đặt Module PageSpeed
+      - title: Cài đặt Module PageSpeed của Google
         content: >
           Hàng triệu website đang sử dụng Module PageSpeed của Google trên máy
           chủ của họ. Không chỉ hỗ trợ tối ưu website trên VPS nó còn giúp bạn
