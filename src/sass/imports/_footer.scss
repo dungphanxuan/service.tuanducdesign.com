@@ -1,6 +1,6 @@
 #colophon {
   background: #fff;
-  color: inherit;
+  color: $gray-600;
 
   h1,
   h2,
@@ -13,7 +13,7 @@
 
   a {
     &:not(.button) {
-      color: inherit;
+      color: $gray-600;
 
       &:hover {
         color: $color-primary;
