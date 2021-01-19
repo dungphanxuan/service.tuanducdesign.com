@@ -42,7 +42,7 @@ sections:
           memcached giúp cho hệ thống của bạn tăng tốc lên một cách đáng kể.
         image_alt: Memcached
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ Memcached
             url: lorem-ipsum
             style: link
             has_icon: false
