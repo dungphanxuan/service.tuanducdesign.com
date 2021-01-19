@@ -95,7 +95,7 @@ sections:
         content: >
           Khi khách hàng đã mua xong cloud VPS bên nhà cung cấp mà khách hàng
           lựa chọn, thì chúng tôi sẽ tiến hành cài đặt VPS cho khách hàng.
-        image_alt: lorem-ipsum
+        image_alt: Cloud
         actions: []
         type: feature_item
         image: images/2C2CC916-F202-44A1-B8C4-0078A930406F.png
