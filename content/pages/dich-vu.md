@@ -53,7 +53,7 @@ sections:
             type: action
         type: feature_item
         image: images/webserver-memcached-database.png
-      - title: lorem-ipsum
+      - title: Cài đặt Redis
         content: >-
           ## Lorem ipsum
 
