@@ -152,5 +152,10 @@ sections:
         no_follow: false
         type: action
     type: section_hero
+  - section_id: lorem-ipsum
+    title: lorem-ipsum
+    subtitle: lorem-ipsum
+    actions: []
+    type: section_cta
 layout: landing
 ---
