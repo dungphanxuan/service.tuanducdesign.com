@@ -91,7 +91,7 @@ sections:
             type: action
         type: feature_item
         image: images/nginx-amplify.png
-      - title: lorem-ipsum
+      - title: Cài đặt VPS
         content: >-
           ## Lorem ipsum
 
