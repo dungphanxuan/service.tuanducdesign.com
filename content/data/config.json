@@ -81,7 +81,7 @@
             {
                 "label": "Tham gia vào nhóm",
                 "url": "https://www.facebook.com/groups/tuanducsupport",
-                "style": "link",
+                "style": "primary",
                 "has_icon": false,
                 "icon": "arrow-left",
                 "icon_position": "left",
