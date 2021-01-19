@@ -48,7 +48,7 @@ sections:
           Cấu hình Firewall
         highlight: false
         actions:
-          - label: lorem-ipsum
+          - label: Liên he
             url: lorem-ipsum
             style: link
             has_icon: false
