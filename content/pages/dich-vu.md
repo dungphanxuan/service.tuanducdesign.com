@@ -148,7 +148,7 @@ sections:
         icon: arrow-left
         icon_position: left
         new_window: true
-        no_follow: false
+        no_follow: true
         type: action
     type: section_cta
 layout: landing
