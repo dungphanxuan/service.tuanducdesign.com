@@ -14,7 +14,7 @@ sections:
       vụ nổi bật của chúng tôi có thể nó sẽ hữu ích với bạn.
     background: gray
     features:
-      - title: lorem-ipsum
+      - title: 'Cài '
         content: >-
           ## Lorem ipsum
 
