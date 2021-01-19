@@ -72,7 +72,7 @@ sections:
             type: action
         type: feature_item
         image: images/redis.png
-      - title: lorem-ipsum
+      - title: Cài đặt Nginx Amplify
         content: >-
           ## Lorem ipsum
 
