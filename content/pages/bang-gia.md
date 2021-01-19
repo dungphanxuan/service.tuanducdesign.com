@@ -44,7 +44,7 @@ sections:
             type: action
         type: pricing_plan
       - title: BẢO MẬT VPS
-        subtitle: lorem-ipsum
+        subtitle: ''
         price: lorem-ipsum
         details: >-
           ## Lorem ipsum
