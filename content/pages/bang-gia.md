@@ -85,7 +85,7 @@ sections:
     subtitle: ''
     background: gray
     pricing_plans:
-      - title: 'CẤU HÌNH '
+      - title: CẤU HÌNH NGINX
         subtitle: ''
         price: 250.000 VNĐ
         details: >-
