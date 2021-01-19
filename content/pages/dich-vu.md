@@ -135,23 +135,6 @@ sections:
         type: feature_item
         image: images/wordpress.png
     type: section_features
-  - section_id: join-the-group
-    title: Tham gia vào nhóm
-    content: >
-      Tham gia vào nhóm trên Facebook của chúng tôi để trao đổi, hỏi đáp mỗi khi
-      bạn gặp sự cố.
-    image_alt: lorem-ipsum
-    actions:
-      - label: lorem-ipsum
-        url: lorem-ipsum
-        style: link
-        has_icon: false
-        icon: arrow-left
-        icon_position: left
-        new_window: false
-        no_follow: false
-        type: action
-    type: section_hero
   - section_id: lorem-ipsum
     title: lorem-ipsum
     subtitle: lorem-ipsum
