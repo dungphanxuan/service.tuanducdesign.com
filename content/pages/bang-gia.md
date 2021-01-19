@@ -5,7 +5,7 @@ meta_description: Thông tin bảng giá các dịch vụ
 canonical_url: 'https://service.tuanducdesign.com/bang-gia/'
 no_index: false
 sections:
-  - section_id: lorem-ipsum
+  - section_id: main
     title: lorem-ipsum
     content: >-
       ## Lorem ipsum
