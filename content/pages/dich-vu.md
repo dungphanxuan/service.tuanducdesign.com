@@ -80,7 +80,7 @@ sections:
           chủ động xác định các vấn đề.
         image_alt: Nginx Amplify
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ Nginx Amplify
             url: lorem-ipsum
             style: link
             has_icon: false
