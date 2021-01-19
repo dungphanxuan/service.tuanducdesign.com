@@ -87,7 +87,7 @@ sections:
     pricing_plans:
       - title: SAO LƯU VPS
         subtitle: ''
-        price: '250'
+        price: 250.000 VNĐ
         details: >-
           ## Lorem ipsum
 
