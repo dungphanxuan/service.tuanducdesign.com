@@ -33,7 +33,7 @@ sections:
           Dùng Lampp,Lempp hoặc Script
         highlight: false
         actions:
-          - label: lorem-ipsum
+          - label: Sử dụng gói này
             url: lorem-ipsum
             style: link
             has_icon: false
