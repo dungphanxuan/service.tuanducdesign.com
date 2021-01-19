@@ -98,7 +98,7 @@ sections:
         image_alt: Cloud
         actions:
           - label: Nhà cung cấp Vultr
-            url: lorem-ipsum
+            url: 'https://www.vultr.com/'
             style: link
             has_icon: false
             icon: arrow-left
