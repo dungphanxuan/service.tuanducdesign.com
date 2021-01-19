@@ -34,8 +34,8 @@ sections:
         highlight: false
         actions:
           - label: Sử dụng gói này
-            url: lorem-ipsum
-            style: link
+            url: 'https://m.me/121349286117840?ref=caidatvpsfree'
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
