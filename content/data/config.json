@@ -77,17 +77,6 @@
                 "label": "F.A.Q",
                 "url": "#faq",
                 "style": "link"
-            },
-            {
-                "label": "Tham gia vào nhóm",
-                "url": "https://www.facebook.com/groups/tuanducsupport",
-                "style": "primary",
-                "has_icon": false,
-                "icon": "arrow-left",
-                "icon_position": "left",
-                "new_window": true,
-                "no_follow": true,
-                "type": "action"
             }
         ]
     },
