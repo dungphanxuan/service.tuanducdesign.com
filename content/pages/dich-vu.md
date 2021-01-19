@@ -23,7 +23,7 @@ sections:
           lazyload ảnh, rút gọn lại head và nhiều tính năng khác.
         image_alt: PageSpeed Module
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ Module PageSpeed
             url: 'https://developers.google.com/speed/pagespeed/module'
             style: primary
             has_icon: true
