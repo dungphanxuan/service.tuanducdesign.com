@@ -24,7 +24,7 @@ sections:
         image_alt: PageSpeed Module
         actions:
           - label: lorem-ipsum
-            url: lorem-ipsum
+            url: 'https://developers.google.com/speed/pagespeed/module'
             style: link
             has_icon: false
             icon: arrow-left
