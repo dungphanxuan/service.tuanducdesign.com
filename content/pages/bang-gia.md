@@ -82,7 +82,7 @@ sections:
     type: section_pricing
   - section_id: ''
     title: ''
-    subtitle: lorem-ipsum
+    subtitle: ''
     background: gray
     pricing_plans: []
     type: section_pricing
