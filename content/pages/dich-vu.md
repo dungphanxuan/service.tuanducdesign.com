@@ -92,17 +92,9 @@ sections:
         type: feature_item
         image: images/nginx-amplify.png
       - title: Cài đặt VPS
-        content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+        content: >
+          Khi khách hàng đã mua xong cloud VPS bên nhà cung cấp mà khách hàng
+          lựa chọn thì chúng tôi sẽ tiến hành cài đặt VPS cho khách hàng.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
