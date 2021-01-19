@@ -5,7 +5,7 @@ meta_description: Thông tin bảng giá các dịch vụ
 canonical_url: 'https://service.tuanducdesign.com/bang-gia/'
 no_index: false
 sections:
-  - section_id: pricing-plans-vps
+  - section_id: main-vps
     title: Bảng giá dịch vụ VPS
     content: >
       Chọn gói theo nhu cầu của bạn. Việc miễn phí các tính năng cơ bản là mãi
