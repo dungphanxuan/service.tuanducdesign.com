@@ -78,7 +78,7 @@ sections:
           qua một module của Nginx kết nối với API cung cấp miễn phí bởi
           Nginx.com, giúp bạn dễ dàng theo dõi hoạt động của hệ thống cũng như
           chủ động xác định các vấn đề.
-        image_alt: lorem-ipsum
+        image_alt: Nginx Amplify
         actions: []
         type: feature_item
         image: images/nginx-amplify.png
