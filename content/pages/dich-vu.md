@@ -35,17 +35,11 @@ sections:
         type: feature_item
         image: images/B3BFE113-12C1-4AD0-ABD7-DDAF3D2D6BD7.png
       - title: Cài đặt Memcached
-        content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+        content: >
+          Memcached là một hệ thống cache hoạt động bằng cách lưu tạm thông tin
+          những dữ liệu bạn hay sử dụng vào bộ nhớ RAM. Do tốc độ đọc ghi của bộ
+          nhớ bao giờ cũng cao hơn so với lưu trữ file nên việc sử dụng
+          memcached giúp cho hệ thống của bạn tăng tốc lên một cách đáng kể.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
