@@ -86,7 +86,7 @@ sections:
     background: gray
     pricing_plans:
       - title: SAO LƯU VPS
-        subtitle: lorem-ipsum
+        subtitle: ''
         price: lorem-ipsum
         details: >-
           ## Lorem ipsum
