@@ -41,7 +41,16 @@ sections:
           nhớ bao giờ cũng cao hơn so với lưu trữ file nên việc sử dụng
           memcached giúp cho hệ thống của bạn tăng tốc lên một cách đáng kể.
         image_alt: Memcached
-        actions: []
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
         type: feature_item
         image: images/webserver-memcached-database.png
     type: section_features
