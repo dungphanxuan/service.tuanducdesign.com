@@ -13,7 +13,7 @@ sections:
     image_alt: lorem-ipsum
     actions: []
     type: section_hero
-  - section_id: ''
+  - section_id: pricing-plans-vps
     title: ''
     subtitle: ''
     background: gray
