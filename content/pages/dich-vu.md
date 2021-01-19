@@ -137,7 +137,9 @@ sections:
     type: section_features
   - section_id: join-the-group
     title: Tham gia vào nhóm
-    subtitle: lorem-ipsum
+    subtitle: >-
+      Tham gia vào nhóm trên Facebook của chúng tôi để trao đổi, hỏi đáp mỗi khi
+      bạn gặp sự cố.
     actions: []
     type: section_cta
 layout: landing
