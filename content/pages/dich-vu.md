@@ -106,7 +106,7 @@ sections:
             new_window: true
             no_follow: true
             type: action
-          - label: Nhà cung cấp Azdigi
+          - label: Azdigi
             url: 'https://azdigi.com/'
             style: primary
             has_icon: true
