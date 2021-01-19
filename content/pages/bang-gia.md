@@ -22,13 +22,7 @@ sections:
         subtitle: ''
         price: 0 VNĐ
         details: |
-          Tính năng cơ bản gồm :
-
-
-
           Cài đặt chứng chỉ SSL Let's Encrypt
-
-
 
           Dùng Lampp,Lempp hoặc Script
         highlight: false
