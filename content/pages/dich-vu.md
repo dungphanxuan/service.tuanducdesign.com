@@ -8,7 +8,7 @@ canonical_url: 'https://service.tuanducdesign.com/dich-vu'
 no_index: false
 sections:
   - section_id: dich-vu
-    title: lorem-ipsum
+    title: Dịch vụ nổi bật của chúng tôi
     subtitle: lorem-ipsum
     background: gray
     features: []
