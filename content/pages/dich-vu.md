@@ -29,8 +29,8 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-            new_window: false
-            no_follow: false
+            new_window: true
+            no_follow: true
             type: action
         type: feature_item
         image: images/B3BFE113-12C1-4AD0-ABD7-DDAF3D2D6BD7.png
