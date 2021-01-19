@@ -135,7 +135,7 @@ sections:
         type: feature_item
         image: images/wordpress.png
     type: section_features
-  - section_id: lorem-ipsum
+  - section_id: 'join-the-group '
     title: Tham gia vào nhóm
     subtitle: lorem-ipsum
     actions: []
