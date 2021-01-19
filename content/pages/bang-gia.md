@@ -45,7 +45,7 @@ sections:
         type: pricing_plan
       - title: BẢO MẬT VPS
         subtitle: ''
-        price: '200.000 '
+        price: 200.000 VNĐ
         details: >-
           ## Lorem ipsum
 
