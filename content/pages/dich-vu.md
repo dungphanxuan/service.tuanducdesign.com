@@ -136,7 +136,7 @@ sections:
         image: images/wordpress.png
     type: section_features
   - section_id: join-the-group
-    title: lorem-ipsum
+    title: Tham gia vào nhóm
     content: >-
       ## Lorem ipsum
 
