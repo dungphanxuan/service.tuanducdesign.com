@@ -15,7 +15,7 @@ sections:
     type: section_hero
   - section_id: pricing-plans-vps
     title: Dịch vụ VPS
-    subtitle: lorem-ipsum
+    subtitle: ''
     background: gray
     pricing_plans: []
     type: section_pricing
