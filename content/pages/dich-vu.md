@@ -118,17 +118,9 @@ sections:
         type: feature_item
         image: images/2C2CC916-F202-44A1-B8C4-0078A930406F.png
       - title: Cài đặt WordPress
-        content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+        content: >
+          Hỗ trợ khách hàng cài đặt mã nguồn WordPress lên Hosting hoặc VPS của
+          khách hàng.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
