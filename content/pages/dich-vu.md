@@ -61,7 +61,7 @@ sections:
           sorted set, string.
         image_alt: Redis
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ Redis
             url: lorem-ipsum
             style: link
             has_icon: false
