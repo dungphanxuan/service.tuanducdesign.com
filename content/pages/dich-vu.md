@@ -15,17 +15,12 @@ sections:
     background: gray
     features:
       - title: Cài đặt Module PageSpeed
-        content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+        content: >
+          Hàng triệu website đang sử dụng Module PageSpeed của Google trên máy
+          chủ của họ. Không chỉ hỗ trợ tối ưu website trên VPS nó còn giúp bạn
+          defer và async các scripts nguồn ngoài, Chuyển các thẻ script trên
+          head xuống footer để website tải nhanh hơn, async Google Analytics,
+          lazyload ảnh, rút gọn lại head và nhiều tính năng khác.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
