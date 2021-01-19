@@ -34,6 +34,21 @@ sections:
             type: action
         type: feature_item
         image: images/B3BFE113-12C1-4AD0-ABD7-DDAF3D2D6BD7.png
+      - title: lorem-ipsum
+        content: >-
+          ## Lorem ipsum
+
+
+          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+          - Lorem ipsum
+
+          - dolor sit amet
+        image_alt: lorem-ipsum
+        actions: []
+        type: feature_item
     type: section_features
 layout: landing
 ---
