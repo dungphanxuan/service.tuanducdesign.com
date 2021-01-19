@@ -142,7 +142,7 @@ sections:
       bạn gặp sự cố.
     actions:
       - label: Tham gia ngay
-        url: lorem-ipsum
+        url: 'https://www.facebook.com/groups/tuanducsupport'
         style: link
         has_icon: false
         icon: arrow-left
