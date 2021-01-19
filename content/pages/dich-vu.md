@@ -6,6 +6,12 @@ meta_description: >-
   vụ thiết kế Website? Dưới đây là danh sách các dịch vụ nổi bật của chúng tôi
 canonical_url: 'https://service.tuanducdesign.com/dich-vu'
 no_index: false
-sections: []
+sections:
+  - section_id: lorem-ipsum
+    title: lorem-ipsum
+    subtitle: lorem-ipsum
+    background: gray
+    features: []
+    type: section_features
 layout: landing
 ---
