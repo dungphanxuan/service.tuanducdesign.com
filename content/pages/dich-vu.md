@@ -62,7 +62,7 @@ sections:
         image_alt: Redis
         actions:
           - label: Trang chủ Redis
-            url: lorem-ipsum
+            url: 'https://redis.io/'
             style: primary
             has_icon: true
             icon: arrow-right
