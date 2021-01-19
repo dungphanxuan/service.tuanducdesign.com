@@ -79,7 +79,16 @@ sections:
           Nginx.com, giúp bạn dễ dàng theo dõi hoạt động của hệ thống cũng như
           chủ động xác định các vấn đề.
         image_alt: Nginx Amplify
-        actions: []
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
         type: feature_item
         image: images/nginx-amplify.png
     type: section_features
