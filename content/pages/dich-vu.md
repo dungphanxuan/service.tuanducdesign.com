@@ -3,7 +3,7 @@ title: Dịch Vụ
 meta_title: Dịch Vụ
 meta_description: >-
   Bạn đang quan tâm đến dịch vụ VPS, dịch vụ Website, dịch vụ WordPress và dịch
-  vụ thiết kế Website? 
+  vụ thiết kế Website? Dưới đây là danh sách các dịch vụ nổi bật của chúng tôi
 canonical_url: lorem-ipsum
 no_index: false
 sections: []
