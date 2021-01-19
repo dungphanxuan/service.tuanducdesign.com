@@ -7,7 +7,7 @@ meta_description: >-
 canonical_url: 'https://service.tuanducdesign.com/dich-vu'
 no_index: false
 sections:
-  - section_id: lorem-ipsum
+  - section_id: dich-vu
     title: lorem-ipsum
     subtitle: lorem-ipsum
     background: gray
