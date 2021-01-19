@@ -124,7 +124,7 @@ sections:
         image_alt: lorem-ipsum
         actions:
           - label: Trang chủ WordPress
-            url: lorem-ipsum
+            url: 'https://wordpress.org/'
             style: link
             has_icon: false
             icon: arrow-left
