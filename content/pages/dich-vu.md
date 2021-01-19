@@ -21,7 +21,7 @@ sections:
           defer và async các scripts nguồn ngoài, Chuyển các thẻ script trên
           head xuống footer để website tải nhanh hơn, async Google Analytics,
           lazyload ảnh, rút gọn lại head và nhiều tính năng khác.
-        image_alt: PageSpeed
+        image_alt: PageSpeed Module
         actions: []
         type: feature_item
         image: images/B3BFE113-12C1-4AD0-ABD7-DDAF3D2D6BD7.png
