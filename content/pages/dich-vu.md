@@ -104,7 +104,7 @@ sections:
             icon: arrow-right
             icon_position: right
             new_window: true
-            no_follow: false
+            no_follow: true
             type: action
         type: feature_item
         image: images/2C2CC916-F202-44A1-B8C4-0078A930406F.png
