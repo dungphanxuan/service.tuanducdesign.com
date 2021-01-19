@@ -22,7 +22,16 @@ sections:
           head xuống footer để website tải nhanh hơn, async Google Analytics,
           lazyload ảnh, rút gọn lại head và nhiều tính năng khác.
         image_alt: PageSpeed Module
-        actions: []
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
         type: feature_item
         image: images/B3BFE113-12C1-4AD0-ABD7-DDAF3D2D6BD7.png
     type: section_features
