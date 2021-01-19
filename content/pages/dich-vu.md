@@ -43,7 +43,7 @@ sections:
         image_alt: Memcached
         actions:
           - label: Trang chủ Memcached
-            url: lorem-ipsum
+            url: 'https://memcached.org/'
             style: link
             has_icon: false
             icon: arrow-left
