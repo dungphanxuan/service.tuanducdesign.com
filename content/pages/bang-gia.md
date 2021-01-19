@@ -45,7 +45,7 @@ sections:
         type: pricing_plan
       - title: BẢO MẬT VPS
         subtitle: ''
-        price: lorem-ipsum
+        price: '200.000 '
         details: >-
           ## Lorem ipsum
 
