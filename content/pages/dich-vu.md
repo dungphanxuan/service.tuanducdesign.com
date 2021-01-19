@@ -14,7 +14,7 @@ sections:
       vụ nổi bật của chúng tôi có thể nó sẽ hữu ích với bạn.
     background: gray
     features:
-      - title: 'Cài '
+      - title: Cài đặt Module PageSpeed
         content: >-
           ## Lorem ipsum
 
