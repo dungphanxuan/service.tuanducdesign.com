@@ -73,17 +73,11 @@ sections:
         type: feature_item
         image: images/redis.png
       - title: Cài đặt Nginx Amplify
-        content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+        content: >
+          Công cụ hoạt động trên nền tảng điện toán đám mây, được cài đặt thông
+          qua một module của Nginx kết nối với API cung cấp miễn phí bởi
+          Nginx.com, giúp bạn dễ dàng theo dõi hoạt động của hệ thống cũng như
+          chủ động xác định các vấn đề.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
