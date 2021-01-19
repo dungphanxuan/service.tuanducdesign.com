@@ -25,7 +25,7 @@ sections:
         actions:
           - label: lorem-ipsum
             url: 'https://developers.google.com/speed/pagespeed/module'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
