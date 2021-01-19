@@ -97,7 +97,7 @@ sections:
           lựa chọn, thì chúng tôi sẽ tiến hành cài đặt VPS cho khách hàng.
         image_alt: Cloud
         actions:
-          - label: lorem-ipsum
+          - label: Nhà cung cấp Vultr
             url: lorem-ipsum
             style: link
             has_icon: false
