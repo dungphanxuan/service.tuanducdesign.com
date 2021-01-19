@@ -137,17 +137,9 @@ sections:
     type: section_features
   - section_id: join-the-group
     title: Tham gia vào nhóm
-    content: >-
-      ## Lorem ipsum
-
-
-      Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-      - Lorem ipsum
-
-      - dolor sit amet
+    content: >
+      Tham gia vào nhóm trên Facebook của chúng tôi để trao đổi, hỏi đáp mỗi khi
+      bạn gặp sự cố.
     image_alt: lorem-ipsum
     actions: []
     type: section_hero
