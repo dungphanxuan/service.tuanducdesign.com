@@ -107,7 +107,7 @@ sections:
             no_follow: true
             type: action
           - label: Nhà cung cấp Azdigi
-            url: lorem-ipsum
+            url: 'https://azdigi.com/'
             style: link
             has_icon: false
             icon: arrow-left
