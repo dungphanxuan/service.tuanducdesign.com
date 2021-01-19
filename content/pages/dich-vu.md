@@ -44,8 +44,8 @@ sections:
         actions:
           - label: Trang chủ Memcached
             url: 'https://memcached.org/'
-            style: link
-            has_icon: false
+            style: primary
+            has_icon: true
             icon: arrow-left
             icon_position: left
             new_window: false
