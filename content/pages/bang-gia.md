@@ -46,17 +46,12 @@ sections:
       - title: BẢO MẬT VPS
         subtitle: ''
         price: 200.000 VNĐ
-        details: >-
-          ## Lorem ipsum
+        details: |
+          Đổi cổng IP login Server, IP login SSH
 
 
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          Cấu hình Firewall
         highlight: false
         actions: []
         type: pricing_plan
