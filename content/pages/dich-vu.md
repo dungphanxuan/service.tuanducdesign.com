@@ -123,7 +123,7 @@ sections:
           khách hàng.
         image_alt: lorem-ipsum
         actions:
-          - label: lorem-ipsum
+          - label: Trang chủ WordPress
             url: lorem-ipsum
             style: link
             has_icon: false
