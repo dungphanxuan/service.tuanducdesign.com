@@ -54,17 +54,11 @@ sections:
         type: feature_item
         image: images/webserver-memcached-database.png
       - title: Cài đặt Redis
-        content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+        content: >
+          Redis là hệ thống caching lưu trữ dữ liệu trong RAM tương tự như
+          Memcached. Không chỉ hỗ trợ cache dạng keys/values tốt như Memcached
+          mà Redis còn hỗ trợ nhiều cấu trúc dữ liệu khác như hash, list, set,
+          sorted set, string.
         image_alt: lorem-ipsum
         actions: []
         type: feature_item
