@@ -14,7 +14,7 @@ sections:
     actions: []
     type: section_hero
   - section_id: pricing-plans-vps
-    title: Dịch vụ VPS
+    title: ''
     subtitle: ''
     background: gray
     pricing_plans:
