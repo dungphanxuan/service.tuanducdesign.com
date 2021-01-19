@@ -143,7 +143,7 @@ sections:
     actions:
       - label: Tham gia ngay
         url: 'https://www.facebook.com/groups/tuanducsupport'
-        style: link
+        style: secondary
         has_icon: false
         icon: arrow-left
         icon_position: left
