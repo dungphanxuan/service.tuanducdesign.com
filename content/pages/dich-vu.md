@@ -60,7 +60,16 @@ sections:
           mà Redis còn hỗ trợ nhiều cấu trúc dữ liệu khác như hash, list, set,
           sorted set, string.
         image_alt: Redis
-        actions: []
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
         type: feature_item
         image: images/redis.png
     type: section_features
