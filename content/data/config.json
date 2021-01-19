@@ -30,17 +30,6 @@
                 "style": "link"
             },
             {
-                "label": "Bảng giá thiết kế Website",
-                "url": "#pricing-plans-design-website",
-                "style": "link",
-                "has_icon": false,
-                "icon": "arrow-left",
-                "icon_position": "left",
-                "new_window": false,
-                "no_follow": false,
-                "type": "action"
-            },
-            {
                 "label": "Công cụ",
                 "url": "#tools-vps",
                 "style": "link",
