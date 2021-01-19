@@ -106,7 +106,7 @@ sections:
             new_window: true
             no_follow: true
             type: action
-          - label: lorem-ipsum
+          - label: Nhà cung cấp Azdigi
             url: lorem-ipsum
             style: link
             has_icon: false
