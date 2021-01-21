@@ -28,7 +28,7 @@ export default class SectionFaq extends React.Component {
                       <span className="handorgel__icon icon-plus" />
                     </button>
                   </h3>
-                  <div key={faqitem_idx + '.1'} className="faq-accordion-content handorgel__content wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                  <div key={faqitem_idx + '.1'} className="faq-accordion-content handorgel__content">
                     <div className="handorgel__content-inner">
                       {markdownify(_.get(faqitem, 'answer', null))}
                     </div>
