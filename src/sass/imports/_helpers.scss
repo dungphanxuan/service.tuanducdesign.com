@@ -19,13 +19,12 @@
   position: relative;
 
   &:after {
+    border-left: 1.5em solid $color-primary;
     display: block;
     content: "";
     height: 2px;
     width: .2rem;
     margin-top: 0.5em;
-    background: -webkit-linear-gradient(left,$color-primary,$color-secondary);
-    background: linear-gradient(90deg,$color-primary,$color-secondary);
   }
 }
 
