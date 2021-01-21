@@ -576,8 +576,9 @@
   }
 
   &.bg-accent {
-    background: #fff;
-    color: $gray-700;
+    background: $color-primary;
+    background: linear-gradient(168deg, $color-primary 69%, #fff 70%);
+    color: #fff;
 
     a {
       &:not(.button) {
@@ -599,26 +600,26 @@
     blockquote,
     caption,
     th {
-      color: $gray-700;
+      color: #fff;
     }
 
     .block-subtitle {
-      color: $gray-200;
+      color: #fff;
     }
 
     blockquote,
     .underline:after {
-      border-color: $color-primary;
+      border-color: #fff;
     }
 
     .button {
       background: $color-primary;
-      border-color: $color-primary;
+      border-color: #fff;
       color: #fff;
   
       &.secondary {
         background: transparent;
-        color: $color-primary;
+        color: #fff;
       }
     }
   }
