@@ -576,17 +576,15 @@
   }
 
   &.bg-accent {
-    background: $color-primary;
-    background: -webkit-gradient(linear, left top, right top, from($color-primary), to($color-secondary));
-    background: linear-gradient(to right,$color-primary, $color-secondary);
-    color: #fff;
+    background: #fff;
+    color: $gray-700;
 
     a {
       &:not(.button) {
-        color: #fff;
+        color: #2c2f3b;
   
         &:hover {
-          color: #fff;
+          color: $color-primary;
           opacity: 0.8;
         }
       }
@@ -601,7 +599,7 @@
     blockquote,
     caption,
     th {
-      color: inherit;
+      color: $gray-700;
     }
 
     .block-subtitle {
@@ -610,17 +608,17 @@
 
     blockquote,
     .underline:after {
-      border-color: currentColor;
+      border-color: $color-primary;
     }
 
     .button {
-      background: #fff;
-      border-color: #fff;
-      color: $color-primary;
+      background: $color-primary;
+      border-color: $color-primary;
+      color: #fff;
   
       &.secondary {
         background: transparent;
-        color: #fff;
+        color: $color-primary;
       }
     }
   }
