@@ -618,7 +618,8 @@
   
       &.secondary {
         background: transparent;
-        color: #fff;
+        color: $color-primary;
+        border-color: $color-primary;
       }
     }
   }
